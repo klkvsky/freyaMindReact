@@ -12,6 +12,7 @@ import Home from "./pages/home";
 import About from "./pages/about";
 import Therapy from "./pages/therapy";
 import ContactUs from "./pages/contactus";
+import EatingDisorder from "./pages/eatingdisorder"
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <Route path="/aboutus" element={<About />}></Route>
       <Route path="/therapy" element={<Therapy />}></Route>
       <Route path="/contactus" element={<ContactUs />}></Route>
+      <Route path="/eatingdisorder" element={<EatingDisorder />}></Route>
     </Routes>
     // <div className="w-screen overflow-hidden">
     //   <Navbar />

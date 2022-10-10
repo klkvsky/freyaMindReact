@@ -11,7 +11,7 @@ export default function About() {
   return (
     <div className="w-screen overflow-hidden">
       {/* <Navbar /> */}
-      {/* <main>
+      <main>
         <IndexAbout />
         <div className="mt-[100px] px-[50px] pb-[90px]">
           <h1 className="text-dark-green text-[21px] font-semibold">
@@ -379,7 +379,7 @@ export default function About() {
             </p>
           </div>
         </div>
-      </footer> */}
+      </footer>
     </div>
   );
 }

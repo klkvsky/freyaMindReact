@@ -12,7 +12,7 @@ export default function About() {
     <div className="w-screen overflow-hidden">
       <Navbar />
       <main>
-        {/* <IndexAbout /> */}
+        <IndexAbout />
         <div className="mt-[100px] px-[50px] pb-[90px]">
           <h1 className="text-dark-green text-[21px] font-semibold">
             Чем именно полезна такая точка зрения на психику?

@@ -17,7 +17,7 @@ export default function Home() {
           <h1 className="text-[26px] font-bold uppercase text-dark-green mt-[90px] text-center lg:text-[26px] lg:normal-case lg:mt-[190px]">
             Если вы...
           </h1>
-          <div className="grid grid-cols-2 grid-rows-2 gap-[10px] px-[10px] mt-[27px] mb-[115px] lg:w-[1000px] lg:mt-[150px] lg:mb-[370px] lg:mx-auto lg:grid-cols-3">
+          <div className="grid grid-cols-3 grid-rows-2 gap-[10px] px-[10px] mt-[27px] mb-[115px] lg:w-[1000px] lg:mt-[150px] lg:mb-[370px] lg:mx-auto lg:grid-cols-3">
             <img
               src="https://static.tildacdn.com/tild3066-6230-4231-a530-653133623965/cuadreo_4Recurso_9.svg"
               className="h-full col-span-2 lg:col-span-1 aspect-square lg:h-auto lg:w-[335px] lg:mt-[13px] lg:-ml-[4.5px]"
@@ -44,7 +44,7 @@ export default function Home() {
             </div>
             <img
               src="https://static.tildacdn.com/tild3236-3333-4034-b638-656633613134/cuadreo_3Recurso_8.svg"
-              className="h-full col-span-2 lg:col-span-1 aspect-square lg:w-[307px] lg:h-[334px]"
+              className="h-full col-span-2 lg:col-span-1 aspect-square lg:w-[307px] lg:h-[334px] bg-white"
             />
           </div>
         </div>
@@ -228,7 +228,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col relative mt-[80px] bg-[#e6e6e6] min-h-screen z-0 lg:mt-[165px]">
+        <div className="flex flex-col relative mt-[80px] bg-[#e6e6e6] z-0 lg:mt-[165px]">
           <button className="bg-dark-green w-[260px] rounded-full h-[40px] text-white font-semibold text-[14px] mx-auto scale-[120%] -mt-[5%] relative z-10 lg:w-[520px] lg:h-[61px] lg:scale-100 lg:text-[22px] lg:-mt-[30px]">
             ПОДРОБНЕЕ О КПТ И О НАС
           </button>
@@ -343,7 +343,7 @@ export default function Home() {
           </button>
         </div>
         <div
-          className="flex flex-col p-[13px] mt-[80px] lg:w-[1020px] lg:mx-auto lg:grid lg:grid-cols-2 lg:p-0 lg:gap-[100px] lg:mt-[150px]"
+          className="flex flex-col p-[13px] mt-[80px] mb-[140px] lg:mb-0 lg:w-[1020px] lg:mx-auto lg:grid lg:grid-cols-2 lg:p-0 lg:gap-[100px] lg:mt-[150px]"
           style={{ direction: "rtl" }}
         >
           <div style={{ direction: "ltr" }}>
@@ -405,16 +405,16 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <footer className="bg-dark-green text-white border-t-2 border-white/10 p-[15px]">
+      <footer className="bg-dark-green text-white border-t-2 lg:border-t-0 border-white/10 p-[15px] lg:pb-[104px] lg:pt-[50px]">
         <div className="lg:flex lg:flex-row-reverse lg:w-[1070px] lg:mx-auto lg:gap-[115px]">
-          <ul className="mt-[40px] flex flex-col gap-[20px] text-[14px] font-light">
+          <ul className="mt-[40px] flex flex-col gap-[20px] text-[14px] font-light lg:text-[18px] lg:whitespace-nowrap">
             <li>Главная страница</li>
             <li>О нас</li>
             <li>Терапия</li>
             <li>Статьи</li>
             <li>Тесты</li>
           </ul>
-          <div className="flex flex-row items-center justify-start my-[25px] gap-[25px]">
+          <div className="flex flex-row items-center justify-start my-[25px] gap-[25px] lg:hidden">
             <a href="">
               <img
                 src="https://static.tildacdn.com/tild6465-3762-4339-a639-663866386636/Instagram.svg"
@@ -429,7 +429,7 @@ export default function Home() {
               />
             </a>
           </div>
-          <p className="text-[15px] pr-5 font-light mt-[20px]">
+          <p className="text-[15px] pr-5 font-light mt-[20px] lg:text-[18px]">
             Важный момент. "Freya" — это не скорая психологическая помощь. Если
             у вас серьезные, угрожающие вашей жизни проблемы, которые требуют
             немедленного решения, вам лучше обратиться в{" "}
@@ -458,12 +458,12 @@ export default function Home() {
             </a>
             .
           </p>
-          <div className="lg:w-[120px]">
+          <div className="lg:w-[400px]">
             <img
               src="https://static.tildacdn.com/tild3533-3535-4537-a338-356262353638/Freya_Logo.svg"
-              className="w-[80px] h-[40px] scale-[129%] mt-[65px] ml-4 lg:scale-100 lg:w-[104px] lg:h-[51px] lg:mt-0"
+              className="w-[80px] h-[40px] scale-[129%] mt-[65px] ml-4 lg:scale-100 lg:w-[124px] lg:h-[51px] lg:mt-4 lg:ml-0"
             />
-            <p className="mt-[15px] font-light text-[16px] lg:text-[12px]">
+            <p className="mt-[15px] font-light text-[16px] lg:text-[18px] lg:whitespace-nowrap lg:ml-2">
               Freya 2022 ©
             </p>
           </div>

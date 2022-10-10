@@ -18,23 +18,23 @@ details > summary::-webkit-details-marker {
   background-color: #99a66d !important;
 }
 
-.swiper-slide{
+.swiper-slide {
   transition: all 0.2s ease-in-out;
 }
 
-.swiper-slide-prev{
+.swiper-slide-prev {
   opacity: 0;
 }
 
-.swiper-slide-next{
+.swiper-slide-next {
   opacity: 0;
 }
 
-.swiper{
+.swiper {
   overflow: visible;
 }
 
-.swiper-pagination{
+.swiper-pagination {
   margin-bottom: -65px;
 }
 .swiper-pagination-clickable .swiper-pagination-bullet {
@@ -65,4 +65,8 @@ details > summary::-webkit-details-marker {
 }
 .swiper-button-prev::after {
   font-size: 14px;
+}
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
 }

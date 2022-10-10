@@ -22,20 +22,27 @@ export default function IndexJumbo() {
           <Link to="/contactus">Свяжитесь с нами</Link>
         </ul>
       </div>
-      <div className="flex flex-row items-end lg:items-center justify-start gap-[18px] lg:mt-[60px]">
+      <div className="flex flex-col items-end lg:items-center justify-start gap-[18px] lg:mt-[60px]">
         <img
           src="https://thumb.tildacdn.com/tild3735-3764-4632-a665-353537633231/-/format/webp/123.png"
-          className="w-screen h-[78vh] object-cover object-[75%_50%] absolute top-0 left-0"
+          className="w-screen h-[710px] object-cover object-[75%_50%] absolute top-0 left-0"
         />
 
-        <div className="relative z-10 px-[20px] mt-[225px]">
+        <div className="relative z-10 px-[20px] mt-[230px]">
           <h1 className="text-[30.5px] font-bold">
             РПП — ЭТО <br />
             НЕ НАВСЕГДА!
           </h1>
 
-          <p className="text-[16px] w-5/6">Да, это проблема. И ее можно решить вместе с FREYA</p>
+          <p className="text-[16px] w-5/6">
+            Да, это проблема. И ее можно решить вместе с FREYA
+          </p>
         </div>
+
+        <img
+          src="https://static.tildacdn.com/tild6665-3435-4032-a235-373532663730/Frame.svg"
+          className="w-screen h-auto relative z-20 scale-[400%] mr-[190px] mt-6"
+        />
       </div>
     </div>
   );

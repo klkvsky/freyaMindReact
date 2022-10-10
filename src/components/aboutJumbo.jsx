@@ -20,9 +20,10 @@ export default function IndexJumbo() {
         </ul>
       </div>
       <div className="flex flex-row items-end lg:items-center justify-start gap-[18px] lg:mt-[60px]">
+        <div className="absolute top-0 left-0 w-full h-full bg-[#CCCC9F]"></div>
         <img
           src="https://thumb.tildacdn.com/tild6563-6637-4461-b132-313733393763/-/format/webp/imagen_2022-06-08_10.png"
-          className="w-screen h-[54.8vh] object-cover absolute top-0 left-0"
+          className="w-screen h-[54.8vh] object-cover absolute top-0 left-0 lg:right-0 lg:mx-auto lg:max-w-[1400px] lg:h-[836px]"
         />
         <div className="flex flex-col relative bg-light-green min-h-screen w-full mt-[35.8vh] px-[20px] pb-[125px]">
           <div className="bg-white w-min pl-[39px] pr-[18px] py-[35px] text-[32px] font-bold text-dark-green absolute -top-[80px] right-0 rounded-tl-[40px] leading-[42px]">

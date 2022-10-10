@@ -313,7 +313,7 @@ export default function About() {
           />
         </div>
 
-        <Feedback />
+        {/* <Feedback /> */}
       </main>
 
       <footer className="bg-white text-black border-t-2 border-white/10 p-[15px] mt-[62px]">
@@ -358,8 +358,8 @@ export default function About() {
               className="text-[#666c4b] underline decoration-[#666c4b]"
             >
               пользовательским соглашением.
-            </a> 
-            {" "} Политика в отношении обработки и{" "}
+            </a>{" "}
+            Политика в отношении обработки и{" "}
             <a
               href="https://freyamind.com/personal/"
               className="text-[#666c4b] underline decoration-[#666c4b]"

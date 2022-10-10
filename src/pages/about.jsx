@@ -11,7 +11,7 @@ export default function About() {
   return (
     <div className="w-screen overflow-hidden">
       <Navbar />
-      {/* <main>
+      <main>
         <IndexAbout />
         <div className="mt-[100px] px-[50px] pb-[90px]">
           <h1 className="text-dark-green text-[21px] font-semibold">
@@ -124,7 +124,7 @@ export default function About() {
           Чем мы можем помочь вам?
         </h1>
 
-        <Swiper
+        {/* <Swiper
           modules={[Pagination]}
           spaceBetween={50}
           slidesPerView={1}
@@ -195,7 +195,7 @@ export default function About() {
               этом ощущение наполненности жизни.
             </p>
           </SwiperSlide>
-        </Swiper>
+        </Swiper> */}
 
         <div className="bg-[#e6e6e6] w-full min-h-screen pt-[95px] px-[65px] pb-[110px]">
           <h1 className="text-[25px] text-dark-green font-bold text-center">
@@ -379,7 +379,7 @@ export default function About() {
             </p>
           </div>
         </div>
-      </footer> */}
+      </footer>
     </div>
   );
 }

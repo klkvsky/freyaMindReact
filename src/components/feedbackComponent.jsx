@@ -18,12 +18,6 @@ export default function FeedbackComponent(prop) {
           className="border-[1px] w-full border-[#9e9e9e] rounded-[5px] text-[16px] h-[40px] px-[20px]"
         />
         <PhoneInput
-          className="max-w-[300px]"
-          country={"ru"}
-          inputProps={{
-            name: "phone",
-            required: true,
-          }}
         />
         {prop.disable != 4 && (
           <select

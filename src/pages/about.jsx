@@ -313,7 +313,7 @@ export default function About() {
           />
         </div>
 
-        {/* <Feedback /> */}
+        <Feedback />
       </main>
 
       <footer className="bg-white text-black border-t-2 border-white/10 p-[15px] mt-[62px]">

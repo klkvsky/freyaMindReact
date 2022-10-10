@@ -1,5 +1,3 @@
-import { useState, useRef } from "react";
-//
 import Navbar from "../components/navbar";
 import IndexAbout from "../components/aboutJumbo";
 import Feedback from "../components/feedbackComponent";
@@ -10,11 +8,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 export default function About() {
-  const [activeSlide, setActiveSlide] = useState(1);
   return (
     <div className="w-screen overflow-hidden">
-      <Navbar />
-      <main>
+      {/* <Navbar /> */}
+      {/* <main>
         <IndexAbout />
         <div className="mt-[100px] px-[50px] pb-[90px]">
           <h1 className="text-dark-green text-[21px] font-semibold">
@@ -382,7 +379,7 @@ export default function About() {
             </p>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }

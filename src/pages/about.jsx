@@ -242,7 +242,7 @@ export default function About() {
           сообществ здравоохранения и гуманитарных наук в целом:
         </p>
 
-        <div className="grid grid-cols-2 grid-items-center w-full mt-[65px] lg:mt-[185px] lg:flex lg:flex-row lg:items-center lg:justify-between lg:w-[1190px] lg:mx-auto">
+        <div className="grid grid-cols-2 grid-items-center w-full mt-[65px] lg:mt-[185px] lg:flex lg:flex-row lg:items-center lg:justify-between lg:w-[1190px] lg:mx-auto mb-[90px]">
           <div className="border-r-[1px] border-b-[1px] border-[#eee] grid grid-items-center p-[10px] lg:border-none lg:relative">
             <img
               src="https://static.tildacdn.com/tild3233-3636-4238-b839-303862633863/omsRecurso_1.svg"

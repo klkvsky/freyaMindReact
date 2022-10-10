@@ -8,7 +8,7 @@ export default function About() {
   return (
     <div className="w-screen overflow-hidden">
       <Navbar />
-      <main>
+      <main className="min-h-[770px]">
         <ContactJumbo />
       </main>
 

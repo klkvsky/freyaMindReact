@@ -29,7 +29,7 @@ export default function IndexJumbo() {
       <div className="flex flex-col items-end lg:items-center justify-start gap-[18px] lg:mt-[60px]">
         <img
           src="https://static.tildacdn.com/tild6166-6663-4334-b636-363231386633/Dr-Anna.svg"
-          className="w-screen h-[82vh] object-cover absolute top-0 left-0 z-0"
+          className="w-screen h-[802px] object-cover absolute top-0 left-0 z-0"
         />
 
         <div className="flex flex-col z-10 relative mt-[160px]">

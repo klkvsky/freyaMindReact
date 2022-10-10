@@ -1,4 +1,5 @@
-import PhoneInput from "react-phone-input-2";
+import PI from "react-phone-input-2";
+const ReactPhoneInput = PI.default ? PI.default : PI;
 import "react-phone-input-2/lib/plain.css";
 
 export default function FeedbackComponent(prop) {
@@ -17,7 +18,9 @@ export default function FeedbackComponent(prop) {
           placeholder="e-mail"
           className="border-[1px] w-full border-[#9e9e9e] rounded-[5px] text-[16px] h-[40px] px-[20px]"
         />
-        <PhoneInput
+        <ReactPhoneInput
+          country={"ru"}
+          className="rounded-[5px] overflow-hidden"
         />
         {prop.disable != 4 && (
           <select
@@ -31,7 +34,7 @@ export default function FeedbackComponent(prop) {
               fontWeight: "400",
               height: "40px",
             }}
-            className="px-[15px]"
+            className="px-[15px] bg-white shadow-none appearance-none"
           >
             <option value="">Что вас беспокоит?</option>
             <option value="Взаимоотношения с родителями ">

@@ -124,7 +124,7 @@ export default function About() {
           Чем мы можем помочь вам?
         </h1>
 
-        {/* <Swiper
+        <Swiper
           modules={[Pagination]}
           spaceBetween={50}
           slidesPerView={1}
@@ -195,7 +195,7 @@ export default function About() {
               этом ощущение наполненности жизни.
             </p>
           </SwiperSlide>
-        </Swiper> */}
+        </Swiper>
 
         <div className="bg-[#e6e6e6] w-full min-h-screen pt-[95px] px-[65px] pb-[110px]">
           <h1 className="text-[25px] text-dark-green font-bold text-center">

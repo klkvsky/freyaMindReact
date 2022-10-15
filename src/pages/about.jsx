@@ -13,63 +13,70 @@ export default function About() {
       <Navbar />
       <main>
         <IndexAbout />
-        <div className="mt-[100px] px-[50px] pb-[90px]">
-          <h1 className="text-dark-green text-[21px] font-semibold">
+        <div className="mt-[100px] px-[50px] pb-[90px] lg:pt-[80px] lg:pb-[250px]">
+          <h1 className="text-dark-green text-[21px] font-semibold lg:text-center lg:text-[33px] lg:font-bold lg:-ml-[20px]">
             Чем именно полезна такая точка зрения на психику?
           </h1>
-          <p className="text-[14px] font-semibold mt-[25.1px]">
+          <p className="text-[14px] font-semibold mt-[25.1px] lg:leading-[34px] lg:text-[22px] lg:w-[818px] lg:mx-auto lg:mt-[120px]">
             В процессе терапии можно не только узнать причину тревожных мыслей и
             нерациональных привычек, но и изменить образ жизни, который вас не
             устраивает
           </p>
-          <h1 className="text-light-green text-[30px] font-bold mt-[60px]">
-            ВМЕСТО
-          </h1>
-          <div className="w-[230px] h-[3px] bg-light-green" />
+          <div className="lg:px-[360px]">
+            <h1 className="text-light-green text-[30px] font-bold mt-[60px] lg:text-[40px] lg:mt-[50px]">
+              ВМЕСТО
+            </h1>
+            <div className="w-[230px] h-[3px] bg-light-green lg:w-[444px] lg:h-[6px]" />
 
-          <div className="flex flex-row items-start justify-start mt-[25px] gap-[16px]">
-            <img
-              src="https://static.tildacdn.com/tild3635-3935-4832-a237-366436323961/equisRecurso_7.svg"
-              className="w-[30px] aspect-square"
-            />
-            <p className="text-light-green text-[20px] font-bold">
-              «Меня не ценили и обижали в детстве, поэтому сейчас я ни на что не
-              способен»
+            <div className="flex flex-row items-start justify-start mt-[25px] gap-[16px] lg:gap-[10px] lg:mt-[40px]">
+              <img
+                src="https://static.tildacdn.com/tild3635-3935-4832-a237-366436323961/equisRecurso_7.svg"
+                className="w-[30px] aspect-square lg:w-[52px]"
+              />
+              <p className="text-light-green text-[20px] font-bold lg:text-[38px] lg:w-[450px] lg:leading-[48px]">
+                «Меня не ценили и обижали в детстве, поэтому сейчас я ни на что
+                не способен»
+              </p>
+
+              <img
+                src="https://static.tildacdn.com/tild3366-3132-4030-b231-313963613339/flecha_curvaRecurso_.svg"
+                className="hidden lg:block -mt-[45px] ml-[20px]"
+              />
+            </div>
+            <h1 className="text-dark-green text-[30px] font-bold mt-[60px] text-right lg:text-[40px] lg:mt-[10px] lg:pr-[215px]">
+              ПОЯВИТСЯ
+            </h1>
+            <div className="w-[230px] h-[3px] bg-dark-green ml-auto mt-[15px] lg:w-[444px] lg:h-[6px] lg:mr-[15px] lg:mt-[0]" />
+
+            <div className="flex flex-row items-start justify-end mt-[25px] gap-[12px] w-fit  ml-auto text-right lg:gap-[20px] lg:-translate-x-[85px] lg:mt-[35px]">
+              <img
+                src="https://static.tildacdn.com/tild6239-3965-4861-b532-313133636232/chuloRecurso_5.svg"
+                className="w-[30px] aspect-square lg:w-[52px] lg:translate-y-2"
+              />
+              <p className="text-dark-green w-1/2 text-[20px] font-bold lg:text-[42px] lg:w-[320px] lg:leading-[53px] lg:text-left">
+                «Я знаю, что с этим делать».
+              </p>
+            </div>
+
+            <div className="flex flex-row items-start justify-start mt-[55px] gap-[16px] lg:-translate-y-[200px]">
+              <img
+                src="https://static.tildacdn.com/tild6133-3538-4066-b136-336431613766/exclamacion_Recurso_.svg"
+                className="w-[30px] aspect-square lg:w-[52px]"
+              />
+              <p className="text-black text-[14px] w-4/6 lg:leading-[24px] lg:text-[18px] lg:w-[237px]">
+                Мы не признаем ваше мышление правильным или неправильным.
+                Скорее, мы называем его адаптивным, функциональным, рациональным
+                и наоборот.
+              </p>
+            </div>
+
+            <p className="text-[14px] font-medium mt-[60px] lg:leading-[34px] lg:text-[22px] lg:-mt-[45px] lg:font-semibold lg:w-[858px] lg:ml-[20px]">
+              Под изменением мышления мы имеем в виду переоценку установок,
+              избавление от тоннельного мышления, в котором мы видим лишь одну
+              сторону ситуации, и, как следствие, постоянно расстраиваемся и
+              злимся.
             </p>
           </div>
-          <h1 className="text-dark-green text-[30px] font-bold mt-[60px] text-right">
-            ПОЯВИТСЯ
-          </h1>
-          <div className="w-[230px] h-[3px] bg-dark-green ml-auto mt-[15px]" />
-
-          <div className="flex flex-row items-start justify-end mt-[25px] gap-[12px] w-fit  ml-auto text-right">
-            <img
-              src="https://static.tildacdn.com/tild6239-3965-4861-b532-313133636232/chuloRecurso_5.svg"
-              className="w-[30px] aspect-square"
-            />
-            <p className="text-dark-green w-1/2 text-[20px] font-bold">
-              «Я знаю, что с этим делать».
-            </p>
-          </div>
-
-          <div className="flex flex-row items-start justify-start mt-[55px] gap-[16px]">
-            <img
-              src="https://static.tildacdn.com/tild6133-3538-4066-b136-336431613766/exclamacion_Recurso_.svg"
-              className="w-[30px] aspect-square"
-            />
-            <p className="text-black text-[14px] w-4/6">
-              Мы не признаем ваше мышление правильным или неправильным. Скорее,
-              мы называем его адаптивным, функциональным, рациональным и
-              наоборот.
-            </p>
-          </div>
-
-          <p className="text-[14px] font-medium mt-[60px]">
-            Под изменением мышления мы имеем в виду переоценку установок,
-            избавление от тоннельного мышления, в котором мы видим лишь одну
-            сторону ситуации, и, как следствие, постоянно расстраиваемся и
-            злимся.
-          </p>
         </div>
         <div className="bg-[#5d6541] min-h-screen py-[130px]">
           <h1 className="text-light-green text-[22px] font-bold text-center w-4/6 scale-[129%] mx-auto">
@@ -205,10 +212,10 @@ export default function About() {
           <div className="relative flex flex-col mt-[55px]">
             <img
               src="https://static.tildacdn.com/tild3833-3936-4464-a239-393036623066/Anastasia.svg"
-              className="h-[245px] aspect-square object-none object-top"
+              className="w-full lg:h-[245px] lg:aspect-square lg:object-none lg:object-top"
             />
-            <div className="bg-white pb-[55px]">
-              <h1 className="text-[30px] font-semibold text-center mt-[20px]">
+            <div className="bg-white pb-[10px] lg:pb-[55px]">
+              <h1 className="text-[30px] font-semibold text-center -mt-[200px] lg:mt-[20px]">
                 Анастасия Петрова
               </h1>
               <h2 className="text-[#c8cea9] text-[25px] font-semibold text-center">
@@ -219,11 +226,11 @@ export default function About() {
           <div className="relative flex flex-col mt-[55px]">
             <img
               src="https://static.tildacdn.com/tild3234-6162-4439-a664-316135393363/Margo.svg"
-              className="h-[245px] aspect-square object-none object-top"
+              className="w-full lg:h-[245px] lg:aspect-square lg:object-none lg:object-top"
             />
-            <div className="bg-white pb-[55px]">
-              <h1 className="text-[30px] w-11/12 mx-auto font-semibold text-center mt-[20px]">
-                Марго Хановски
+            <div className="bg-white pb-[10px] lg:pb-[55px]">
+              <h1 className="text-[30px] font-semibold text-center -mt-[200px] lg:mt-[20px] leading-[38px]">
+                Марго <br /> Хановски
               </h1>
               <h2 className="text-[#c8cea9] text-[25px] font-semibold text-center">
                 клинический психолог
@@ -232,12 +239,12 @@ export default function About() {
           </div>
         </div>
 
-        <p className="mt-[100px] pl-[15px] text-[20.6px] font-semibold leading-[25.8px]">
+        <p className="mt-[100px] px-[18px] lg:pl-[15px] lg:pr-0 text-[20.6px] font-semibold leading-[25.8px]">
           Когнитивно-поведенческая психотерапия признана одним из главных
           способов заботы как о ментальном (душевном), так и о физическом.
           здоровье.
         </p>
-        <p className="text-[18px] font-semibold mt-[30px] pl-[15px]">
+        <p className="text-[18px] font-semibold mt-[30px] px-[18px] lg:pl-[15px] lg:pr-0">
           Данный подход входит в рекомендации и стандарты лечения мировых
           сообществ здравоохранения и гуманитарных наук в целом:
         </p>
@@ -316,7 +323,7 @@ export default function About() {
         <Feedback />
       </main>
 
-      <footer className="bg-white text-black border-t-2 border-white/10 p-[15px] mt-[62px]">
+      {/* <footer className="bg-white text-black border-t-2 border-white/10 p-[15px] mt-[62px]">
         <div className="lg:flex lg:flex-row-reverse lg:w-[1070px] lg:mx-auto lg:gap-[115px]">
           <ul className="mt-[40px] flex flex-col gap-[20px] text-[16.6px] font-light">
             <li>Главная страница</li>
@@ -375,6 +382,72 @@ export default function About() {
               className="w-[80px] h-[40px] scale-[129%] mt-[65px] ml-4 lg:scale-100 lg:w-[104px] lg:h-[51px] lg:mt-0"
             />
             <p className="mt-[15px] font-light text-[16px] lg:text-[12px]">
+              Freya 2022 ©
+            </p>
+          </div>
+        </div>
+      </footer> */}
+      {/* Removed as per Pilar's request */}
+
+      <footer className="bg-white text-black border-t-2 lg:border-t-0 border-white/10 p-[15px] lg:pb-[104px] lg:pt-[50px]">
+        <div className="lg:flex lg:flex-row-reverse lg:w-[1070px] lg:mx-auto lg:gap-[115px]">
+          <ul className="mt-[40px] flex flex-col gap-[20px] text-[14px] font-light lg:text-[18px] lg:whitespace-nowrap">
+            <li>Главная страница</li>
+            <li>О нас</li>
+            <li>Терапия</li>
+            <li>Статьи</li>
+            <li>Тесты</li>
+          </ul>
+          <div className="flex flex-row items-center justify-start my-[25px] gap-[25px] lg:hidden">
+            <a href="">
+              <img
+                src="https://static.tildacdn.com/tild3861-3130-4963-b765-363763656635/bx_bxl-instagram_1.svg"
+                alt=""
+                className="w-[27px] aspect-square scale-[129%]"
+              />
+            </a>
+            <a href="">
+              <img
+                src="https://static.tildacdn.com/tild6437-3436-4132-a635-366431303666/la_telegram-plane_1.svg"
+                className="w-[27px] aspect-square scale-[129%]"
+              />
+            </a>
+          </div>
+          <p className="text-[15px] pr-5 font-light mt-[20px] lg:text-[18px]">
+            Важный момент. "Freya" — это не скорая психологическая помощь. Если
+            у вас серьезные, угрожающие вашей жизни проблемы, которые требуют
+            немедленного решения, вам лучше обратиться в{" "}
+            <a
+              href="http://freyamind.com/freetherapy/"
+              className="text-[#666c4b] underline decoration-[#666c4b]"
+            >
+              какую-либо из этих организаций.
+            </a>
+            <br />
+            <br />
+            Регистрация на сайте означает согласие с{" "}
+            <a
+              href="https://freyamind.com/privacy/"
+              className="text-[#666c4b] underline decoration-[#666c4b]"
+            >
+              пользовательским соглашением.
+            </a>
+            Политика в отношении обработки и{" "}
+            <a
+              href="https://freyamind.com/personal/"
+              className="text-[#666c4b] underline decoration-[#666c4b]"
+            >
+              {" "}
+              защиты персональных данных{" "}
+            </a>
+            .
+          </p>
+          <div className="lg:w-[400px]">
+            <img
+              src="https://static.tildacdn.com/tild3435-3837-4333-a635-316163306165/Asset_410x.svg"
+              className="w-[80px] h-[40px] scale-[129%] mt-[65px] ml-4 lg:scale-100 lg:w-[124px] lg:h-[51px] lg:mt-4 lg:ml-0"
+            />
+            <p className="mt-[15px] font-light text-[16px] lg:text-[18px] lg:whitespace-nowrap lg:ml-2">
               Freya 2022 ©
             </p>
           </div>

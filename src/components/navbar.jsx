@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import { useState } from "react";
 
@@ -37,24 +37,62 @@ export default function Navbar() {
       >
         <div className="bg-white w-full pb-20 z-40 relative">
           <ul className="text-lg uppercase text-neutral-500 font-light flex flex-col items-center justify-center gap-4 pt-28 mb-10">
-            <Link to="/" className="font-bold text-neutral-600">
+            <NavLink to="/" className="font-bold text-neutral-600">
               Freya Mind
-            </Link>
-            <Link to="/aboutus">О нас</Link>
-            <Link to="/therapy">Цена</Link>
+            </NavLink>
+            <NavLink
+              to="/aboutus"
+              className={(navData) => (navData.isActive ? "font-bold" : "")}
+            >
+              О нас
+            </NavLink>
+            <NavLink
+              className={(navData) => (navData.isActive ? "font-bold" : "")}
+              to="/therapy"
+            >
+              Цена
+            </NavLink>
             <li>
               <details>
-                <summary className="text-center">Помогаем</summary>
+                <summary className="text-center flex flex-row items-end justify-center gap-[8px]">
+                  Помогаем{" "}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    className="w-[6px] aspect-square rotate-90"
+                  >
+                    <path d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886z"></path>
+                  </svg>
+                </summary>
                 <ul className="text-base flex flex-col items-center justify-center gap-4 mt-4">
-                  <Link to="/eatingdisorder">РПП</Link>
+                  <NavLink
+                    className={(navData) =>
+                      navData.isActive ? "font-bold" : ""
+                    }
+                    to="/eatingdisorder"
+                  >
+                    РПП
+                  </NavLink>
                   <li>ЙОГА</li>
                   <li>Беспокойство</li>
                   <div className="w-96 h-px bg-neutral-500 opacity-50"></div>
                 </ul>
               </details>
             </li>
-            <Link to="/livestream">Онлайн События</Link>
-            <Link to="/contactus">Свяжитесь с нами</Link>
+            <NavLink
+              className={(navData) => (navData.isActive ? "font-bold" : "")}
+              to="/livestream"
+            >
+              Онлайн События
+            </NavLink>
+            <NavLink
+              className={(navData) => (navData.isActive ? "font-bold" : "")}
+              to="/contactus"
+            >
+              Свяжитесь с нами
+            </NavLink>
           </ul>
           <div className="flex items-center justify-center gap-2 absolute bottom-8 left-0 w-full">
             <svg

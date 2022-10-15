@@ -251,7 +251,7 @@ export default function Home() {
               modules={[Pagination, Navigation]}
               spaceBetween={50}
               slidesPerView={1}
-              navigation
+              // navigation
               loop={true}
               pagination={{ clickable: true }}
               className="w-full mb-[75px] lg:w-[1000px] lg:mx-auto"
@@ -260,7 +260,7 @@ export default function Home() {
                 <img
                   src="https://static.tildacdn.com/tild3339-3533-4936-b761-646662306135/Asset_6.svg"
                   alt=""
-                  className="mb-[45px] lg:w-[860px] lg:h-[340px] lg:hidden"
+                  className="mb-[45px] lg:hidden"
                 />
                 <img
                   src="https://static.tildacdn.com/tild3533-3539-4764-b731-326634643161/Testimonial-2.jpg"
@@ -272,7 +272,7 @@ export default function Home() {
                 <img
                   src="https://thumb.tildacdn.com/tild6439-3630-4535-a564-616432386364/-/format/webp/Testimonial-mobile-2.png"
                   alt=""
-                  className="mb-[45px] lg:w-[860px] lg:h-[340px] lg:hidden"
+                  className="mb-[45px] lg:hidden"
                 />
                 <img
                   src="https://static.tildacdn.com/tild3164-6134-4730-b439-366361333631/Testimonial-3.jpg"
@@ -284,7 +284,7 @@ export default function Home() {
                 <img
                   src="https://thumb.tildacdn.com/tild3866-6362-4131-a163-636233363266/-/format/webp/Testimonial-mobile-1.png"
                   alt=""
-                  className="mb-[45px] lg:w-[860px] lg:h-[340px] lg:hidden"
+                  className="mb-[45px] lg:hidden"
                 />
                 <img
                   src="https://static.tildacdn.com/tild3732-3739-4763-b266-376539383831/Testimonials.jpg"
@@ -300,7 +300,7 @@ export default function Home() {
           </h1>
           <div className="absolute top-[12px] -right-[75px] bg-light-green h-[13px] w-screen z-0 scale-[129%] lg:scale-100 lg:w-[1000px] lg:h-[25px] lg:left-0 lg:top-[15px]"></div>
         </div>
-        <div className="flex flex-col p-[13px] mt-[80px] lg:w-[1020px] lg:mx-auto lg:grid lg:grid-cols-2 lg:p-0">
+        <div className="flex flex-col p-[18px] mt-[80px] lg:w-[1020px] lg:mx-auto lg:grid lg:grid-cols-2 lg:p-0">
           <div>
             <h1 className="text-dark-green text-[30px] font-bold lg:text-[35px]">
               Анастасия Петрова
@@ -308,18 +308,18 @@ export default function Home() {
             <h2 className="text-dark-green text-[23px] font-bold lg:text-[23px] lg:mt-[25px]">
               психолог-консультант
             </h2>
-            <p className="text-[18px] font-normal mt-[30px] lg:text-[18px] lg:w-[375px] lg:mt-[35px]">
+            <p className="text-[18.3px] font-normal mt-[15px] leading-[23.76px] lg:text-[18px] lg:w-[375px] lg:mt-[35px]">
               «Я помогу вам в вопросах отношений и брака, взаимоотношений с
               родителями и окружением. Вы обретете навыки уверенного поведения,
               общения, самоопределения и принятия решений. Для меня важно только
               одно – ваше психическое и физическое здоровье».
             </p>
-            <div className="flex flex-row gap-[15px] items-start mt-[40px] lg:gap-[10px] lg:mt-[50px]">
+            <div className="flex flex-row gap-[15px] items-start mt-[26px] lg:gap-[10px] lg:mt-[50px]">
               <img
                 src="https://static.tildacdn.com/tild3265-3535-4832-b164-363138356463/rombo_negroRecurso_9.svg"
                 className="w-[18px] scale-[129%] aspect-square lg:scale-100 lg:w-[17px]"
               />
-              <p className="font-bold text-[18px] -mt-1 lg:w-[383px]">
+              <p className="font-bold text-[18px] -mt-1 lg:w-[383px] leading-[23.76px]">
                 Степень магистра по психологии. <br /> 6 лет практики личной
                 психотерапии.
               </p>
@@ -329,7 +329,7 @@ export default function Home() {
                 src="https://static.tildacdn.com/tild3265-3535-4832-b164-363138356463/rombo_negroRecurso_9.svg"
                 className="w-[18px] scale-[129%] aspect-square lg:scale-100 lg:w-[17px]"
               />
-              <p className="font-bold text-[18px] -mt-1 lg:w-[434px]">
+              <p className="font-bold text-[18px] -mt-1 lg:w-[434px] leading-[23.76px]">
                 Член Ассоциации когнитивно-поведенческих психотерапевтов России.
               </p>
             </div>
@@ -343,17 +343,17 @@ export default function Home() {
           </button>
         </div>
         <div
-          className="flex flex-col p-[13px] mt-[80px] mb-[140px] lg:mb-0 lg:w-[1020px] lg:mx-auto lg:grid lg:grid-cols-2 lg:p-0 lg:gap-[100px] lg:mt-[150px]"
+          className="flex flex-col p-[18px] mt-[80px] mb-[140px] lg:mb-0 lg:w-[1020px] lg:mx-auto lg:grid lg:grid-cols-2 lg:p-0 lg:gap-[100px] lg:mt-[150px]"
           style={{ direction: "rtl" }}
         >
           <div style={{ direction: "ltr" }}>
-            <h1 className="text-dark-green text-[30px] font-bold lg:text-[35px]">
+            <h1 className="text-dark-green text-[32px] font-bold lg:text-[35px]">
               Марго Хановски
             </h1>
-            <h2 className="text-dark-green text-[23px] font-bold lg:text-[23px] lg:mt-[25px]">
+            <h2 className="text-dark-green text-[23px] -mt-[5px] font-bold lg:text-[23px] lg:mt-[25px]">
               Клинический психолог
             </h2>
-            <p className="text-[18px] font-normal mt-[30px] lg:text-[18px] lg:w-[375px] lg:mt-[35px]">
+            <p className="text-[18.6px] font-normal mt-[20px] leading-[23.76px] lg:text-[18px] lg:w-[375px] lg:mt-[35px]">
               « В терапии со мной вы сможете разобраться в таких проблемах, как
               тревожность, низкая самооценка, депрессия. Я использую только
               научно доказанные методы, все используемые техники понятны и
@@ -361,12 +361,12 @@ export default function Home() {
               разрешение ваших проблем ».
             </p>
 
-            <div className="flex flex-row gap-[15px] items-start mt-[40px] lg:gap-[10px] lg:mt-[50px]">
+            <div className="flex flex-row gap-[15px] items-start mt-[36px] lg:gap-[10px] lg:mt-[50px]">
               <img
                 src="https://static.tildacdn.com/tild3265-3535-4832-b164-363138356463/rombo_negroRecurso_9.svg"
                 className="w-[18px] scale-[129%] aspect-square lg:scale-100 lg:w-[17px]"
               />
-              <p className="font-bold text-[18px] -mt-1 lg:w-[383px]">
+              <p className="font-bold text-[18px] -mt-1 lg:w-[383px] leading-[23.76px]">
                 Специалитет по клинической психологии, 2 года личной
                 психотерапии
               </p>
@@ -376,7 +376,7 @@ export default function Home() {
                 src="https://static.tildacdn.com/tild3265-3535-4832-b164-363138356463/rombo_negroRecurso_9.svg"
                 className="w-[18px] scale-[129%] aspect-square lg:scale-100 lg:w-[17px]"
               />
-              <p className="font-bold text-[18px] -mt-1 lg:w-[395px]">
+              <p className="font-bold text-[18px] -mt-1 lg:w-[395px] leading-[23.76px]">
                 Практика с 2018 года под супервизией, а также постоянные
                 повышения квалификации в Ассоциации когнитивно-поведенческих
                 терапевтов России

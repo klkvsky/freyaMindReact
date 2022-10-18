@@ -4,7 +4,7 @@ export default function IndexJumbo() {
   return (
     // <div className="flex flex-col lg:max-w-[1200px] lg:mx-auto lg:mt-[70px] bg-[#CCCC9F]">
     <div className="flex flex-col lg:px-[256px] lg:pt-[70px] bg-[#CCCC9F]">
-      <div className="flex flex-row items-center justify-start h-[140px] w-full gap-[18px] cursor-pointer z-50 px-[20px]">
+      <nav className="flex flex-row items-center justify-start h-[140px] w-full gap-[18px] cursor-pointer z-50 px-[20px]">
         <Link
           to="/"
           className="cursor-pointer z-50 font-bold text-[42px] text-white lg:flex flex-row items-center justify-start gap-[50px] lg:text-[66px]"
@@ -25,7 +25,7 @@ export default function IndexJumbo() {
           <Link to="/livestream">Онлайн События</Link>
           <Link to="/contactus">Свяжитесь с нами</Link>
         </ul>
-      </div>
+      </nav>
       <div className="flex flex-row items-end lg:items-center justify-start gap-[18px] lg:mt-[60px]">
         <img
           src="https://thumb.tildacdn.com/tild6563-6637-4461-b132-313733393763/-/format/webp/imagen_2022-06-08_10.png"

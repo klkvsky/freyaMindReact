@@ -251,7 +251,7 @@ export default function Home() {
               modules={[Pagination, Navigation]}
               spaceBetween={50}
               slidesPerView={1}
-              // navigation
+              navigation={window.innerWidth > 1024}
               loop={true}
               pagination={{ clickable: true }}
               className="w-full mb-[75px] lg:w-[1000px] lg:mx-auto"
@@ -338,9 +338,9 @@ export default function Home() {
             src="https://thumb.tildacdn.com/tild6637-6535-4634-a466-393938626433/-/resize/602x/-/format/webp/Anastasia-2.png"
             className="mt-[35px] lg:min-w-[545px] lg:aspect-square lg:mt-0"
           />
-          <button className="w-[285px] h-[36px] bg-dark-green border-2 border-dark-green text-white text-[10px] font-semibold leading-[15px] rounded-full scale-[129%] mx-auto mt-[33px] hover:bg-white hover:text-dark-green transition-all lg:w-[463px] lg:h-[65px] lg:text-[15px] lg:scale-100 lg:col-start-2 lg:mt-[65px]">
+          {/* <button className="w-[285px] h-[36px] bg-dark-green border-2 border-dark-green text-white text-[10px] font-semibold leading-[15px] rounded-full scale-[129%] mx-auto mt-[33px] hover:bg-white hover:text-dark-green transition-all lg:w-[463px] lg:h-[65px] lg:text-[15px] lg:scale-100 lg:col-start-2 lg:mt-[65px]">
             ЗАПИСАТЬСЯ НА БЕСПЛАТНОЕ ЗНАКОМСТВО
-          </button>
+          </button> */}
         </div>
         <div
           className="flex flex-col p-[18px] mt-[80px] mb-[140px] lg:mb-0 lg:w-[1020px] lg:mx-auto lg:grid lg:grid-cols-2 lg:p-0 lg:gap-[100px] lg:mt-[150px]"
@@ -388,8 +388,14 @@ export default function Home() {
             className="mt-[35px] lg:min-w-[544px] lg:aspect-square lg:mt-0"
           />
 
-          <button className="w-[285px] h-[36px] bg-dark-green border-2 border-dark-green text-white text-[10px] font-semibold leading-[15px] rounded-full scale-[129%] mx-auto mt-[33px] hover:bg-white hover:text-dark-green transition-all lg:w-[463px] lg:h-[65px] lg:text-[15px] lg:scale-100 lg:col-start-2 lg:-mt-[100px]">
+          {/* <button className="w-[285px] h-[36px] bg-dark-green border-2 border-dark-green text-white text-[10px] font-semibold leading-[15px] rounded-full scale-[129%] mx-auto mt-[33px] hover:bg-white hover:text-dark-green transition-all lg:w-[463px] lg:h-[65px] lg:text-[15px] lg:scale-100 lg:col-start-2 lg:-mt-[100px]">
             ЗАПИСАТЬСЯ НА БЕСПЛАТНОЕ ЗНАКОМСТВО
+          </button> */}
+        </div>
+
+        <div className="w-full grid place-items-center lg:mt-[100px] lg:mb-[200px]">
+          <button className="w-[285px] h-[36px] bg-dark-green border-2 border-dark-green text-white text-[10px] font-semibold leading-[15px] rounded-full scale-[129%] mx-auto mt-[33px] hover:bg-white hover:text-dark-green transition-all lg:w-[463px] lg:h-[65px] lg:text-[15px] lg:scale-100 lg:mt-[65px] uppercase">
+            Наши терапевты
           </button>
         </div>
         <div className="bg-dark-green grid place-items-center h-[560px] lg:mt-[180px] lg:h-[563px]">

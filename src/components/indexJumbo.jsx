@@ -18,11 +18,11 @@ export default function IndexJumbo() {
         </Link>
 
         <ul className="hidden lg:flex flex-row items-center jusitfy-between uppercase text-[18px] font-light lg:w-[712px] leading-[28px] gap-[45px] ml-auto whitespace-nowrap">
-          <Link to="/aboutus">О нас</Link>
-          <Link to="/therapy">Цена</Link>
-          <Link to="/eatingdisorder">РПП</Link>
-          <Link to="/livestream">Онлайн События</Link>
-          <Link to="/contactus">Свяжитесь с нами</Link>
+          <Link to="/aboutus" className="hover:scale-125 transition-all duration-500">О нас</Link>
+          <Link to="/therapy" className="hover:scale-125 transition-all duration-500">Цена</Link>
+          <Link to="/eatingdisorder" className="hover:scale-125 transition-all duration-500">РПП</Link>
+          <Link to="/livestream" className="hover:scale-125 transition-all duration-500">Онлайн События</Link>
+          <Link to="/contactus" className="hover:scale-125 transition-all duration-500">Свяжитесь с нами</Link>
         </ul>
       </div>
       <div className="flex flex-row items-end lg:items-center justify-start gap-[18px] lg:mt-[60px]">

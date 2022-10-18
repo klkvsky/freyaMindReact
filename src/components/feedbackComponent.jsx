@@ -5,22 +5,22 @@ import "react-phone-input-2/lib/plain.css";
 export default function FeedbackComponent(prop) {
   return (
     <div>
-      <form className="mt-[50px] w-[300px] flex flex-col gap-[20px] mx-auto">
+      <form className="mt-[50px] w-[300px] flex flex-col gap-[20px] mx-auto lg:w-[362px]">
         <input
           type="text"
           name="name"
           placeholder="имя"
-          className="border-[1px] w-full border-[#9e9e9e] rounded-[5px] text-[16px] h-[40px] px-[20px]"
+          className="border-[1px] w-full border-[#9e9e9e] rounded-[5px] text-[16px] h-[40px] px-[20px] lg:h-[50px]"
         />
         <input
           type="text"
           name="name"
           placeholder="e-mail"
-          className="border-[1px] w-full border-[#9e9e9e] rounded-[5px] text-[16px] h-[40px] px-[20px]"
+          className="border-[1px] w-full border-[#9e9e9e] rounded-[5px] text-[16px] h-[40px] px-[20px] lg:h-[50px]"
         />
         <ReactPhoneInput
           country={"ru"}
-          className="rounded-[5px] overflow-hidden"
+          className="rounded-[5px] overflow-hidden lg:bg-red-500 lg:overflow-visible lg:rounded-[15px]"
         />
         {prop.disable != 4 && (
           <select
@@ -32,7 +32,7 @@ export default function FeedbackComponent(prop) {
               borderRadius: "5px",
               fontSize: "16px",
               fontWeight: "400",
-              height: "40px",
+              height: window.innerWidth < 1024 ? "40px" : "50px",
             }}
             className="px-[15px] bg-white shadow-none appearance-none"
           >

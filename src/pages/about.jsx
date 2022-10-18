@@ -78,249 +78,360 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className="bg-[#5d6541] min-h-screen py-[130px]">
-          <h1 className="text-light-green text-[22px] font-bold text-center w-4/6 scale-[129%] mx-auto">
+        <div className="bg-[#5d6541] min-h-screen py-[130px] lg:py-[195px]">
+          <h1 className="text-light-green text-[22px] font-bold text-center w-4/6 scale-[129%] mx-auto lg:text-[43px] lg:scale-100">
             Рассмотрим разные реакции на одну ситуацию:
           </h1>
-          <div className="ml-auto w-[385px] border-[5px] border-white rounded-l-[35px] px-[15px] py-[16px] pr-0 border-r-transparent translate-x-2 mt-[50px]">
-            <p className="text-[18px] font-bold text-white w-[90%] text-center leading-[23px]">
+          <div className="ml-auto w-[385px] border-[5px] border-white rounded-l-[35px] px-[15px] py-[16px] pr-0 border-r-transparent translate-x-2 mt-[50px] lg:mx-auto lg:border-r-white lg:rounded-[35px] lg:w-[1062px] lg:grid lg:place-items-center lg:mt-[100px]">
+            <p className="text-[18px] font-bold text-white w-[90%] text-center leading-[23px] lg:text-[26px] lg:leading-[33px] lg:w-[85%]">
               Обещала поддержать подругу на важном для нее мероприятии, но
               заболела и не смогла прийти.
             </p>
           </div>
-          <h1 className="text-[#ffcc99] font-semibold text-[23px] ml-[43px] mt-[47px]">
-            ВИНА:
-          </h1>
-          <p className="bg-[#ffcc99] text-dark-green font-semibold text-[15.5px] p-[20px] px-[30px] mx-[15px] rounded-3xl leading-[19.35px] mt-[20px]">
-            Я плохой друг, я же ей обещала, я сильно виновата перед ней. Она так
-            рассчитывала на мою поддержку, а я ее подвела
-          </p>
-          <h1 className="text-[#c8cea9] text-right font-semibold text-[23px] mr-[43px] mt-[70px]">
-            СОЖАЛЕНИЕ:
-          </h1>
-          <p className="bg-[#c8cea9] text-dark-green font-semibold text-[15.5px] p-[20px] pl-[30px] mx-[15px] rounded-3xl leading-[19.35px] mt-[15px]">
-            Мне так жаль, что я не смогла попасть на мероприятие, чтобы
-            поддержать мою подругу. Я бы очень хотела, чтобы все сложилось
-            иначе.
-          </p>
+          <div className="lg:grid lg:grid-cols-2 lg:w-[1085px] lg:mx-auto lg:mt-[50px] lg:gap-[45px]">
+            <div>
+              <h1 className="text-[#ffcc99] font-semibold text-[23px] ml-[43px] mt-[47px] lg:mt-0 lg:text-[20px]">
+                ВИНА:
+              </h1>
+              <p className="bg-[#ffcc99] text-dark-green font-semibold text-[15.5px] p-[20px] px-[30px] mx-[15px] rounded-3xl leading-[19.35px] mt-[20px] lg:text-[19.5px] lg:font-medium lg:p-[35px] lg:pr-[110px] lg:leading-[23px]">
+                Я плохой друг, я же ей обещала, я сильно виновата перед ней. Она
+                так рассчитывала на мою поддержку, а я ее подвела
+              </p>
+            </div>
+            <div>
+              <h1 className="text-[#c8cea9] text-right font-semibold text-[23px] mr-[43px] mt-[70px] lg:mt-0 lg:text-left lg:text-[20px] lg:mr-0 lg:ml-[40px]">
+                СОЖАЛЕНИЕ:
+              </h1>
+              <p className="bg-[#c8cea9] text-dark-green font-semibold text-[15.5px] p-[20px] pl-[30px] mx-[15px] rounded-3xl leading-[19.35px] mt-[15px] lg:text-[19.5px] lg:font-medium lg:p-[35px] lg:pr-[110px lg:leading-[23px]">
+                Мне так жаль, что я не смогла попасть на мероприятие, чтобы
+                поддержать мою подругу. Я бы очень хотела, чтобы все сложилось
+                иначе.
+              </p>
+            </div>
+          </div>
+          <div className="w-[300px] h-[2px] bg-white mx-auto scale-[129%] opacity-60 mt-[66px] mb-[60px] lg:w-[1048px] lg:h-[6px] lg:scale-100 lg:mt-[115px]" />
 
-          <div className="w-[300px] h-[2px] bg-white mx-auto scale-[129%] opacity-60 mt-[66px] mb-[60px]" />
-
-          <div className="mк-auto w-[385px] border-[5px] border-white rounded-r-[35px] px-[15px] py-[16px] pl-0 border-l-transparent -translate-x-2 mt-[50px]">
-            <p className="text-[18px] font-bold text-white w-[90%] text-center leading-[23px]">
+          <div className="mк-auto w-[385px] border-[5px] border-white rounded-r-[35px] px-[15px] py-[16px] pl-0 border-l-transparent -translate-x-2 mt-[50px] lg:mx-auto lg:border-l-white lg:rounded-[35px] lg:w-[1062px] lg:grid lg:place-items-center lg:mt-[100px]">
+            <p className="text-[18px] font-bold text-white w-[90%] text-center leading-[23px] lg:text-[26px] lg:leading-[33px] lg:w-[85%]">
               Я неудачно пошутила на важном собрании.
             </p>
           </div>
-          <h1 className="text-[#ffcc99] font-semibold text-[23px] ml-[43px] mt-[47px]">
-            СТЫД:
-          </h1>
-          <p className="bg-[#ffcc99] text-dark-green font-semibold text-[15.5px] p-[20px] px-[30px] mx-[15px] rounded-3xl leading-[19.35px] mt-[20px]">
-            Ужас! Как теперь говорить с коллегами, они думают, что я глупая. Как
-            я могла такое допустить. Я полное ничтожество
-          </p>
-          <h1 className="text-[#c8cea9] text-right font-semibold text-[23px] mr-[43px] mt-[70px]">
-            РАЗОЧАРОВАНИЕ:
-          </h1>
-          <p className="bg-[#c8cea9] text-dark-green font-semibold text-[15.5px] p-[20px] pl-[30px] mx-[15px] rounded-3xl leading-[19.35px] mt-[15px]">
-            Неловко получилось, я бы очень хотела, чтобы так не случилось, но к
-            сожалению произошло. Что ж, люди допускают ошибки, допустила и я.
-          </p>
+          <div className="lg:grid lg:grid-cols-2 lg:w-[1085px] lg:mx-auto lg:mt-[50px] lg:gap-[45px]">
+            <div>
+              <h1 className="text-[#ffcc99] font-semibold text-[23px] ml-[43px] mt-[47px] lg:mt-0 lg:text-[20px]">
+                СТЫД:
+              </h1>
+              <p className="bg-[#ffcc99] text-dark-green font-semibold text-[15.5px] p-[20px] px-[30px] mx-[15px] rounded-3xl leading-[19.35px] mt-[20px] lg:text-[18px] lg:font-medium lg:p-[35px] lg:pr-[105px] lg:leading-[23px]">
+                Ужас! Как теперь говорить с коллегами, они думают, что я глупая.
+                Как я могла такое допустить. Я полное ничтожество
+              </p>
+            </div>
+            <div>
+              <h1 className="text-[#c8cea9] text-right font-semibold text-[23px] mr-[43px] mt-[70px] lg:mt-0 lg:text-left lg:text-[20px] lg:mr-0 lg:ml-[40px]">
+                РАЗОЧАРОВАНИЕ:
+              </h1>
+              <p className="bg-[#c8cea9] text-dark-green font-semibold text-[15.5px] p-[20px] pl-[30px] mx-[15px] rounded-3xl leading-[19.35px] mt-[15px] lg:text-[19px] lg:font-medium lg:p-[35px] lg:pr-[25px] lg:leading-[23px]">
+                Неловко получилось, я бы очень хотела, чтобы так не случилось,
+                но к сожалению произошло. Что ж, люди допускают ошибки,
+                допустила и я.
+              </p>
+            </div>
+          </div>
         </div>
 
-        <h1 className="text-dark-green text-[25px] font-bold w-5/6 text-center mx-auto mt-[100px]">
+        <h1 className="text-dark-green text-[25px] font-bold w-5/6 text-center mx-auto mt-[100px] lg:text-[41px] lg:mt-[160px]">
           Чем мы можем помочь вам?
         </h1>
 
-        <Swiper
-          modules={[Pagination]}
-          spaceBetween={50}
-          slidesPerView={1}
-          loop={true}
-          autoHeight={true}
-          pagination={{ clickable: true }}
-          className="w-full mb-[150px] lg:w-[1000px] lg:mx-auto"
-        >
-          <SwiperSlide>
-            <img
-              src="https://static.tildacdn.com/tild3064-6165-4733-b534-613930366161/1.svg"
-              className="h-[90px] aspect-square mx-auto mt-[90px]"
-            />
-            <h1 className="mt-[50px] text-[28px] font-bold text-center">
-              Эмоции и чувства
-            </h1>
-            <p className="mt-[25px] text-[14px] font-light px-[20px]">
-              Задача когнитивно-поведенческой терапии — расширить этот спектр,
-              сбалансировать черное и белое, научиться поддерживать баланс между
-              стремлениями и стабильностью, обрести желанную психологическую
-              гармонию.
-            </p>
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src="https://static.tildacdn.com/tild3834-3566-4861-b431-363235636533/2.svg"
-              className="h-[90px] aspect-square mx-auto mt-[90px]"
-            />
-            <h1 className="mt-[50px] text-[28px] font-bold text-center">
-              Знания
-            </h1>
-            <p className="mt-[25px] text-[14px] font-light px-[20px]">
-              Цель терапии — не только избавление от нерациональных убеждений,
-              проживание старых кризисов, но становление клиента самому себе
-              терапевтом.
-              <br />
-              <br />В процессе терапии вы научитесь регулировать эмоции,
-              принимать весь спектр чувств, безоценочно поддерживать себя и
-              других людей и повысите уровень психологической грамотности в
-              целом.
-            </p>
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src="https://static.tildacdn.com/tild3035-3465-4864-b237-643161393233/3.svg"
-              className="h-[90px] aspect-square mx-auto mt-[90px]"
-            />
-            <h1 className="mt-[50px] text-[28px] font-bold text-center">
-              Самостоятепьность
-            </h1>
-            <p className="mt-[25px] text-[14px] font-light px-[20px]">
-              Постепенно вы станете все более и более независимы от терапии,
-              будете самостоятельно замечать неправдивые мысли о себе и мире,
-              сможете поддержать себя в этом постоянно изменяющемся мире и любых
-              кризисах.
-            </p>
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src="https://static.tildacdn.com/tild3031-3637-4334-a461-346530613661/4.svg"
-              className="h-[90px] aspect-square mx-auto mt-[90px]"
-            />
-            <h1 className="mt-[50px] text-[28px] font-bold text-center">
-              Баланс
-            </h1>
-            <p className="mt-[25px] text-[14px] font-light px-[20px]">
-              Станете себе заботливым другом и разумным взрослым, приобретя при
-              этом ощущение наполненности жизни.
-            </p>
-          </SwiperSlide>
-        </Swiper>
+        {window.innerWidth < 1024 ? (
+          <Swiper
+            modules={[Pagination]}
+            spaceBetween={50}
+            slidesPerView={1}
+            loop={true}
+            autoHeight={true}
+            pagination={{ clickable: true }}
+            className="w-full mb-[150px] lg:w-[1000px] lg:mx-auto"
+          >
+            <SwiperSlide>
+              <img
+                src="https://static.tildacdn.com/tild3064-6165-4733-b534-613930366161/1.svg"
+                className="h-[90px] aspect-square mx-auto mt-[90px]"
+              />
+              <h1 className="mt-[50px] text-[28px] font-bold text-center">
+                Эмоции и чувства
+              </h1>
+              <p className="mt-[25px] text-[14px] font-light px-[20px]">
+                Задача когнитивно-поведенческой терапии — расширить этот спектр,
+                сбалансировать черное и белое, научиться поддерживать баланс
+                между стремлениями и стабильностью, обрести желанную
+                психологическую гармонию.
+              </p>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://static.tildacdn.com/tild3834-3566-4861-b431-363235636533/2.svg"
+                className="h-[90px] aspect-square mx-auto mt-[90px]"
+              />
+              <h1 className="mt-[50px] text-[28px] font-bold text-center">
+                Знания
+              </h1>
+              <p className="mt-[25px] text-[14px] font-light px-[20px]">
+                Цель терапии — не только избавление от нерациональных убеждений,
+                проживание старых кризисов, но становление клиента самому себе
+                терапевтом.
+                <br />
+                <br />В процессе терапии вы научитесь регулировать эмоции,
+                принимать весь спектр чувств, безоценочно поддерживать себя и
+                других людей и повысите уровень психологической грамотности в
+                целом.
+              </p>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://static.tildacdn.com/tild3035-3465-4864-b237-643161393233/3.svg"
+                className="h-[90px] aspect-square mx-auto mt-[90px]"
+              />
+              <h1 className="mt-[50px] text-[28px] font-bold text-center">
+                Самостоятепьность
+              </h1>
+              <p className="mt-[25px] text-[14px] font-light px-[20px]">
+                Постепенно вы станете все более и более независимы от терапии,
+                будете самостоятельно замечать неправдивые мысли о себе и мире,
+                сможете поддержать себя в этом постоянно изменяющемся мире и
+                любых кризисах.
+              </p>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://static.tildacdn.com/tild3031-3637-4334-a461-346530613661/4.svg"
+                className="h-[90px] aspect-square mx-auto mt-[90px]"
+              />
+              <h1 className="mt-[50px] text-[28px] font-bold text-center">
+                Баланс
+              </h1>
+              <p className="mt-[25px] text-[14px] font-light px-[20px]">
+                Станете себе заботливым другом и разумным взрослым, приобретя
+                при этом ощущение наполненности жизни.
+              </p>
+            </SwiperSlide>
+          </Swiper>
+        ) : (
+          <div className="grid grid-cols-2 w-[900px] mx-auto mb-[190px]">
+            <div className="w-[350px] flex flex-col items-start justify-start">
+              <img
+                src="https://static.tildacdn.com/tild3064-6165-4733-b534-613930366161/1.svg"
+                className="h-[90px] aspect-square mx-auto mt-[90px] lg:h-[104px]"
+              />
+              <h1 className="mt-[50px] text-[28px] font-bold text-center lg:text-[35px] lg:mt-[60px]">
+                Эмоции и чувства
+              </h1>
+              <p className="mt-[25px] text-[14px] font-light px-[20px] lg:text-[20px] lg:leading-[25px] lg:font-semibold lg:px-0 lg:mt-[50px]">
+                Задача когнитивно-поведенческой терапии — расширить этот спектр,
+                сбалансировать черное и белое, научиться поддерживать баланс
+                между стремлениями и стабильностью, обрести желанную
+                психологическую гармонию.
+              </p>
+            </div>
+            <div className="w-[350px] flex flex-col items-center justify-start">
+              <img
+                src="https://static.tildacdn.com/tild3834-3566-4861-b431-363235636533/2.svg"
+                className="h-[90px] aspect-square mx-auto mt-[90px] lg:h-[104px]"
+              />
+              <h1 className="mt-[50px] text-[28px] font-bold text-center lg:text-[35px] lg:mt-[60px]">
+                Знания
+              </h1>
+              <p className="mt-[25px] text-[14px] font-light px-[20px] lg:text-[20px] lg:leading-[25px] lg:font-semibold lg:px-0 lg:mt-[50px]">
+                Цель терапии — не только избавление от нерациональных убеждений,
+                проживание старых кризисов, но становление клиента самому себе
+                терапевтом.
+                <br />
+                <br />В процессе терапии вы научитесь регулировать эмоции,
+                принимать весь спектр чувств, безоценочно поддерживать себя и
+                других людей и повысите уровень психологической грамотности в
+                целом.
+              </p>
+            </div>
+            <div className="w-[350px] flex flex-col items-center justify-start">
+              <img
+                src="https://static.tildacdn.com/tild3035-3465-4864-b237-643161393233/3.svg"
+                className="h-[90px] aspect-square mx-auto mt-[90px] lg:h-[104px]"
+              />
+              <h1 className="mt-[50px] text-[28px] font-bold text-center lg:text-[35px] lg:mt-[60px]">
+                Самостоятепьность
+              </h1>
+              <p className="mt-[25px] text-[14px] font-light px-[20px] lg:text-[20px] lg:leading-[25px] lg:font-semibold lg:px-0 lg:mt-[50px]">
+                Постепенно вы станете все более и более независимы от терапии,
+                будете самостоятельно замечать неправдивые мысли о себе и мире,
+                сможете поддержать себя в этом постоянно изменяющемся мире и
+                любых кризисах.
+              </p>
+            </div>
+            <div className="w-[350px] flex flex-col items-center justify-start">
+              <img
+                src="https://static.tildacdn.com/tild3031-3637-4334-a461-346530613661/4.svg"
+                className="h-[90px] aspect-square mx-auto mt-[90px] lg:h-[104px]"
+              />
+              <h1 className="mt-[50px] text-[28px] font-bold text-center lg:text-[35px] lg:mt-[60px]">
+                Баланс
+              </h1>
+              <p className="mt-[25px] text-[14px] font-light px-[20px] lg:text-[20px] lg:leading-[25px] lg:font-semibold lg:px-0 lg:mt-[50px]">
+                Станете себе заботливым другом и разумным взрослым, приобретя
+                при этом ощущение наполненности жизни.
+              </p>
+            </div>
+          </div>
+        )}
 
-        <div className="bg-[#e6e6e6] w-full min-h-screen pt-[95px] px-[65px] pb-[110px]">
+        <div className="bg-[#e6e6e6] w-full pt-[95px] px-[65px] pb-[110px]">
           <h1 className="text-[25px] text-dark-green font-bold text-center">
             АВТОРЫ ПРОЕКТА
           </h1>
+          <div className="lg:w-[805px] lg:mx-auto lg:grid lg:grid-cols-2 lg:gap-[100px]">
+            <div className="relative flex flex-col mt-[55px]">
+              <img
+                src="https://static.tildacdn.com/tild3833-3936-4464-a239-393036623066/Anastasia.svg"
+                className="w-full lg:h-[350px] lg:w-[350px] lg:object-cover lg:object-top"
+              />
+              <div className="bg-white pb-[10px] lg:pb-[55px] lg:w-[350px]">
+                <h1 className="text-[30px] font-semibold text-center -mt-[200px] lg:mt-[10px] lg:px-[20px]">
+                  Анастасия Петрова
+                </h1>
+                <h2 className="text-[#c8cea9] text-[25px] font-semibold text-center lg:px-[50px]">
+                  психолог-консультант
+                </h2>
+              </div>
+              <p className="hidden lg:flex leading-[20px] text-[18px] font-medium text-center w-[350px] mt-[35px]">
+                В сферу <br />
+                психологии Анастасия <br />
+                пришла осознанно, получила степень магистра по специальности
+                психологическое консультирование и коррекция. Член Ассоциации
+                когнитивно-поведенческих психотерапевтов России.
+              </p>
+            </div>
+            <div className="relative flex flex-col mt-[55px]">
+              <img
+                src="https://static.tildacdn.com/tild3234-6162-4439-a664-316135393363/Margo.svg"
+                className="w-full lg:h-[350px] lg:w-[350px] lg:object-cover lg:object-top"
+              />
+              <div className="bg-white pb-[10px] lg:pb-[55px]">
+                <h1 className="text-[30px] font-semibold text-center -mt-[200px] lg:mt-[20px] leading-[38px] lg:px-[20px]">
+                  Марго <br /> Хановски
+                </h1>
+                <h2 className="text-[#c8cea9] text-[25px] font-semibold text-center lg:px-[40px]">
+                  клинический психолог
+                </h2>
+              </div>
 
-          <div className="relative flex flex-col mt-[55px]">
-            <img
-              src="https://static.tildacdn.com/tild3833-3936-4464-a239-393036623066/Anastasia.svg"
-              className="w-full lg:h-[245px] lg:aspect-square lg:object-none lg:object-top"
-            />
-            <div className="bg-white pb-[10px] lg:pb-[55px]">
-              <h1 className="text-[30px] font-semibold text-center -mt-[200px] lg:mt-[20px]">
-                Анастасия Петрова
-              </h1>
-              <h2 className="text-[#c8cea9] text-[25px] font-semibold text-center">
-                психолог-консультант
-              </h2>
+              <p className="hidden lg:flex leading-[20px] text-[18px] font-medium text-center w-[350px] mt-[35px]">
+                Окончила <br />
+                Санкт-Петербургский государственный университет, специалитет по
+                клинической психологии, специализация поведенческая психология
+                здоровья
+              </p>
             </div>
           </div>
-          <div className="relative flex flex-col mt-[55px]">
-            <img
-              src="https://static.tildacdn.com/tild3234-6162-4439-a664-316135393363/Margo.svg"
-              className="w-full lg:h-[245px] lg:aspect-square lg:object-none lg:object-top"
-            />
-            <div className="bg-white pb-[10px] lg:pb-[55px]">
-              <h1 className="text-[30px] font-semibold text-center -mt-[200px] lg:mt-[20px] leading-[38px]">
-                Марго <br /> Хановски
-              </h1>
-              <h2 className="text-[#c8cea9] text-[25px] font-semibold text-center">
-                клинический психолог
-              </h2>
-            </div>
+
+          <div className="w-full grid place-content-center lg:my-[90px]">
+            <button className="w-[270px] h-[40px] bg-[#5d6541] uppercase text-white rounded-full mt-[40px] ml-[5px] text-[16px] font-bold lg:w-[330px] lg:h-[45px] lg:ml-0 lg:mx-auto ">
+              Наши терапевты
+            </button>
           </div>
         </div>
 
-        <p className="mt-[100px] px-[18px] lg:pl-[15px] lg:pr-0 text-[20.6px] font-semibold leading-[25.8px]">
+        <p className="mt-[100px] px-[18px] lg:pl-[15px] lg:pr-0 text-[20.6px] font-semibold leading-[25.8px] lg:leading-[26px] lg:text-[21px] lg:w-[886px] lg:mx-auto">
           Когнитивно-поведенческая психотерапия признана одним из главных
           способов заботы как о ментальном (душевном), так и о физическом.
           здоровье.
         </p>
-        <p className="text-[18px] font-semibold mt-[30px] px-[18px] lg:pl-[15px] lg:pr-0">
+        <p className="text-[18px] font-semibold mt-[30px] px-[18px] lg:pl-[15px] lg:pr-0 lg:leading-[20px] lg:text-[16px] lg:w-[849px] lg:ml-[410px]">
           Данный подход входит в рекомендации и стандарты лечения мировых
           сообществ здравоохранения и гуманитарных наук в целом:
         </p>
 
-        <div className="grid grid-cols-2 grid-items-center w-full mt-[65px] lg:mt-[185px] lg:flex lg:flex-row lg:items-center lg:justify-between lg:w-[1190px] lg:mx-auto mb-[90px]">
+        <div className="grid grid-cols-2 grid-items-center w-full mt-[65px] lg:mt-[85px] lg:flex lg:flex-row lg:items-center lg:justify-between lg:w-[1190px] lg:mx-auto mb-[90px]">
           <div className="border-r-[1px] border-b-[1px] border-[#eee] grid grid-items-center p-[10px] lg:border-none lg:relative">
             <img
               src="https://static.tildacdn.com/tild3233-3636-4238-b839-303862633863/omsRecurso_1.svg"
-              className="w-4/6 mx-auto my-auto lg:w-[330px] lg:h-[100px]"
+              className="w-4/6 mx-auto my-auto lg:w-[214px] lg:h-[66px]"
             />
           </div>
-          <div className="w-[5px] h-[80px] bg-light-green hidden lg:flex" />
+          <div className="w-[5px] h-[37px] bg-light-green hidden lg:flex" />
           <div className="border-b-[1px] border-[#eee] grid grid-items-center p-[10px] lg:border-none lg:relative">
             <img
               src="https://static.tildacdn.com/tild6631-3766-4465-b933-623136653464/cruzRecurso_2.svg"
-              className="w-1/2 my-auto mx-auto lg:w-[101px] lg:h-[109px]"
+              className="w-1/2 my-auto mx-auto lg:w-[66px] lg:h-[71px]"
             />
           </div>
-          <div className="w-[5px] h-[80px] bg-light-green hidden lg:flex" />
+          <div className="w-[5px] h-[37px] bg-light-green hidden lg:flex" />
           <div className="border-r-[1px] border-b-[1px] border-[#eee] grid grid-items-center p-[10px] lg:border-none lg:relative">
             <img
               src="https://static.tildacdn.com/tild6365-6433-4363-b932-646663363464/onuRecurso_5.svg"
-              className="w-1/2 mx-auto my-auto lg:w-[108px] lg:h-[108px]"
+              className="w-1/2 mx-auto my-auto lg:w-[68px] lg:h-[68px]"
             />
           </div>
-          <div className="w-[5px] h-[80px] bg-light-green hidden lg:flex" />
+          <div className="w-[5px] h-[37px] bg-light-green hidden lg:flex" />
           <div className="border-b-[1px] border-[#eee] grid grid-items-center p-[10px] lg:border-none lg:relative">
             <img
               src="https://static.tildacdn.com/tild6166-3262-4761-a166-313565383861/apa_2Recurso_4.svg"
-              className="w-1/2 my-auto mx-auto lg:w-[260px] lg:h-[100px]"
+              className="w-1/2 my-auto mx-auto lg:w-[170px] lg:h-[65px]"
             />
           </div>
-          <div className="border-r-[1px] border-[#eee] grid grid-items-center p-[10px] lg:hidden lg:border-none">
+          <div className="w-[5px] h-[37px] bg-light-green hidden lg:flex" />
+          <div className="border-r-[1px] border-[#eee] grid grid-items-center p-[10px] lg:border-r-0">
             <img
               src="https://static.tildacdn.com/tild6661-6534-4139-b963-346265643561/apaRecurso_3.svg"
-              className="w-1/2 my-auto mx-auto"
+              className="w-1/2 my-auto mx-auto lg:w-[175px] lg:h-[58px]"
             />
           </div>
         </div>
 
-        <div className="bg-[#5d6541] w-full min-h-screen pt-[115px] px-[15px] pb-[110px]">
+        <div className="bg-[#5d6541] w-full pt-[115px] px-[15px] pb-[110px] lg:flex lg:flex-row lg:items-center lg:justify-center lg:gap-[50px] lg:pt-[160px] lg:pb-[100px] relative lg:px-0">
           <img
             src="https://static.tildacdn.com/tild3532-3737-4839-b939-333561393765/anasRecurso_7.svg"
-            className="w-[285px] aspect-square mx-auto"
+            className="w-[285px] aspect-square mx-auto lg:w-[313px] lg:mx-0 lg:-ml-[100px]"
           />
+          <div className="lg:w-[604px]">
+            <p className="text-white font-semibold text-[20.6px] leading-[25.8px] mt-[80px] lg:mt-0 lg:text-[20px]">
+              Безусловно, в России и СНГ психологическим сообществом также
+              активно используется КПТ, однако доступность среди популярных
+              онлайн-сервисов психологов, использующих именно
+              когнитивно-поведенческий подход и ничего больше, значительно
+              меньше, чем в остальном мире.
+            </p>
 
-          <p className="text-white font-semibold text-[20.6px] leading-[25.8px] mt-[80px]">
-            Безусловно, в России и СНГ психологическим сообществом также активно
-            используется КПТ, однако доступность среди популярных
-            онлайн-сервисов психологов, использующих именно
-            когнитивно-поведенческий подход и ничего больше, значительно меньше,
-            чем в остальном мире.
-          </p>
+            <p className="text-[18px] font-semibold text-[#c8cea9] mt-[35px] lg:text-[20px] lg:leading-[25px]">
+              Нашей миссией является не только предоставление качественной и
+              современной психотерапии, но и консультирование на русском языке
+              вне зависимости от местоположения.
+            </p>
+          </div>
 
-          <p className="text-[18px] font-semibold text-[#c8cea9] mt-[35px]">
-            Нашей миссией является не только предоставление качественной и
-            современной психотерапии, но и консультирование на русском языке вне
-            зависимости от местоположения.
-          </p>
-        </div>
-
-        <div className="px-[55px] pt-[95px]">
-          <h1 className="text-[25px] font-bold text-center">
-            Знаем, как тяжело сделать первый шаг
-          </h1>
-
-          <p className="text-[16px] mt-[30px] font-semibold text-center">
-            Хотите, мы сами вам напишем?
-          </p>
           <img
-            src="https://static.tildacdn.com/tild3738-6134-4634-a165-376139306164/logo_Recurso_10.svg"
-            className="w-[266px] mx-auto mt-2"
+            src="https://static.tildacdn.com/tild3433-3735-4337-b335-656635323532/logo_mundo_Recurso_8.svg"
+            className="absolute top-0 right-[400px] w-[120px] h-[150px] hidden lg:block"
           />
         </div>
 
-        <Feedback />
+        <div className="px-[55px] pt-[95px] lg:flex lg:flex-row lg:justify-center lg:gap-[130px]">
+          <div>
+            <h1 className="text-[25px] font-bold text-center lg:leading-[53px] lg:text-[42px] lg:w-[385px] lg:text-left">
+              Знаем, как тяжело сделать первый шаг
+            </h1>
+
+            <p className="text-[16px] mt-[30px] font-semibold text-center lg:leading-[39px] lg:text-[25px] lg:w-[226px] lg:text-left">
+              Хотите, мы сами вам напишем?
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://static.tildacdn.com/tild3738-6134-4634-a165-376139306164/logo_Recurso_10.svg"
+              className="w-[266px] mx-auto mt-2 lg:w-[362px] lg:h-[98px]"
+            />
+
+            <Feedback />
+          </div>
+        </div>
       </main>
 
       {/* <footer className="bg-white text-black border-t-2 border-white/10 p-[15px] mt-[62px]">
@@ -389,7 +500,7 @@ export default function About() {
       </footer> */}
       {/* Removed as per Pilar's request */}
 
-      <footer className="bg-white text-black border-t-2 lg:border-t-0 border-white/10 p-[15px] lg:pb-[104px] lg:pt-[50px]">
+      <footer className="bg-white text-black border-t-2 lg:border-t-0 border-white/10 p-[15px] lg:pb-[104px] lg:pt-[100px]">
         <div className="lg:flex lg:flex-row-reverse lg:w-[1070px] lg:mx-auto lg:gap-[115px]">
           <ul className="mt-[40px] flex flex-col gap-[20px] text-[14px] font-light lg:text-[18px] lg:whitespace-nowrap">
             <li>Главная страница</li>

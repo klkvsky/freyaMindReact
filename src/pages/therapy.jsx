@@ -13,15 +13,15 @@ export default function About() {
         <TherapyJumbo />
 
         <div className="flex flex-row w-full items-center justify-center mt-[58vh] gap-[15px] lg:mt-[889px] lg:gap-[50px]">
-          <img
+          <img loading="lazy" 
             src="https://static.tildacdn.com/tild6337-3464-4332-b334-363938646638/00c4df6d-ee01-495d-b.svg"
             className="w-[65px] h-[59px] lg:w-[114px] lg:h-[104px]"
           />
-          <img
+          <img loading="lazy" 
             src="https://static.tildacdn.com/tild3733-3766-4537-b462-643730316233/2b8ea003-8218-489c-9.svg"
             className="h-[51px] aspect-square lg:h-[90px]"
           />
-          <img
+          <img loading="lazy" 
             src="https://static.tildacdn.com/tild3265-3365-4661-b439-313462623365/567ae009-ac59-4973-b.svg"
             className="h-[48px] aspect-square lg:h-[84px]"
           />
@@ -163,7 +163,7 @@ export default function About() {
             </p>
           </div>
           <div>
-            <img
+            <img loading="lazy" 
               src="https://static.tildacdn.com/tild6437-6132-4261-b731-353762653032/Asset_1.svg"
               className="w-[266px] mx-auto mt-2 lg:w-[362px] lg:h-[98px]"
             />
@@ -186,14 +186,14 @@ export default function About() {
           </ul>
           <div className="flex flex-row items-center justify-start my-[25px] gap-[25px] lg:hidden">
             <a href="">
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild3861-3130-4963-b765-363763656635/bx_bxl-instagram_1.svg"
                 alt=""
                 className="w-[27px] aspect-square scale-[129%]"
               />
             </a>
             <a href="">
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild6437-3436-4132-a635-366431303666/la_telegram-plane_1.svg"
                 className="w-[27px] aspect-square scale-[129%]"
               />
@@ -229,7 +229,7 @@ export default function About() {
             .
           </p>
           <div className="lg:w-[400px]">
-            <img
+            <img loading="lazy" 
               src="https://static.tildacdn.com/tild3435-3837-4333-a635-316163306165/Asset_410x.svg"
               className="w-[80px] h-[40px] scale-[129%] mt-[65px] ml-4 lg:scale-100 lg:w-[124px] lg:h-[51px] lg:mt-4 lg:ml-0"
             />

@@ -8,7 +8,7 @@ export default function IndexJumbo() {
           to="/"
           className="cursor-pointer z-50 font-bold text-[42px] text-white lg:flex flex-row items-center justify-start gap-[50px] lg:text-[60px] lg:-ml-[19px] lg:-mt-[25px] lg:uppercase lg:gap-[30px]"
         >
-          <img
+          <img loading="lazy" 
             src="https://static.tildacdn.com/tild3533-3535-4537-a338-356262353638/Freya_Logo.svg"
             className="hidden lg:block lg:w-[104px] lg:h-[51px]"
           />
@@ -26,7 +26,7 @@ export default function IndexJumbo() {
         </ul>
       </nav>
       <div className="flex flex-col">
-        <img
+        <img loading="lazy" 
           src="https://thumb.tildacdn.com/tild3433-3834-4161-b566-306162353937/-/format/webp/d9275728-6251-4827-b.png"
           className="w-screen h-[54.8vh] object-cover absolute top-0 left-0 lg:w-[calc(100vw-72px)] lg:left-[32px] lg:h-[889px]"
         />

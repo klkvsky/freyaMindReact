@@ -25,14 +25,14 @@ export default function About() {
           </ul>
           <div className="flex flex-row items-center justify-start my-[25px] gap-[25px] lg:hidden">
             <a href="">
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild3861-3130-4963-b765-363763656635/bx_bxl-instagram_1.svg"
                 alt=""
                 className="w-[27px] aspect-square scale-[129%]"
               />
             </a>
             <a href="">
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild6437-3436-4132-a635-366431303666/la_telegram-plane_1.svg"
                 className="w-[27px] aspect-square scale-[129%]"
               />
@@ -68,7 +68,7 @@ export default function About() {
             .
           </p>
           <div className="lg:w-[400px]">
-            <img
+            <img loading="lazy" 
               src="https://static.tildacdn.com/tild3435-3837-4333-a635-316163306165/Asset_410x.svg"
               className="w-[80px] h-[40px] scale-[129%] mt-[65px] ml-4 lg:scale-100 lg:w-[124px] lg:h-[51px] lg:mt-4 lg:ml-0"
             />

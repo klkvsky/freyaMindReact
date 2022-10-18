@@ -36,7 +36,7 @@ export default function About() {
         </div>
         <div className="flex flex-col pt-[70px] gap-[20px] leading-[19.25px] pb-[80px]">
           <div className="flex flex-row items-center justify-center gap-[15px] pl-[55px] pr-[60px]">
-            <img
+            <img loading="lazy" 
               src="https://static.tildacdn.com/tild6163-3062-4961-b438-656632623833/Group_1.svg"
               className="w-[38.6px] h-[38.6px]"
             />
@@ -46,7 +46,7 @@ export default function About() {
             </p>
           </div>
           <div className="flex flex-row items-center justify-center gap-[15px] pl-[55px] pr-[60px]">
-            <img
+            <img loading="lazy" 
               src="https://static.tildacdn.com/tild6163-3062-4961-b438-656632623833/Group_1.svg"
               className="w-[38.6px] h-[38.6px]"
             />
@@ -56,7 +56,7 @@ export default function About() {
             </p>
           </div>
           <div className="flex flex-row items-center justify-center gap-[15px] pl-[55px] pr-[60px]">
-            <img
+            <img loading="lazy" 
               src="https://static.tildacdn.com/tild6163-3062-4961-b438-656632623833/Group_1.svg"
               className="w-[38.6px] h-[38.6px]"
             />
@@ -78,13 +78,13 @@ export default function About() {
           className="w-full mb-[75px] lg:w-[1000px] lg:mx-auto"
         >
           <SwiperSlide>
-            <img src="https://thumb.tildacdn.com/tild3561-3664-4766-a361-373437313533/-/format/webp/SLIDE_1Recurso_14x.png" />
+            <img loading="lazy"  src="https://thumb.tildacdn.com/tild3561-3664-4766-a361-373437313533/-/format/webp/SLIDE_1Recurso_14x.png" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://thumb.tildacdn.com/tild6163-3530-4534-b731-396665336230/-/format/webp/SLIDE_1Recurso_44x.png" />
+            <img loading="lazy"  src="https://thumb.tildacdn.com/tild6163-3530-4534-b731-396665336230/-/format/webp/SLIDE_1Recurso_44x.png" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://thumb.tildacdn.com/tild6164-3937-4538-a233-613166313234/-/format/webp/SLIDE_1Recurso_24x.png" />
+            <img loading="lazy"  src="https://thumb.tildacdn.com/tild6164-3937-4538-a233-613166313234/-/format/webp/SLIDE_1Recurso_24x.png" />
           </SwiperSlide>
         </Swiper>
 
@@ -351,14 +351,14 @@ export default function About() {
           </ul>
           <div className="flex flex-row items-center justify-start my-[25px] gap-[25px] ">
             <a href="">
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild3861-3130-4963-b765-363763656635/bx_bxl-instagram_1.svg"
                 alt=""
                 className="w-[27px] aspect-square scale-[129%] "
               />
             </a>
             <a href="">
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild6437-3436-4132-a635-366431303666/la_telegram-plane_1.svg"
                 className="w-[27px] aspect-square scale-[129%]"
               />
@@ -394,7 +394,7 @@ export default function About() {
             .
           </p>
           <div className="lg:w-[120px]">
-            <img
+            <img loading="lazy" 
               src="https://static.tildacdn.com/tild3435-3837-4333-a635-316163306165/Asset_410x.svg"
               className="w-[80px] h-[40px] scale-[129%] mt-[65px] ml-4 lg:scale-100 lg:w-[104px] lg:h-[51px] lg:mt-0"
             />

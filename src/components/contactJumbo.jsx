@@ -9,7 +9,7 @@ export default function IndexJumbo() {
           to="/"
           className="flex flex-row items-center justify-start h-[100px] gap-[18px] cursor-pointer z-50 ml-[30px] w-[300px] lg:items-start lg:-ml-[40px]"
         >
-          <img
+          <img loading="lazy" 
             src="https://static.tildacdn.com/tild3538-3364-4365-a534-616439623633/logoRecurso_1.svg"
             className="h-[45px] w-[92px] lg:w-[106px] lg:h-[52px] lg:mt-[15px]"
           />
@@ -29,7 +29,7 @@ export default function IndexJumbo() {
         </ul>
       </nav>
       <div className="flex flex-col items-end lg:items-center justify-start gap-[18px] lg:mt-[60px]">
-        <img
+        <img loading="lazy" 
           src="https://static.tildacdn.com/tild6166-6663-4334-b636-363231386633/Dr-Anna.svg"
           className="w-screen h-[802px] object-cover absolute top-0 left-0 z-0 lg:w-[calc(100vw-154px)] lg:h-[835px] lg:object-[50%,10%]"
         />

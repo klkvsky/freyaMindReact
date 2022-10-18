@@ -8,7 +8,7 @@ export default function IndexJumbo() {
           to="/"
           className="cursor-pointer z-50 font-bold text-[42px] text-white"
         >
-          <img
+          <img loading="lazy" 
             src="https://static.tildacdn.com/tild3932-3266-4636-a530-386632646232/logo_Recurso_3.svg"
             className="h-[45px] w-[92px] lg:w-[106px] lg:h-[52px]"
           />
@@ -23,7 +23,7 @@ export default function IndexJumbo() {
         </ul>
       </div>
       <div className="flex flex-col items-end lg:items-center justify-start gap-[18px] lg:mt-[60px]">
-        <img
+        <img loading="lazy" 
           src="https://thumb.tildacdn.com/tild3735-3764-4632-a665-353537633231/-/format/webp/123.png"
           className="w-screen h-[710px] object-cover object-[75%_50%] absolute top-0 left-0"
         />
@@ -39,7 +39,7 @@ export default function IndexJumbo() {
           </p>
         </div>
 
-        <img
+        <img loading="lazy" 
           src="https://static.tildacdn.com/tild6665-3435-4032-a235-373532663730/Frame.svg"
           className="w-screen h-auto relative z-20 scale-[400%] mr-[190px] mt-6"
         />

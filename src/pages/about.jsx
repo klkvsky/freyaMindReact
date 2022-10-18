@@ -29,7 +29,7 @@ export default function About() {
             <div className="w-[230px] h-[3px] bg-light-green lg:w-[444px] lg:h-[6px]" />
 
             <div className="flex flex-row items-start justify-start mt-[25px] gap-[16px] lg:gap-[10px] lg:mt-[40px]">
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild3635-3935-4832-a237-366436323961/equisRecurso_7.svg"
                 className="w-[30px] aspect-square lg:w-[52px]"
               />
@@ -38,7 +38,7 @@ export default function About() {
                 не способен»
               </p>
 
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild3366-3132-4030-b231-313963613339/flecha_curvaRecurso_.svg"
                 className="hidden lg:block -mt-[45px] ml-[20px]"
               />
@@ -49,7 +49,7 @@ export default function About() {
             <div className="w-[230px] h-[3px] bg-dark-green ml-auto mt-[15px] lg:w-[444px] lg:h-[6px] lg:mr-[15px] lg:mt-[0]" />
 
             <div className="flex flex-row items-start justify-end mt-[25px] gap-[12px] w-fit  ml-auto text-right lg:gap-[20px] lg:-translate-x-[85px] lg:mt-[35px]">
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild6239-3965-4861-b532-313133636232/chuloRecurso_5.svg"
                 className="w-[30px] aspect-square lg:w-[52px] lg:translate-y-2"
               />
@@ -59,7 +59,7 @@ export default function About() {
             </div>
 
             <div className="flex flex-row items-start justify-start mt-[55px] gap-[16px] lg:-translate-y-[200px]">
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild6133-3538-4066-b136-336431613766/exclamacion_Recurso_.svg"
                 className="w-[30px] aspect-square lg:w-[52px]"
               />
@@ -154,7 +154,7 @@ export default function About() {
             className="w-full mb-[150px] lg:w-[1000px] lg:mx-auto"
           >
             <SwiperSlide>
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild3064-6165-4733-b534-613930366161/1.svg"
                 className="h-[90px] aspect-square mx-auto mt-[90px]"
               />
@@ -169,7 +169,7 @@ export default function About() {
               </p>
             </SwiperSlide>
             <SwiperSlide>
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild3834-3566-4861-b431-363235636533/2.svg"
                 className="h-[90px] aspect-square mx-auto mt-[90px]"
               />
@@ -188,7 +188,7 @@ export default function About() {
               </p>
             </SwiperSlide>
             <SwiperSlide>
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild3035-3465-4864-b237-643161393233/3.svg"
                 className="h-[90px] aspect-square mx-auto mt-[90px]"
               />
@@ -203,7 +203,7 @@ export default function About() {
               </p>
             </SwiperSlide>
             <SwiperSlide>
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild3031-3637-4334-a461-346530613661/4.svg"
                 className="h-[90px] aspect-square mx-auto mt-[90px]"
               />
@@ -219,7 +219,7 @@ export default function About() {
         ) : (
           <div className="grid grid-cols-2 w-[900px] mx-auto mb-[190px]">
             <div className="w-[350px] flex flex-col items-start justify-start">
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild3064-6165-4733-b534-613930366161/1.svg"
                 className="h-[90px] aspect-square mx-auto mt-[90px] lg:h-[104px]"
               />
@@ -234,7 +234,7 @@ export default function About() {
               </p>
             </div>
             <div className="w-[350px] flex flex-col items-center justify-start">
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild3834-3566-4861-b431-363235636533/2.svg"
                 className="h-[90px] aspect-square mx-auto mt-[90px] lg:h-[104px]"
               />
@@ -253,7 +253,7 @@ export default function About() {
               </p>
             </div>
             <div className="w-[350px] flex flex-col items-center justify-start">
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild3035-3465-4864-b237-643161393233/3.svg"
                 className="h-[90px] aspect-square mx-auto mt-[90px] lg:h-[104px]"
               />
@@ -268,7 +268,7 @@ export default function About() {
               </p>
             </div>
             <div className="w-[350px] flex flex-col items-center justify-start">
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild3031-3637-4334-a461-346530613661/4.svg"
                 className="h-[90px] aspect-square mx-auto mt-[90px] lg:h-[104px]"
               />
@@ -289,7 +289,7 @@ export default function About() {
           </h1>
           <div className="lg:w-[805px] lg:mx-auto lg:grid lg:grid-cols-2 lg:gap-[100px]">
             <div className="relative flex flex-col mt-[55px]">
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild3833-3936-4464-a239-393036623066/Anastasia.svg"
                 className="w-full lg:h-[350px] lg:w-[350px] lg:object-cover lg:object-top"
               />
@@ -310,7 +310,7 @@ export default function About() {
               </p>
             </div>
             <div className="relative flex flex-col mt-[55px]">
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild3234-6162-4439-a664-316135393363/Margo.svg"
                 className="w-full lg:h-[350px] lg:w-[350px] lg:object-cover lg:object-top"
               />
@@ -351,35 +351,35 @@ export default function About() {
 
         <div className="grid grid-cols-2 grid-items-center w-full mt-[65px] lg:mt-[85px] lg:flex lg:flex-row lg:items-center lg:justify-between lg:w-[1190px] lg:mx-auto mb-[90px]">
           <div className="border-r-[1px] border-b-[1px] border-[#eee] grid grid-items-center p-[10px] lg:border-none lg:relative">
-            <img
+            <img loading="lazy" 
               src="https://static.tildacdn.com/tild3233-3636-4238-b839-303862633863/omsRecurso_1.svg"
               className="w-4/6 mx-auto my-auto lg:w-[214px] lg:h-[66px]"
             />
           </div>
           <div className="w-[5px] h-[37px] bg-light-green hidden lg:flex" />
           <div className="border-b-[1px] border-[#eee] grid grid-items-center p-[10px] lg:border-none lg:relative">
-            <img
+            <img loading="lazy" 
               src="https://static.tildacdn.com/tild6631-3766-4465-b933-623136653464/cruzRecurso_2.svg"
               className="w-1/2 my-auto mx-auto lg:w-[66px] lg:h-[71px]"
             />
           </div>
           <div className="w-[5px] h-[37px] bg-light-green hidden lg:flex" />
           <div className="border-r-[1px] border-b-[1px] border-[#eee] grid grid-items-center p-[10px] lg:border-none lg:relative">
-            <img
+            <img loading="lazy" 
               src="https://static.tildacdn.com/tild6365-6433-4363-b932-646663363464/onuRecurso_5.svg"
               className="w-1/2 mx-auto my-auto lg:w-[68px] lg:h-[68px]"
             />
           </div>
           <div className="w-[5px] h-[37px] bg-light-green hidden lg:flex" />
           <div className="border-b-[1px] border-[#eee] grid grid-items-center p-[10px] lg:border-none lg:relative">
-            <img
+            <img loading="lazy" 
               src="https://static.tildacdn.com/tild6166-3262-4761-a166-313565383861/apa_2Recurso_4.svg"
               className="w-1/2 my-auto mx-auto lg:w-[170px] lg:h-[65px]"
             />
           </div>
           <div className="w-[5px] h-[37px] bg-light-green hidden lg:flex" />
           <div className="border-r-[1px] border-[#eee] grid grid-items-center p-[10px] lg:border-r-0">
-            <img
+            <img loading="lazy" 
               src="https://static.tildacdn.com/tild6661-6534-4139-b963-346265643561/apaRecurso_3.svg"
               className="w-1/2 my-auto mx-auto lg:w-[175px] lg:h-[58px]"
             />
@@ -387,7 +387,7 @@ export default function About() {
         </div>
 
         <div className="bg-[#5d6541] w-full pt-[115px] px-[15px] pb-[110px] lg:flex lg:flex-row lg:items-center lg:justify-center lg:gap-[50px] lg:pt-[160px] lg:pb-[100px] relative lg:px-0">
-          <img
+          <img loading="lazy" 
             src="https://static.tildacdn.com/tild3532-3737-4839-b939-333561393765/anasRecurso_7.svg"
             className="w-[285px] aspect-square mx-auto lg:w-[313px] lg:mx-0 lg:-ml-[100px]"
           />
@@ -407,7 +407,7 @@ export default function About() {
             </p>
           </div>
 
-          <img
+          <img loading="lazy" 
             src="https://static.tildacdn.com/tild3433-3735-4337-b335-656635323532/logo_mundo_Recurso_8.svg"
             className="absolute top-0 right-[400px] w-[120px] h-[150px] hidden lg:block"
           />
@@ -424,7 +424,7 @@ export default function About() {
             </p>
           </div>
           <div>
-            <img
+            <img loading="lazy" 
               src="https://static.tildacdn.com/tild3738-6134-4634-a165-376139306164/logo_Recurso_10.svg"
               className="w-[266px] mx-auto mt-2 lg:w-[362px] lg:h-[98px]"
             />
@@ -445,14 +445,14 @@ export default function About() {
           </ul>
           <div className="flex flex-row items-center justify-start my-[25px] gap-[25px] ">
             <a href="">
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild3861-3130-4963-b765-363763656635/bx_bxl-instagram_1.svg"
                 alt=""
                 className="w-[27px] aspect-square scale-[129%] "
               />
             </a>
             <a href="">
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild6437-3436-4132-a635-366431303666/la_telegram-plane_1.svg"
                 className="w-[27px] aspect-square scale-[129%]"
               />
@@ -488,7 +488,7 @@ export default function About() {
             .
           </p>
           <div className="lg:w-[120px]">
-            <img
+            <img loading="lazy" 
               src="https://static.tildacdn.com/tild3435-3837-4333-a635-316163306165/Asset_410x.svg"
               className="w-[80px] h-[40px] scale-[129%] mt-[65px] ml-4 lg:scale-100 lg:w-[104px] lg:h-[51px] lg:mt-0"
             />
@@ -511,14 +511,14 @@ export default function About() {
           </ul>
           <div className="flex flex-row items-center justify-start my-[25px] gap-[25px] lg:hidden">
             <a href="">
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild3861-3130-4963-b765-363763656635/bx_bxl-instagram_1.svg"
                 alt=""
                 className="w-[27px] aspect-square scale-[129%]"
               />
             </a>
             <a href="">
-              <img
+              <img loading="lazy" 
                 src="https://static.tildacdn.com/tild6437-3436-4132-a635-366431303666/la_telegram-plane_1.svg"
                 className="w-[27px] aspect-square scale-[129%]"
               />
@@ -554,7 +554,7 @@ export default function About() {
             .
           </p>
           <div className="lg:w-[400px]">
-            <img
+            <img loading="lazy" 
               src="https://static.tildacdn.com/tild3435-3837-4333-a635-316163306165/Asset_410x.svg"
               className="w-[80px] h-[40px] scale-[129%] mt-[65px] ml-4 lg:scale-100 lg:w-[124px] lg:h-[51px] lg:mt-4 lg:ml-0"
             />

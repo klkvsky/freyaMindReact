@@ -3,42 +3,44 @@ import { Link } from "react-router-dom";
 export default function IndexJumbo() {
   return (
     // <div className="flex flex-col lg:max-w-[1200px] lg:mx-auto lg:mt-[70px] bg-[#CCCC9F]">
-    <div className="flex flex-col lg:px-[256px] lg:pt-[70px] bg-[#CCCC9F]">
-      <nav className="flex flex-row items-center justify-start h-[140px] w-full gap-[18px] cursor-pointer z-50 px-[20px]">
+    <div className="flex flex-col lg:pt-[70px] bg-[#CCCC9F]">
+      <nav className="flex flex-row items-start justify-start h-[140px] w-full gap-[18px] cursor-pointer z-50 px-[20px] lg:max-w-[1400px] lg:mx-auto lg:gap-[108px] mt-[35px]">
         <Link
           to="/"
-          className="cursor-pointer z-50 font-bold text-[42px] text-white lg:flex flex-row items-center justify-start gap-[50px] lg:text-[66px]"
+          className="cursor-pointer z-50 font-bold text-[42px] text-white lg:flex flex-row items-center justify-start gap-[70px] lg:text-[66px] lg:leading-[48px] lg:ml-auto lg:pl-[20px]"
         >
-          <img loading="lazy" 
+          <img
+            loading="lazy"
             src="https://static.tildacdn.com/tild3533-3535-4537-a338-356262353638/Freya_Logo.svg"
             className="hidden lg:block lg:w-[104px] lg:h-[51px]"
           />
           О НАС
         </Link>
 
-        <ul className="hidden lg:flex flex-row items-center jusitfy-between uppercase text-[18px] font-light lg:w-[712px] leading-[28px] gap-[45px] ml-auto whitespace-nowrap lg:text-white pb-[50px] -mr-[30px]">
+        <ul className="hidden lg:flex flex-row items-center jusitfy-between uppercase text-[18px] font-light lg:w-[790px] leading-[28px] gap-[30px] lg:text-white mr-auto whitespace-nowrap">
           <Link to="/aboutus" className="font-bold">
             О нас
           </Link>
           <Link to="/therapy">Цена</Link>
-          <Link to="/eatingdisorder">РПП</Link>
+          <Link to="/eatingdisorder">Помогаем</Link>
           <Link to="/livestream">Онлайн События</Link>
           <Link to="/contactus">Свяжитесь с нами</Link>
         </ul>
       </nav>
-      <div className="flex flex-row items-end lg:items-center justify-start gap-[18px] lg:mt-[60px]">
-        <img loading="lazy" 
+      <div className="flex flex-row items-end lg:items-center justify-start gap-[18px] lg:mt-[60px] lg:max-w-[1400px] lg:mx-auto">
+        <img
+          loading="lazy"
           src="https://thumb.tildacdn.com/tild6563-6637-4461-b132-313733393763/-/format/webp/imagen_2022-06-08_10.png"
           className="w-screen h-[54.8vh] object-cover absolute top-0 left-0 lg:right-0 lg:mx-auto lg:w-[1400px] lg:h-[836px]"
         />
-        <div className="flex flex-col relative bg-light-green lg:bg-transparent w-full mt-[35.8vh] px-[20px] pb-[125px] lg:mt-[470px]">
-          <div className="bg-white w-min pl-[39px] pr-[18px] py-[35px] text-[32px] font-bold text-dark-green absolute -top-[80px] right-0 rounded-tl-[40px] leading-[42px] lg:w-[594px] lg:h-[258px] lg:rounded-tl-[80px] lg:text-[40px] lg:pl-[70px] lg:py-[45px] lg:right-[85px] lg:leading-[50px]">
+        <div className="flex flex-col relative bg-light-green lg:bg-transparent w-full mt-[35.8vh] px-[20px] pb-[125px] lg:mt-[470px] ">
+          <div className="bg-white w-min pl-[39px] pr-[18px] py-[35px] text-[32px] font-bold text-dark-green absolute -top-[80px] right-0 rounded-tl-[40px] leading-[42px] lg:w-[594px] lg:h-[258px] lg:rounded-tl-[80px] lg:text-[40px] lg:pl-[70px] lg:py-[45px] lg:right-[185px] lg:-top-[120px] lg:leading-[50px]">
             <h1>КОГНИТИВНО-ПОЕВЕДЕНЧЕСКАЯ ТЕРАПИЯ И ВЫ:</h1>
           </div>
-          <p className="text-[16px] text-dark-green font-semibold scale-[129%] mt-[160px] w-5/6 mx-auto text-center lg:scale-100 lg:text-[18px] lg:mt-[115px] lg:ml-[315px]">
+          <p className="text-[16px] text-dark-green font-semibold scale-[129%] mt-[160px] w-5/6 mx-auto text-center lg:scale-100 lg:text-[18px] lg:mt-[80px] lg:ml-[190px]">
             Почему стоит выбрать терапию вместе с нами?
           </p>
-          <div className="lg:ml-[60px] lg:flex lg:flex-row lg:items-start lg:justify-start lg:gap-[65px]">
+          <div className="lg:ml-[60px] lg:flex lg:flex-row lg:items-start lg:justify-start lg:gap-[65px] lg:max-w-[1045px] lg:mx-auto ">
             <div>
               <div className="bg-dark-green w-[89px] h-[6px] mt-[100px] scale-[129%] ml-[8px] lg:w-[88px] lg:scale-100 lg:h-[6px] lg:ml-0 lg:mt-[115px]"></div>
 

@@ -46,7 +46,7 @@ export default function FeedbackComponent(prop) {
             <option value="Тревожность ">Тревожность </option>
             <option value="Бессонница">Бессонница</option>
             <option value="Депрессия ">Депрессия </option>
-            <option value="РПП">РПП</option>
+            <option value="Помогаем">Помогаем</option>
             <option value="Зависимость ">Зависимость </option>
             <option value="Созависимость ">Созависимость </option>
             <option value="Не понимаю, но нужна помощь">

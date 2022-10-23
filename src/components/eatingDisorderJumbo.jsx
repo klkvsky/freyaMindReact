@@ -17,7 +17,7 @@ export default function IndexJumbo() {
         <ul className="hidden lg:flex flex-row items-center jusitfy-between uppercase text-[18px] font-light lg:w-[712px] leading-[28px] gap-[45px] ml-auto whitespace-nowrap">
           <Link to="/aboutus">О нас</Link>
           <Link to="/therapy">Цена</Link>
-          <Link to="/eatingdisorder">РПП</Link>
+          <Link to="/eatingdisorder">Помогаем</Link>
           <Link to="/livestream">Онлайн События</Link>
           <Link to="/contactus">Свяжитесь с нами</Link>
         </ul>
@@ -30,7 +30,7 @@ export default function IndexJumbo() {
 
         <div className="relative z-10 px-[20px] mt-[230px]">
           <h1 className="text-[30.5px] font-bold">
-            РПП — ЭТО <br />
+            Помогаем — ЭТО <br />
             НЕ НАВСЕГДА!
           </h1>
 

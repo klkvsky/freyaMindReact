@@ -14,18 +14,18 @@ export default function Navbar() {
         }}
       >
         <div
-          className={`w-[28px] h-[3px] bg-black rounded-full lg:group-hover:bg-black transition-all duration-300 ${
-            isOpen && "translate-y-[6px] -rotate-45 bg-black opacity-0 "
+          className={`w-[28px] h-[3px] bg-white rounded-full lg:group-hover:bg-black transition-all duration-300 ${
+            isOpen && "translate-y-[6px] -rotate-45 bg-white opacity-0 "
           }`}
         />
         <div
-          className={`w-[28px] h-[3px] bg-black rounded-full lg:group-hover:bg-black transition-all duration-300 ${
-            isOpen && "rotate-45 bg-black"
+          className={`w-[28px] h-[3px] bg-white rounded-full lg:group-hover:bg-black transition-all duration-300 ${
+            isOpen && "rotate-45 bg-white"
           }`}
         />
         <div
-          className={`w-[28px] h-[3px] bg-black rounded-full lg:group-hover:bg-black transition-all duration-300 ${
-            isOpen && "-translate-y-[8px] -rotate-45 bg-black"
+          className={`w-[28px] h-[3px] bg-white rounded-full lg:group-hover:bg-black transition-all duration-300 ${
+            isOpen && "-translate-y-[8px] -rotate-45 bg-white"
           }`}
         />
       </button>

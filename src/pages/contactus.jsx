@@ -1,6 +1,6 @@
 // import { useState, useRef } from "react";
 //
-import Navbar from "../components/navbar";
+import Navbar from "../components/navbarForContactUs";
 import ContactJumbo from "../components/contactJumbo";
 import Feedback from "../components/feedbackComponent";
 

@@ -51,7 +51,7 @@ export default function IndexJumbo() {
           </Link>
         </ul>
       </div>
-      <div className="flex flex-row items-end lg:items-center justify-start gap-[18px] lg:mt-[60px] lg:gap-[25px]">
+      <Link to="/aboutus" className="flex flex-row items-end lg:items-center justify-start gap-[18px] lg:mt-[60px] lg:gap-[25px]">
         <img
           loading="lazy"
           src="https://static.tildacdn.com/tild6238-6130-4433-a239-396534626433/logo__2Recurso_4.svg"
@@ -60,8 +60,8 @@ export default function IndexJumbo() {
         <span className="text-[13px] font-light mt-[50px] uppercase w-6/12 lg:text-[26px] lg:normal-case lg:w-[457px] lg:leading-8 lg:mt-0">
           Европейский опыт психотерапии у тебя в кармане
         </span>
-      </div>
-      <div className="mt-[28px] lg:mt-[62px] lg:flex lg:flex-row lg:items-start">
+      </Link>
+      <Link to="/aboutus" className="mt-[28px] lg:mt-[62px] lg:flex lg:flex-row lg:items-start">
         <a className="text-[43px] font-light leading-[42px] lg:text-[57px] lg:leading-[57px]">
           Время<strong> </strong>решать
           <br />
@@ -88,7 +88,7 @@ export default function IndexJumbo() {
             className="w-[750px] h-[497px] absolute bottom-[40px] right-[65px] lg:-top-[205px] lg:right-[165px] object-cover  object-right lg:opacity-0 lg:peer-hover:opacity-100 transition-all duration-500"
           />
         </div>
-      </div>
+      </Link>
       <img
         loading="lazy"
         src="https://static.tildacdn.com/tild3263-3532-4036-b138-323763383136/Arrow_down.svg"

@@ -33,7 +33,7 @@ export default function IndexJumbo() {
         <img
           loading="lazy"
           src="https://static.tildacdn.com/tild6166-6663-4334-b636-363231386633/Dr-Anna.svg"
-          className="w-screen h-[802px] object-cover absolute top-0 left-0 z-0 lg:right-0 lg:mx-auto lg:w-[1556px] lg:h-[835px] lg:object-[50%,10%]"
+          className="w-screen h-[802px] object-cover absolute top-0 left-0 z-0 lg:right-0 lg:mx-auto lg:w-[1556px] lg:h-[835px] lg:object-[50%,10%] bg-neutral-100"
         />
 
         <div className="flex flex-col z-10 relative mt-[160px] lg:flex-row-reverse lg:gap-[160px] lg:mt-[35px] lg:ml-[130px]">

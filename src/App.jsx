@@ -1,27 +1,23 @@
-// import Navbar from "./components/navbar";
-// import IndexJumbo from "./components/indexJumbo";
-//
-// import { Pagination, Navigation } from "swiper";
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import "swiper/css";
-// import "swiper/css/pagination";
-// import "swiper/css/navigation";
-//
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Therapy from "./pages/therapy";
 import ContactUs from "./pages/contactus";
-import EatingDisorder from "./pages/eatingdisorder";
+import Privacy from "./pages/privacy";
+import PersonalPrivacy from "./pages/personalPrivacy";
+import FreeTherapy from "./pages/freetherapy";
 
 export default function App() {
   return (
     <div className="w-screen overflow-hidden">
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/" element={<Home />} title="Freya Mind"></Route>
         <Route path="/aboutus" element={<About />}></Route>
         <Route path="/therapy" element={<Therapy />}></Route>
         <Route path="/contactus" element={<ContactUs />}></Route>
+        <Route path="/privacy" element={<Privacy />}></Route>
+        <Route path="/personal" element={<PersonalPrivacy />}></Route>
+        <Route path="/freetherapy" element={<FreeTherapy />}></Route>
       </Routes>
     </div>
     // <div className="w-screen overflow-hidden">

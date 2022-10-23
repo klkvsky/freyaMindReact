@@ -7,7 +7,7 @@ export default function IndexJumbo() {
       <nav className="flex flex-row items-center justify-start h-[140px] w-full gap-[18px] cursor-pointer z-50 px-[40px] text-white">
         <Link
           to="/"
-          className="flex flex-row items-center justify-start h-[100px] gap-[18px] cursor-pointer z-50 ml-[30px] w-[300px] lg:items-start lg:-ml-[40px]"
+          className="flex flex-row items-center justify-start h-[100px] gap-[18px] cursor-pointer z-50 ml-[0px] w-[300px] lg:items-start lg:-ml-[40px]"
         >
           <img
             loading="lazy"

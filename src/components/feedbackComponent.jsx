@@ -1,3 +1,9 @@
+import {
+  ActiveCampaignInputs,
+  handleActiveCampaignSubmit,
+} from "active-campaign-react";
+import { useForm } from "react-hook-form";
+//
 import { useState } from "react";
 //
 import { useLocation } from "react-router-dom";
@@ -5,7 +11,7 @@ import { useLocation } from "react-router-dom";
 import PI from "react-phone-input-2";
 const ReactPhoneInput = PI.default ? PI.default : PI;
 import "react-phone-input-2/lib/plain.css";
-
+//
 export default function FeedbackComponent(prop) {
   function sumbitFunc() {
     console.log("sumbitFunc");
@@ -15,6 +21,19 @@ export default function FeedbackComponent(prop) {
   //
   const [submited, isSubmited] = useState(false);
   const location = useLocation();
+  //
+  const { register, handleSubmit } = useForm();
+  const formId = "_form_6_";
+  //
+  function onSubmit(event) {
+    event.preventDefault()
+    const data = new FormData(event.target);
+    fetch("https://sobakipavlova23493.activehosted.com/f/embed.php?id=6", {
+      method: "POST",
+      body: data,
+      mode: "no-cors",
+    }).catch((error) => console.log("Request failed", error));
+  }
   return (
     <div>
       {submited && (
@@ -39,13 +58,13 @@ export default function FeedbackComponent(prop) {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="currentColor"
-                class="w-6 h-6"
+                className="w-6 h-6"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M6 18L18 6M6 6l12 12"
                 />
               </svg>
@@ -54,13 +73,13 @@ export default function FeedbackComponent(prop) {
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="currentColor"
-              class="w-[80px] aspect-square stroke-green-400"
+              className="w-[80px] aspect-square stroke-green-400"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
               />
             </svg>
@@ -76,8 +95,10 @@ export default function FeedbackComponent(prop) {
         onSubmit={(e) => {
           e.preventDefault();
           sumbitFunc();
+          onSubmit(e);
         }}
       >
+        {/* <ActiveCampaignInputs formId={formId} /> */}
         <input
           type="text"
           name="name"
@@ -85,6 +106,7 @@ export default function FeedbackComponent(prop) {
           className="border-[1px] w-full border-[#9e9e9e] rounded-[5px] text-[16px] h-[40px] px-[20px] lg:h-[50px]"
           id={`${location.pathname}-name`}
           required
+          // {...register("name", { required: true })}
         />
         <input
           type="mail"
@@ -94,12 +116,14 @@ export default function FeedbackComponent(prop) {
           id={`${location.pathname}-mail`}
           required
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+          // {...register("email", { required: true })}
         />
         <ReactPhoneInput
           country={"ru"}
           className="rounded-[5px] overflow-hidden lg:bg-red-500 lg:overflow-visible lg:rounded-[15px]"
           id={`${location.pathname}-phone`}
           required
+          // {...register("phone", { required: true })}
         />
         {prop.disable != 4 && (
           <select
@@ -116,6 +140,7 @@ export default function FeedbackComponent(prop) {
             className="px-[15px] bg-white shadow-none appearance-none"
             id={`${location.pathname}-select`}
             required
+            // {...register("troubles", { required: true })}
           >
             <option value="">Что вас беспокоит?</option>
             <option value="Взаимоотношения с родителями ">
@@ -140,6 +165,7 @@ export default function FeedbackComponent(prop) {
           className="bg-[#5d6541] text-white text-[14px] font-semibold h-[50px] px-[15px] roun
           ded-full w-full uppercase"
           id={`${location.pathname}-feedbackButton`}
+          type="submit"
         >
           Оставить запрос
         </button>

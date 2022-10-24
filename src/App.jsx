@@ -8,44 +8,10 @@ import ContactUs from "./pages/contactus";
 import Privacy from "./pages/privacy";
 import PersonalPrivacy from "./pages/personalPrivacy";
 import FreeTherapy from "./pages/freetherapy";
-//
-import * as fbq from "./components/fbpixel";
-
+// 
 export default function App() {
-
-  // useEffect(() => {
-  //   // This pageview only triggers the first time (it's important for Pixel to have real information)
-  //   fbq.pageview();
-
-  //   const handleRouteChange = () => {
-  //     fbq.pageview();
-  //   };
-
-  //   router.events.on("routeChangeComplete", handleRouteChange);
-  //   return () => {
-  //     router.events.off("routeChangeComplete", handleRouteChange);
-  //   };
-  // }, [router.events]);
-  // fbq.pageview();
   return (
     <div className="w-screen overflow-hidden">
-      <script
-        id="fb-pixel"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', ${fbq.FB_PIXEL_ID});
-          `,
-        }}
-      />
       <Routes>
         <Route path="/" element={<Home />} title="Freya Mind"></Route>
         <Route path="/aboutus" element={<About />}></Route>

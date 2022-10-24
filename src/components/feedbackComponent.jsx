@@ -13,27 +13,22 @@ const ReactPhoneInput = PI.default ? PI.default : PI;
 import "react-phone-input-2/lib/plain.css";
 //
 export default function FeedbackComponent(prop) {
-  function sumbitFunc() {
+  function sumbitFunc(event) {
     console.log("sumbitFunc");
     fbq("track", "Lead");
     isSubmited(true);
-  }
-  //
-  const [submited, isSubmited] = useState(false);
-  const location = useLocation();
-  //
-  const { register, handleSubmit } = useForm();
-  const formId = "_form_6_";
-  //
-  function onSubmit(event) {
-    event.preventDefault()
-    const data = new FormData(event.target);
+    //
+    const data = new FormData(event.target.value);
     fetch("https://sobakipavlova23493.activehosted.com/f/embed.php?id=6", {
       method: "POST",
       body: data,
       mode: "no-cors",
     }).catch((error) => console.log("Request failed", error));
   }
+  //
+  const [submited, isSubmited] = useState(false);
+  const location = useLocation();
+  //
   return (
     <div>
       {submited && (
@@ -94,8 +89,7 @@ export default function FeedbackComponent(prop) {
         id={`${location.pathname}-form`}
         onSubmit={(e) => {
           e.preventDefault();
-          sumbitFunc();
-          onSubmit(e);
+          sumbitFunc(e);
         }}
       >
         {/* <ActiveCampaignInputs formId={formId} /> */}

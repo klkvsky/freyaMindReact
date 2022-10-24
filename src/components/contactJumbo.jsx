@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 import FeedbackComponent from "./feedbackComponent";
+// 
+import LogoWhite from "../assets/Website Assets /logo-white.svg"
+import JumboImage from "../assets/Website Assets /Contact Us Page/Dr-Anna.svg"
 
 export default function IndexJumbo() {
   return (
@@ -11,7 +14,7 @@ export default function IndexJumbo() {
         >
           <img
             loading="lazy"
-            src="https://static.tildacdn.com/tild3538-3364-4365-a534-616439623633/logoRecurso_1.svg"
+            src={LogoWhite}
             className="h-[45px] w-[92px] lg:w-[106px] lg:h-[52px] lg:mt-[15px]"
           />
           <span className="text-[30px] leading-8 text-white font-bold uppercase w-6/12 lg:text-[54px] lg:leading-[68px] lg:w-10/12">
@@ -32,7 +35,7 @@ export default function IndexJumbo() {
       <div className="flex flex-col items-end lg:items-center justify-start gap-[18px] lg:mt-[60px] lg:max-w-[1556px] lg:mx-auto">
         <img
           loading="lazy"
-          src="https://static.tildacdn.com/tild6166-6663-4334-b636-363231386633/Dr-Anna.svg"
+          src={JumboImage}
           className="w-screen h-[802px] object-cover absolute top-0 left-0 z-0 lg:right-0 lg:mx-auto lg:w-[1556px] lg:h-[835px] lg:object-[50%,10%] bg-neutral-100"
         />
 

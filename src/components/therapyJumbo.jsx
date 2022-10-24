@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 import Feedback from "../components/feedbackComponent";
+// 
+import LogoWhite from "../assets/Website Assets /logo-white.svg"
+import JumboImage from "../assets/Website Assets /Price Page/ARK_4119.jpg"
 export default function IndexJumbo() {
   return (
     <div className="flex flex-col lg:w-[1200px] lg:mx-auto lg:mt-[70px]">
@@ -9,7 +12,7 @@ export default function IndexJumbo() {
           className="cursor-pointer z-50 font-bold text-[42px] text-white lg:flex flex-row items-center justify-start gap-[50px] lg:text-[60px] lg:-ml-[19px] lg:-mt-[25px] lg:uppercase lg:gap-[30px]"
         >
           <img loading="lazy" 
-            src="https://static.tildacdn.com/tild3533-3535-4537-a338-356262353638/Freya_Logo.svg"
+            src={LogoWhite}
             className="hidden lg:block lg:w-[104px] lg:h-[51px]"
           />
           Цена
@@ -27,7 +30,7 @@ export default function IndexJumbo() {
       </nav>
       <div className="flex flex-col lg:max-w-[1556px] lg:mx-auto">
         <img loading="lazy" 
-          src="https://thumb.tildacdn.com/tild3433-3834-4161-b566-306162353937/-/format/webp/d9275728-6251-4827-b.png"
+          src={JumboImage}
           className="w-screen h-[54.8vh] object-cover absolute object-[75%,50%] lg:object-center top-0 left-0 lg:right-0 lg:max-w-[1648px] lg:mx-auto lg:h-[889px]"
         />
       </div>

@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/navbar";
 import TherapyJumbo from "../components/therapyJumbo";
 import Feedback from "../components/feedbackComponent";
+// 
+import FooterImage from "../assets/Website Assets /Price Page/wholeFooterImage.svg"
+import footerLogo from "../assets/Website Assets /About Us Page/freyaGreenFooterLogo.svg"
 
 export default function About() {
   return (
@@ -327,7 +330,7 @@ export default function About() {
           <div>
             <img
               loading="lazy"
-              src="https://static.tildacdn.com/tild6437-6132-4261-b731-353762653032/Asset_1.svg"
+              src={FooterImage}
               className="w-[266px] mx-auto mt-2 lg:w-[362px] lg:h-[98px]"
             />
 
@@ -413,7 +416,7 @@ export default function About() {
           <div className="lg:w-[400px]">
             <img
               loading="lazy"
-              src="https://static.tildacdn.com/tild3435-3837-4333-a635-316163306165/Asset_410x.svg"
+              src={footerLogo}
               className="w-[80px] h-[40px] scale-[129%] mt-[65px] ml-4 lg:scale-100 lg:w-[124px] lg:h-[51px] lg:mt-4 lg:ml-0"
             />
             <p className="mt-[15px] font-light text-[16px] lg:text-[18px] lg:whitespace-nowrap lg:ml-2">

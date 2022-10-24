@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/navbarForContactUs";
 import ContactJumbo from "../components/contactJumbo";
 import Feedback from "../components/feedbackComponent";
+// 
+import footerLogo from "../assets/Website Assets /About Us Page/freyaGreenFooterLogo.svg"
 
 export default function About() {
   return (
@@ -100,7 +102,7 @@ export default function About() {
           <div className="lg:w-[400px]">
             <img
               loading="lazy"
-              src="https://static.tildacdn.com/tild3435-3837-4333-a635-316163306165/Asset_410x.svg"
+              src={footerLogo}
               className="w-[80px] h-[40px] scale-[129%] mt-[65px] ml-4 lg:scale-100 lg:w-[124px] lg:h-[51px] lg:mt-4 lg:ml-0"
             />
             <p className="mt-[15px] font-light text-[16px] lg:text-[18px] lg:whitespace-nowrap lg:ml-2">

@@ -10,6 +10,31 @@ import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+//
+import Bullet1 from "../assets/Website Assets /About Us Page/Section 2/Bullet 2.1.svg";
+import Arrow from "../assets/Website Assets /About Us Page/Section 2/Arrow 2.svg";
+import Bullet2 from "../assets/Website Assets /About Us Page/Section 2/Bullet 2.3.svg";
+import Bullet3 from "../assets/Website Assets /About Us Page/Section 2/Bullet 2.2.svg";
+//
+import Item1URL from "../assets/Website Assets /About Us Page/Section 4/S 4 Item 1.svg";
+import Item2URL from "../assets/Website Assets /About Us Page/Section 4/S 4 Item 2.svg";
+import Item3URL from "../assets/Website Assets /About Us Page/Section 4/S 4 Item 3.svg";
+import Item4URL from "../assets/Website Assets /About Us Page/Section 4/S4 Item 4.svg";
+//
+import Anastasia from "../assets/Website Assets /About Us Page/Section 5/AnastasiaOld.svg";
+import Margo from "../assets/Website Assets /About Us Page/Section 5/margoOld.svg";
+//
+import ins1 from "../assets/Website Assets /Home Page/Section 5/Institution 1.svg";
+import ins2 from "../assets/Website Assets /Home Page/Section 5/Institution 2.svg";
+import ins3 from "../assets/Website Assets /Home Page/Section 5/Institution 3.svg";
+import ins4 from "../assets/Website Assets /Home Page/Section 5/Institution 4.svg";
+import ins5 from "../assets/Website Assets /About Us Page/Section 6/Institution 5.svg"
+// 
+import Anastasia1 from "../assets/Website Assets /About Us Page/Section 7/Anastasia Img.svg"
+import Bage from "../assets/Website Assets /About Us Page/Section 7/Bage.svg"
+// 
+import footerImage from "../assets/Website Assets /About Us Page/Section 8/wholeImage.svg"
+import footerLogo from "../assets/Website Assets /About Us Page/freyaGreenFooterLogo.svg"
 
 export default function About() {
   return (
@@ -38,7 +63,7 @@ export default function About() {
             <div className="flex flex-row items-start justify-start mt-[25px] gap-[16px] lg:gap-[10px] lg:mt-[40px]">
               <img
                 loading="lazy"
-                src="https://static.tildacdn.com/tild3635-3935-4832-a237-366436323961/equisRecurso_7.svg"
+                src={Bullet1}
                 className="w-[30px] aspect-square lg:w-[52px]"
               />
               <p className="text-light-green text-[20px] font-bold lg:text-[38px] lg:w-[450px] lg:leading-[48px]">
@@ -48,7 +73,7 @@ export default function About() {
 
               <img
                 loading="lazy"
-                src="https://static.tildacdn.com/tild3366-3132-4030-b231-313963613339/flecha_curvaRecurso_.svg"
+                src={Arrow}
                 className="hidden lg:block -mt-[45px] ml-[20px] max-w-[293px] aspect-square"
               />
             </div>
@@ -60,7 +85,7 @@ export default function About() {
             <div className="flex flex-row items-start justify-end mt-[25px] gap-[12px] w-fit  ml-auto text-right lg:gap-[20px] lg:-translate-x-[85px] lg:mt-[35px]">
               <img
                 loading="lazy"
-                src="https://static.tildacdn.com/tild6239-3965-4861-b532-313133636232/chuloRecurso_5.svg"
+                src={Bullet2}
                 className="w-[30px] aspect-square lg:w-[52px] lg:translate-y-2"
               />
               <p className="text-dark-green w-1/2 text-[20px] font-bold lg:text-[42px] lg:w-[320px] lg:leading-[53px] lg:text-left">
@@ -71,7 +96,7 @@ export default function About() {
             <div className="flex flex-row items-start justify-start mt-[55px] gap-[16px] lg:-translate-y-[200px]">
               <img
                 loading="lazy"
-                src="https://static.tildacdn.com/tild6133-3538-4066-b136-336431613766/exclamacion_Recurso_.svg"
+                src={Bullet3}
                 className="w-[30px] aspect-square lg:w-[52px]"
               />
               <p className="text-black text-[14px] w-4/6 lg:leading-[24px] lg:text-[18px] lg:w-[237px]">
@@ -167,7 +192,7 @@ export default function About() {
             <SwiperSlide>
               <img
                 loading="lazy"
-                src="https://static.tildacdn.com/tild3064-6165-4733-b534-613930366161/1.svg"
+                src={Item1URL}
                 className="h-[90px] aspect-square mx-auto mt-[90px]"
               />
               <h1 className="mt-[50px] text-[28px] font-bold text-center">
@@ -183,7 +208,7 @@ export default function About() {
             <SwiperSlide>
               <img
                 loading="lazy"
-                src="https://static.tildacdn.com/tild3834-3566-4861-b431-363235636533/2.svg"
+                src={Item2URL}
                 className="h-[90px] aspect-square mx-auto mt-[90px]"
               />
               <h1 className="mt-[50px] text-[28px] font-bold text-center">
@@ -203,7 +228,7 @@ export default function About() {
             <SwiperSlide>
               <img
                 loading="lazy"
-                src="https://static.tildacdn.com/tild3035-3465-4864-b237-643161393233/3.svg"
+                src={Item3URL}
                 className="h-[90px] aspect-square mx-auto mt-[90px]"
               />
               <h1 className="mt-[50px] text-[28px] font-bold text-center">
@@ -219,7 +244,7 @@ export default function About() {
             <SwiperSlide>
               <img
                 loading="lazy"
-                src="https://static.tildacdn.com/tild3031-3637-4334-a461-346530613661/4.svg"
+                src={Item4URL}
                 className="h-[90px] aspect-square mx-auto mt-[90px]"
               />
               <h1 className="mt-[50px] text-[28px] font-bold text-center">
@@ -236,7 +261,7 @@ export default function About() {
             <div className="w-[350px] flex flex-col items-start justify-start">
               <img
                 loading="lazy"
-                src="https://static.tildacdn.com/tild3064-6165-4733-b534-613930366161/1.svg"
+                src={Item1URL}
                 className="h-[90px] aspect-square mx-auto mt-[90px] lg:h-[104px]"
               />
               <h1 className="mt-[50px] text-[28px] font-bold text-center lg:text-[35px] lg:mt-[60px]">
@@ -252,7 +277,7 @@ export default function About() {
             <div className="w-[350px] flex flex-col items-center justify-start">
               <img
                 loading="lazy"
-                src="https://static.tildacdn.com/tild3834-3566-4861-b431-363235636533/2.svg"
+                src={Item2URL}
                 className="h-[90px] aspect-square mx-auto mt-[90px] lg:h-[104px]"
               />
               <h1 className="mt-[50px] text-[28px] font-bold text-center lg:text-[35px] lg:mt-[60px]">
@@ -272,7 +297,7 @@ export default function About() {
             <div className="w-[350px] flex flex-col items-center justify-start">
               <img
                 loading="lazy"
-                src="https://static.tildacdn.com/tild3035-3465-4864-b237-643161393233/3.svg"
+                src={Item3URL}
                 className="h-[90px] aspect-square mx-auto mt-[90px] lg:h-[104px]"
               />
               <h1 className="mt-[50px] text-[28px] font-bold text-center lg:text-[35px] lg:mt-[60px]">
@@ -288,7 +313,7 @@ export default function About() {
             <div className="w-[350px] flex flex-col items-center justify-start">
               <img
                 loading="lazy"
-                src="https://static.tildacdn.com/tild3031-3637-4334-a461-346530613661/4.svg"
+                src={Item4URL}
                 className="h-[90px] aspect-square mx-auto mt-[90px] lg:h-[104px]"
               />
               <h1 className="mt-[50px] text-[28px] font-bold text-center lg:text-[35px] lg:mt-[60px]">
@@ -310,7 +335,7 @@ export default function About() {
             <div className="relative flex flex-col mt-[55px]">
               <img
                 loading="lazy"
-                src="https://static.tildacdn.com/tild3833-3936-4464-a239-393036623066/Anastasia.svg"
+                src={Anastasia}
                 className="w-full lg:h-[350px] lg:w-[350px] lg:object-cover lg:object-top"
               />
               <div className="bg-white pb-[10px] lg:pb-[55px] lg:w-[350px]">
@@ -332,7 +357,7 @@ export default function About() {
             <div className="relative flex flex-col mt-[55px]">
               <img
                 loading="lazy"
-                src="https://static.tildacdn.com/tild3234-6162-4439-a664-316135393363/Margo.svg"
+                src={Margo}
                 className="w-full lg:h-[350px] lg:w-[350px] lg:object-cover lg:object-top"
               />
               <div className="bg-white pb-[10px] lg:pb-[55px]">
@@ -374,7 +399,7 @@ export default function About() {
           <div className="border-r-[1px] border-b-[1px] border-[#eee] grid grid-items-center p-[10px] lg:border-none lg:relative">
             <img
               loading="lazy"
-              src="https://static.tildacdn.com/tild3233-3636-4238-b839-303862633863/omsRecurso_1.svg"
+              src={ins1}
               className="w-4/6 mx-auto my-auto lg:w-[214px] lg:h-[66px]"
             />
           </div>
@@ -382,7 +407,7 @@ export default function About() {
           <div className="border-b-[1px] border-[#eee] grid grid-items-center p-[10px] lg:border-none lg:relative">
             <img
               loading="lazy"
-              src="https://static.tildacdn.com/tild6631-3766-4465-b933-623136653464/cruzRecurso_2.svg"
+              src={ins2}
               className="w-1/2 my-auto mx-auto lg:w-[66px] lg:h-[71px]"
             />
           </div>
@@ -390,7 +415,7 @@ export default function About() {
           <div className="border-r-[1px] border-b-[1px] border-[#eee] grid grid-items-center p-[10px] lg:border-none lg:relative">
             <img
               loading="lazy"
-              src="https://static.tildacdn.com/tild6365-6433-4363-b932-646663363464/onuRecurso_5.svg"
+              src={ins3}
               className="w-1/2 mx-auto my-auto lg:w-[68px] lg:h-[68px]"
             />
           </div>
@@ -398,7 +423,7 @@ export default function About() {
           <div className="border-b-[1px] border-[#eee] grid grid-items-center p-[10px] lg:border-none lg:relative">
             <img
               loading="lazy"
-              src="https://static.tildacdn.com/tild6166-3262-4761-a166-313565383861/apa_2Recurso_4.svg"
+              src={ins4}
               className="w-1/2 my-auto mx-auto lg:w-[170px] lg:h-[65px]"
             />
           </div>
@@ -406,7 +431,7 @@ export default function About() {
           <div className="border-r-[1px] border-[#eee] grid grid-items-center p-[10px] lg:border-r-0">
             <img
               loading="lazy"
-              src="https://static.tildacdn.com/tild6661-6534-4139-b963-346265643561/apaRecurso_3.svg"
+              src={ins5}
               className="w-1/2 my-auto mx-auto lg:w-[175px] lg:h-[58px]"
             />
           </div>
@@ -415,7 +440,7 @@ export default function About() {
         <div className="bg-[#5d6541] w-full pt-[115px] px-[15px] pb-[110px] lg:flex lg:flex-row lg:items-center lg:justify-center lg:gap-[50px] lg:pt-[160px] lg:pb-[100px] relative lg:px-0">
           <img
             loading="lazy"
-            src="https://static.tildacdn.com/tild3532-3737-4839-b939-333561393765/anasRecurso_7.svg"
+            src={Anastasia1}
             className="w-[285px] aspect-square mx-auto lg:w-[313px] lg:mx-0 lg:-ml-[100px]"
           />
           <div className="lg:w-[604px]">
@@ -436,7 +461,7 @@ export default function About() {
 
           <img
             loading="lazy"
-            src="https://static.tildacdn.com/tild3433-3735-4337-b335-656635323532/logo_mundo_Recurso_8.svg"
+            src={Bage}
             className="absolute top-0 right-[400px] w-[120px] h-[150px] hidden lg:block"
           />
         </div>
@@ -454,7 +479,7 @@ export default function About() {
           <div>
             <img
               loading="lazy"
-              src="https://static.tildacdn.com/tild3738-6134-4634-a165-376139306164/logo_Recurso_10.svg"
+              src={footerImage}
               className="w-[266px] mx-auto mt-2 lg:w-[362px] lg:h-[98px]"
             />
 
@@ -603,7 +628,7 @@ export default function About() {
           <div className="lg:w-[400px]">
             <img
               loading="lazy"
-              src="https://static.tildacdn.com/tild3435-3837-4333-a635-316163306165/Asset_410x.svg"
+              src={footerLogo}
               className="w-[80px] h-[40px] scale-[129%] mt-[65px] ml-4 lg:scale-100 lg:w-[124px] lg:h-[51px] lg:mt-4 lg:ml-0 "
             />
             <p className="mt-[15px] font-light text-[16px] lg:text-[18px] lg:whitespace-nowrap lg:ml-2">

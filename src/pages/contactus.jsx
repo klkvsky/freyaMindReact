@@ -11,11 +11,11 @@ export default function About() {
     <div className="w-screen overflow-hidden">
       <Helmet>
         <title>Свяжитесь с нами</title>({" "}
-        <script type="text/javascript">
+        {/* <script type="text/javascript">
           {` var button = document.getElementById('feedbackButton');
           button.addEventListener( 'click', function() {fbq("track", "Lead")},
           false )`}
-        </script>{" "}
+        </script>{" "} */}
         )
       </Helmet>
       <Navbar />

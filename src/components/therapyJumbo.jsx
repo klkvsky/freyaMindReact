@@ -28,7 +28,7 @@ export default function IndexJumbo() {
       <div className="flex flex-col lg:max-w-[1556px] lg:mx-auto">
         <img loading="lazy" 
           src="https://thumb.tildacdn.com/tild3433-3834-4161-b566-306162353937/-/format/webp/d9275728-6251-4827-b.png"
-          className="w-screen h-[54.8vh] object-cover absolute object-[75%,50%] top-0 left-0 lg:right-0 lg:max-w-[1648px] lg:mx-auto lg:h-[889px]"
+          className="w-screen h-[54.8vh] object-cover absolute object-[75%,50%] lg:object-center top-0 left-0 lg:right-0 lg:max-w-[1648px] lg:mx-auto lg:h-[889px]"
         />
       </div>
     </div>

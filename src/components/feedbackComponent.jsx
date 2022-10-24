@@ -70,7 +70,7 @@ export default function FeedbackComponent(prop) {
 
         <button
           className="bg-[#5d6541] text-white text-[14px] font-semibold h-[50px] px-[15px] rounded-full w-full uppercase"
-          id={useId()}
+          id={'feedbackButton'}
         >
           Оставить запрос
         </button>

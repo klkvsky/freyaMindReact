@@ -11,6 +11,19 @@ export default function About() {
     <div className="w-screen overflow-hidden">
       <Helmet>
         <title>Свяжитесь с нами</title>
+        <script type="text/javascript">
+          var button = document.getElementById('feedbackButton');
+          button.addEventListener( 'click', function(){" "}
+          {fbq("track", "Lead", {
+            // content_name: "Really Fast Running Shoes",
+            // content_category: "Apparel & Accessories > Shoes",
+            // content_ids: ["1234"],
+            // content_type: "product",
+            // value: 4.99,
+            // currency: "USD",
+          })}
+          , false );
+        </script>
       </Helmet>
       <Navbar />
       <main className="min-h-[770px]">
@@ -61,7 +74,7 @@ export default function About() {
               </div>
             </li>
           </ul>
-          
+
           <p className="text-[15px] pr-5 font-light mt-[20px] lg:text-[18px]">
             Важный момент. "Freya" — это не скорая психологическая помощь. Если
             у вас серьезные, угрожающие вашей жизни проблемы, которые требуют

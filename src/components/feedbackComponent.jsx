@@ -13,7 +13,7 @@ export default function FeedbackComponent(prop) {
     isSubmited(true);
   }
   //
-  const [submited, isSubmited] = useState(true);
+  const [submited, isSubmited] = useState(false);
   const location = useLocation();
   return (
     <div>

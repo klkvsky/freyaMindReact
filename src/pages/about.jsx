@@ -564,7 +564,7 @@ export default function About() {
               <Link to="/aboutus"> О нас </Link>
             </li>
             <li>
-              <Link to="/therapy"> Терапия </Link>
+              <Link to="/pricing"> Терапия </Link>
             </li>
             <li>Статьи</li>
             <li>Тесты</li>

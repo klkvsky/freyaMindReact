@@ -48,7 +48,7 @@ export default function Navbar() {
             </NavLink>
             <NavLink
               className={(navData) => (navData.isActive ? "font-bold" : "")}
-              to="/therapy"
+              to="/pricing"
             >
               Цена
             </NavLink>

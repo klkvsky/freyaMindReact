@@ -16,7 +16,7 @@ export default function IndexJumbo() {
 
         <ul className="hidden lg:flex flex-row items-center jusitfy-between uppercase text-[18px] font-light lg:w-[712px] leading-[28px] gap-[45px] ml-auto whitespace-nowrap">
           <Link to="/aboutus">О нас</Link>
-          <Link to="/therapy">Цена</Link>
+          <Link to="/pricing">Цена</Link>
           <Link to="/eatingdisorder">Помогаем</Link>
           <a href="http://freyanow.com/affirmations" target="_blank" >НАШИ НОВОСТИ</a>
           <Link to="/contactus">Свяжитесь с нами</Link>

@@ -48,11 +48,18 @@ export default function Navbar() {
             </NavLink>
             <NavLink
               className={(navData) => (navData.isActive ? "font-bold" : "")}
-              to="/therapy"
+              to="/pricing"
             >
               Цена
             </NavLink>
-            <li>
+            <a
+              href="http://freyanow.com/anxiety"
+              target="_blank"
+              className="text-center flex flex-row items-end justify-center gap-[8px]"
+            >
+              Помогаем
+            </a>
+            {/* <li>
               <details>
                 <summary className="text-center flex flex-row items-end justify-center gap-[8px]">
                   Помогаем{" "}
@@ -80,13 +87,14 @@ export default function Navbar() {
                   <div className="w-96 h-px bg-neutral-500 opacity-50"></div>
                 </ul>
               </details>
-            </li>
-            <NavLink
+            </li> */}
+            <a href="http://freyanow.com/affirmations" target="_blank">
+              НАШИ НОВОСТИ
+            </a>
+            {/* <NavLink
               className={(navData) => (navData.isActive ? "font-bold" : "")}
               to="/livestream"
-            >
-              НАШИ НОВОСТИ
-            </NavLink>
+            ></NavLink> */}
             <NavLink
               className={(navData) => (navData.isActive ? "font-bold" : "")}
               to="/contactus"

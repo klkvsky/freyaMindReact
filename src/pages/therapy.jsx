@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/navbar";
 import TherapyJumbo from "../components/therapyJumbo";
 import Feedback from "../components/feedbackComponent";
-// 
-import FooterImage from "../assets/Website Assets /Price Page/wholeFooterImage.svg"
-import footerLogo from "../assets/Website Assets /About Us Page/freyaGreenFooterLogo.svg"
+//
+import FooterImage from "../assets/Website Assets /Price Page/wholeFooterImage.svg";
+import footerLogo from "../assets/Website Assets /About Us Page/freyaGreenFooterLogo.svg";
 
 export default function About() {
   return (
@@ -19,7 +19,7 @@ export default function About() {
       <main>
         <TherapyJumbo />
 
-        <div className="flex flex-col  min-h-screen text-black py-[110px] lg:mt-[700px] mt-[28vh]">
+        <div className="flex flex-col  min-h-screen text-black py-[110px] lg:mt-[700px] mt-[35vh]">
           <h1 className="text-[25px] font-semibold text-center uppercase lg:text-[40px]">
             Планы терапии
           </h1>
@@ -171,9 +171,13 @@ export default function About() {
             ответить на все ваши вопросы.
           </p>
 
-          <button className="bg-black rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[20px] text-white uppercase mx-auto">
+          <a
+            href="https://t.me/freya_mind_bot"
+            target="_blank"
+            className="bg-black rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[20px] text-white uppercase mx-auto grid place-items-center"
+          >
             Узнать больше
-          </button>
+          </a>
 
           <div
             style={{ boxShadow: "2px 2px 4px 5px rgba(171,171,171,0.2)" }}
@@ -191,7 +195,7 @@ export default function About() {
                 <h2 className="text-[40px] font-semibold text-black ml-[12px]">
                   €25
                 </h2>
-                <p className="text-black font-semibold text-[15px] ml-[3px]">
+                <p className="text-black font-semibold text-[15px] ml-[8px]">
                   за <br /> сессию
                 </p>
               </div>
@@ -208,12 +212,20 @@ export default function About() {
               </p>
             </div>
             <div className="lg:w-[276px]">
-              <button className="bg-black rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[50px] lg:mt-[29px] text-white uppercase">
+              <a
+                href="https://t.me/freya_mind_bot"
+                target="_blank"
+                className="bg-black rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[50px] lg:mt-[29px] text-white uppercase grid place-items-center"
+              >
                 Приобрести
-              </button>
-              <button className="bg-white rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[10px] text-black uppercase">
+              </a>
+              <a
+                href="https://t.me/freya_mind_bot"
+                target="_blank"
+                className="bg-white rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[10px] text-black uppercase grid place-items-center"
+              >
                 Узнать больше
-              </button>
+              </a>
               <p className="text-[12px] text-black mt-[10px] text-center">
                 ** при оплате 12 сессий
               </p>
@@ -231,9 +243,9 @@ export default function About() {
                 Улучшите каждую область жизни вместе с нашими специалистами
               </p>
 
-              <button className="bg-white rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[20px] text-black uppercase">
+              <a href="https://t.me/freya_mind_bot" target="_blank"   className="bg-white rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[20px] text-black uppercase grid place-items-center">
                 Узнать больше
-              </button>
+              </a>
             </div>
             <div
               style={{ boxShadow: "2px 2px 4px 5px rgba(171,171,171,0.2)" }}
@@ -268,10 +280,18 @@ export default function About() {
                 волнующие
               </p>
 
-              <a href="https://t.me/freya_mind_bot" target="_blank"  className="bg-black rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[50px] lg:mt-[50px] text-white grid place-items-center">
+              <a
+                href="https://t.me/freya_mind_bot"
+                target="_blank"
+                className="bg-black rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[50px] lg:mt-[50px] text-white grid place-items-center"
+              >
                 СТОИМОСТЬ ТАРИФА 39€
               </a>
-              <a href="https://t.me/freya_mind_bot" target="_blank"  className="bg-white rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[10px] text-black grid place-items-center uppercase">
+              <a
+                href="https://t.me/freya_mind_bot"
+                target="_blank"
+                className="bg-white rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[10px] text-black grid place-items-center uppercase"
+              >
                 Узнать больше
               </a>
             </div>
@@ -306,11 +326,19 @@ export default function About() {
                 почувствуете качественные изменения в жизни уже через 8 сессий.
               </p>
 
-              <a href="https://t.me/freya_mind_bot" target="_blank"  className="bg-black rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[50px] lg:mt-[37px] text-white grid place-items-center">
+              <a
+                href="https://t.me/freya_mind_bot"
+                target="_blank"
+                className="bg-black rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[50px] lg:mt-[37px] text-white grid place-items-center"
+              >
                 СТОИМОСТЬ ТАРИФА 24€
               </a>
 
-              <a href="https://t.me/freya_mind_bot" target="_blank"  className="bg-white rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[10px] text-black grid place-items-center  uppercase uppercase">
+              <a
+                href="https://t.me/freya_mind_bot"
+                target="_blank"
+                className="bg-white rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[10px] text-black grid place-items-center  uppercase uppercase"
+              >
                 Узнать больше
               </a>
             </div>
@@ -351,7 +379,7 @@ export default function About() {
               <Link to="/aboutus"> О нас </Link>
             </li>
             <li>
-              <Link to="/therapy"> Терапия </Link>
+              <Link to="/pricing"> Терапия </Link>
             </li>
             <li>Статьи</li>
             <li>Тесты</li>

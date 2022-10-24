@@ -30,7 +30,7 @@ export default function IndexJumbo() {
             О нас
           </Link>
           <Link
-            to="/therapy"
+            to="/pricing"
             className="hover:scale-125 transition-all duration-500"
           >
             Цена

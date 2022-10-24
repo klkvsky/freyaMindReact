@@ -15,7 +15,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} title="Freya Mind"></Route>
         <Route path="/aboutus" element={<About />}></Route>
-        <Route path="/therapy" element={<Therapy />}></Route>
+        <Route path="/pricing" element={<Therapy />}></Route>
         <Route path="/contactus" element={<ContactUs />}></Route>
         <Route path="/privacy" element={<Privacy />}></Route>
         <Route path="/personal" element={<PersonalPrivacy />}></Route>

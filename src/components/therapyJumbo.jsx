@@ -16,7 +16,7 @@ export default function IndexJumbo() {
             src={LogoWhite}
             className="h-[45px] w-[92px] lg:w-[106px] lg:h-[52px]"
           />
-          <span className="text-[13px] lg:text-[60px] font-bold uppercase w-6/12 lg:w-[228px] leading-[1.35] text-white">
+          <span className="text-[45px] lg:text-[60px] font-bold uppercase w-6/12 lg:w-[228px] leading-[1.35] text-white">
             Цена
           </span>
         </Link>
@@ -29,7 +29,7 @@ export default function IndexJumbo() {
             О нас
           </Link>
           <Link
-            to="/therapy"
+            to="/pricing"
             className="hover:scale-125 transition-all duration-500 font-bold"
           >
             Цена

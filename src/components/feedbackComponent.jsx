@@ -1,7 +1,7 @@
-import {
-  ActiveCampaignInputs,
-  handleActiveCampaignSubmit,
-} from "active-campaign-react";
+// import {
+//   ActiveCampaignInputs,
+//   handleActiveCampaignSubmit,
+// } from "active-campaign-react";
 import { useForm } from "react-hook-form";
 //
 import { useState } from "react";
@@ -13,17 +13,19 @@ const ReactPhoneInput = PI.default ? PI.default : PI;
 import "react-phone-input-2/lib/plain.css";
 //
 export default function FeedbackComponent(prop) {
-  function sumbitFunc(event) {
+  function sumbitFunc(e) {
+    e.preventDefault();
     console.log("sumbitFunc");
     fbq("track", "Lead");
     isSubmited(true);
     //
-    const data = new FormData(event.target.value);
-    fetch("https://sobakipavlova23493.activehosted.com/f/embed.php?id=6", {
-      method: "POST",
-      body: data,
-      mode: "no-cors",
-    }).catch((error) => console.log("Request failed", error));
+    // const data = new FormData(event.target.value);
+    // fetch("https://sobakipavlova23493.activehosted.com/proc.php", {
+    //   method: "POST",
+    //   body: data,
+    //   mode: "no-cors",
+    //   cache: "no-cache",
+    // }).catch((error) => console.log("Request failed", error));
   }
   //
   const [submited, isSubmited] = useState(false);
@@ -88,21 +90,38 @@ export default function FeedbackComponent(prop) {
         className="mt-[50px] w-[300px] flex flex-col gap-[20px] mx-auto lg:w-[362px]"
         id={`${location.pathname}-form`}
         onSubmit={(e) => {
-          e.preventDefault();
           sumbitFunc(e);
         }}
+        method="POST"
+        action="https://sobakipavlova23493.activehosted.com/proc.php"
       >
-        {/* <ActiveCampaignInputs formId={formId} /> */}
+        <input type="hidden" name="u" value="6" />
+        <input type="hidden" name="f" value="6" />
+        <input type="hidden" name="s" />
+        <input type="hidden" name="c" value="0" />
+        <input type="hidden" name="m" value="0" />
+        <input type="hidden" name="act" value="sub" />
+        <input type="hidden" name="v" value="2" />
         <input
+          type="hidden"
+          name="or"
+          value="c38a2a3f2d23f367052f8c8b4a0572d1"
+        />
+        {/* <input
           type="text"
-          name="name"
+          name="fullname"
           placeholder="имя"
           className="border-[1px] w-full border-[#9e9e9e] rounded-[5px] text-[16px] h-[40px] px-[20px] lg:h-[50px]"
           id={`${location.pathname}-name`}
           required
-          // {...register("name", { required: true })}
-        />
+        /> */}
         <input
+          type="text"
+          id="fullname"
+          name="fullname"
+          placeholder="Type your name"
+        />
+        {/* <input
           type="mail"
           name="mail"
           placeholder="e-mail"
@@ -110,14 +129,19 @@ export default function FeedbackComponent(prop) {
           id={`${location.pathname}-mail`}
           required
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-          // {...register("email", { required: true })}
+        /> */}
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Type your email"
+          required
         />
-        <ReactPhoneInput
+        {/* <ReactPhoneInput
           country={"ru"}
           className="rounded-[5px] overflow-hidden lg:bg-red-500 lg:overflow-visible lg:rounded-[15px]"
           id={`${location.pathname}-phone`}
           required
-          // {...register("phone", { required: true })}
         />
         {prop.disable != 4 && (
           <select
@@ -134,7 +158,6 @@ export default function FeedbackComponent(prop) {
             className="px-[15px] bg-white shadow-none appearance-none"
             id={`${location.pathname}-select`}
             required
-            // {...register("troubles", { required: true })}
           >
             <option value="">Что вас беспокоит?</option>
             <option value="Взаимоотношения с родителями ">
@@ -153,7 +176,7 @@ export default function FeedbackComponent(prop) {
               Не понимаю, но нужна помощь
             </option>
           </select>
-        )}
+        )} */}
 
         <button
           className="bg-[#5d6541] text-white text-[14px] font-semibold h-[50px] px-[15px] roun

@@ -179,11 +179,11 @@ export default function About() {
             style={{ boxShadow: "2px 2px 4px 5px rgba(171,171,171,0.2)" }}
             className="flex flex-col border-[1px] border-white bg-[#ebcf92] shadow-md w-[320px] mx-auto rounded-[15px] px-[20px] pt-[25px] pb-[20px] mt-[45px] lg:mt-[100px] lg:flex-row lg:w-[1019px] lg:h-[210px] lg:justify-between "
           >
-            <div className="lg:w-[268px]">
+            <div className="lg:w-[268px] lg:flex flex-col justify-between">
               <h1 className="text-[22px] font-semibold leading-7 text-white lg:w-5/6">
                 ГРУППОВАЯ ТЕРАПИЯ
               </h1>
-              <p className="text-[14px] text-black font-semibold">
+              <p className="text-[14px] text-black font-semibold leading-4">
                 Групповая терапия — мгновенные улучшения в отношениях
               </p>
 
@@ -201,17 +201,17 @@ export default function About() {
                 ЗАМЕТНЫЕ УЛУЧШЕНИЯ СОСТОЯНИЯ ЧЕРЕЗ 5-10 ВСТРЕЧ
               </p>
 
-              <p className="text-[14px] text-black mt-[10px] leading-4">
+              <p className="text-[14px] text-black mt-[8px] leading-4">
                 Улучшить взаимоотношения, научиться выстраивать границы,
                 понимать себя в коллективе — лучшее, что может подарить вам
                 групповая терапия
               </p>
             </div>
             <div className="lg:w-[276px]">
-              <button className="bg-black rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[50px] lg:mt-[35px] text-white">
+              <button className="bg-black rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[50px] lg:mt-[29px] text-white uppercase">
                 Приобрести
               </button>
-              <button className="bg-white rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[10px] text-black">
+              <button className="bg-white rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[10px] text-black uppercase">
                 Узнать больше
               </button>
               <p className="text-[12px] text-black mt-[10px] text-center">
@@ -231,7 +231,7 @@ export default function About() {
                 Улучшите каждую область жизни вместе с нашими специалистами
               </p>
 
-              <button className="bg-white rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[20px] text-black">
+              <button className="bg-white rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[20px] text-black uppercase">
                 Узнать больше
               </button>
             </div>
@@ -271,7 +271,7 @@ export default function About() {
               <a href="https://t.me/freya_mind_bot" target="_blank"  className="bg-black rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[50px] lg:mt-[50px] text-white grid place-items-center">
                 СТОИМОСТЬ ТАРИФА 39€
               </a>
-              <a href="https://t.me/freya_mind_bot" target="_blank"  className="bg-white rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[10px] text-black grid place-items-center">
+              <a href="https://t.me/freya_mind_bot" target="_blank"  className="bg-white rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[10px] text-black grid place-items-center uppercase">
                 Узнать больше
               </a>
             </div>
@@ -306,11 +306,11 @@ export default function About() {
                 почувствуете качественные изменения в жизни уже через 8 сессий.
               </p>
 
-              <a href="https://t.me/freya_mind_bot" target="_blank"  className="bg-black rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[50px] lg:mt-[27px] text-white grid place-items-center">
+              <a href="https://t.me/freya_mind_bot" target="_blank"  className="bg-black rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[50px] lg:mt-[37px] text-white grid place-items-center">
                 СТОИМОСТЬ ТАРИФА 24€
               </a>
 
-              <a href="https://t.me/freya_mind_bot" target="_blank"  className="bg-white rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[10px] text-black grid place-items-center">
+              <a href="https://t.me/freya_mind_bot" target="_blank"  className="bg-white rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[10px] text-black grid place-items-center  uppercase uppercase">
                 Узнать больше
               </a>
             </div>

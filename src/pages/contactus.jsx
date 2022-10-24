@@ -10,20 +10,13 @@ export default function About() {
   return (
     <div className="w-screen overflow-hidden">
       <Helmet>
-        <title>Свяжитесь с нами</title>
+        <title>Свяжитесь с нами</title>({" "}
         <script type="text/javascript">
-          var button = document.getElementById('feedbackButton');
-          button.addEventListener( 'click', function(){" "}
-          {fbq("track", "Lead", {
-            // content_name: "Really Fast Running Shoes",
-            // content_category: "Apparel & Accessories > Shoes",
-            // content_ids: ["1234"],
-            // content_type: "product",
-            // value: 4.99,
-            // currency: "USD",
-          })}
-          , false );
-        </script>
+          {` var button = document.getElementById('feedbackButton');
+          button.addEventListener( 'click', function() {fbq("track", "Lead")},
+          false )`}
+        </script>{" "}
+        )
       </Helmet>
       <Navbar />
       <main className="min-h-[770px]">

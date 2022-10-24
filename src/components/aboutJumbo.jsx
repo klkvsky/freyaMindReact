@@ -1,33 +1,60 @@
-import LogoWhite from "../assets/Website Assets /logo-white.svg"
-import JumboImage from "../assets/Website Assets /About Us Page/Section 1/About-Us-Background.webp"
-// 
+import LogoWhite from "../assets/Website Assets /logo-white.svg";
+import JumboImage from "../assets/Website Assets /About Us Page/Section 1/About-Us-Background.webp";
+//
 import { Link } from "react-router-dom";
 
 export default function IndexJumbo() {
   return (
     // <div className="flex flex-col lg:max-w-[1200px] lg:mx-auto lg:mt-[70px] bg-[#CCCC9F]">
-    <div className="flex flex-col lg:pt-[70px] bg-[#CCCC9F]">
-      <nav className="flex flex-row items-start justify-start h-[140px] w-full gap-[18px] cursor-pointer z-50 px-[20px] lg:max-w-[1400px] lg:mx-auto lg:gap-[108px] mt-[35px]">
+    <div className="flex flex-col lg:pt-[70px] bg-[#CCCC9F] lg:w-[1200px] lg:mx-auto px-[20px]">
+      <nav className="flex flex-row items-center justify-start h-[100px] w-full gap-[18px] cursor-pointer z-50">
         <Link
           to="/"
-          className="cursor-pointer z-50 font-bold text-[42px] text-white lg:flex flex-row items-center justify-start gap-[70px] lg:text-[66px] lg:leading-[48px] lg:ml-auto lg:pl-[20px]"
+          className="flex flex-row items-center justify-start h-[100px] w-full gap-[18px] cursor-pointer z-50"
         >
           <img
             loading="lazy"
             src={LogoWhite}
-            className="hidden lg:block lg:w-[104px] lg:h-[51px]"
+            className="h-[45px] w-[92px] lg:w-[106px] lg:h-[52px]"
           />
-          О НАС
+          <span className="text-[13px] lg:text-[60px] font-bold uppercase w-6/12 lg:w-[228px] leading-[1.35] text-white">
+            О нас
+          </span>
         </Link>
 
-        <ul className="hidden lg:flex flex-row items-center jusitfy-between uppercase text-[18px] font-light lg:w-[790px] leading-[28px] gap-[30px] lg:text-white mr-auto whitespace-nowrap">
-          <Link to="/aboutus" className="font-bold">
+        <ul className="hidden lg:flex flex-row items-center jusitfy-between uppercase text-[18px] font-light lg:w-[712px] leading-[28px] gap-[45px] ml-auto whitespace-nowrap text-white">
+          <Link
+            to="/aboutus"
+            className="hover:scale-125 transition-all duration-500 font-bold"
+          >
             О нас
           </Link>
-          <Link to="/therapy">Цена</Link>
-          <Link to="/eatingdisorder">Помогаем</Link>
-          <Link to="/livestream">Онлайн События</Link>
-          <Link to="/contactus">Свяжитесь с нами</Link>
+          <Link
+            to="/therapy"
+            className="hover:scale-125 transition-all duration-500"
+          >
+            Цена
+          </Link>
+          <a
+            href="http://freyanow.com/anxiety"
+            target="_blank"
+            className="hover:scale-125 transition-all duration-500"
+          >
+            Помогаем
+          </a>
+          <a
+            href="http://freyanow.com/affirmations"
+            target="_blank"
+            className="hover:scale-125 transition-all duration-500"
+          >
+            НАШИ НОВОСТИ
+          </a>
+          <Link
+            to="/contactus"
+            className="hover:scale-125 transition-all duration-500"
+          >
+            Свяжитесь с нами
+          </Link>
         </ul>
       </nav>
       <div className="flex flex-row items-end lg:items-center justify-start gap-[18px] lg:mt-[60px] lg:max-w-[1400px] lg:mx-auto">

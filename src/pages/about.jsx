@@ -379,9 +379,9 @@ export default function About() {
           </div>
 
           <div className="w-full grid place-content-center lg:my-[90px]">
-            <button className="w-[270px] h-[40px] bg-[#5d6541] uppercase text-white rounded-full mt-[40px] ml-[5px] text-[16px] font-bold lg:w-[330px] lg:h-[45px] lg:ml-0 lg:mx-auto ">
+            <a href="https://bystro.freyamind.com/our-therapists" target="_blank" className="w-[270px] h-[40px] bg-[#5d6541] uppercase text-white rounded-full mt-[40px] ml-[5px] text-[16px] font-bold lg:w-[330px] lg:h-[45px] lg:ml-0 lg:mx-auto grid place-items-center">
               Наши терапевты
-            </button>
+            </a>
           </div>
         </div>
 

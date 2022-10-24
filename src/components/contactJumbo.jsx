@@ -1,33 +1,58 @@
 import { Link } from "react-router-dom";
 import FeedbackComponent from "./feedbackComponent";
-// 
-import LogoWhite from "../assets/Website Assets /logo-white.svg"
-import JumboImage from "../assets/Website Assets /Contact Us Page/Dr-Anna.svg"
+//
+import LogoWhite from "../assets/Website Assets /logo-white.svg";
+import JumboImage from "../assets/Website Assets /Contact Us Page/Dr-Anna.svg";
 
 export default function IndexJumbo() {
   return (
-    <div className="flex flex-col lg:w-[1200px] lg:mx-auto lg:mt-[70px]">
-      <nav className="flex flex-row items-center justify-start h-[140px] w-full gap-[18px] cursor-pointer z-50 px-[40px] text-white">
+    <div className="flex flex-col lg:w-[1200px] lg:mx-auto lg:mt-[70px] px-[20px]">
+      <nav className="flex flex-row items-center justify-start h-[100px] w-full gap-[18px] cursor-pointer z-50">
         <Link
           to="/"
-          className="flex flex-row items-center justify-start h-[100px] gap-[18px] cursor-pointer z-50 ml-[0px] w-[300px] lg:items-start lg:-ml-[40px]"
+          className="flex flex-row items-center justify-start h-[100px] w-full gap-[18px] cursor-pointer z-50"
         >
           <img
             loading="lazy"
             src={LogoWhite}
-            className="h-[45px] w-[92px] lg:w-[106px] lg:h-[52px] lg:mt-[15px]"
+            className="h-[45px] w-[92px] lg:w-[106px] lg:h-[52px]"
           />
-          <span className="text-[30px] leading-8 text-white font-bold uppercase w-6/12 lg:text-[54px] lg:leading-[68px] lg:w-10/12">
-            Свяжись с нами
+          <span className="text-[13px] lg:text-[25px] font-bold uppercase w-6/12 lg:w-[228px] leading-[1.35] text-white">
+            Свяжитесь <br /> с нами
           </span>
         </Link>
 
-        <ul className="hidden lg:flex flex-row items-center jusitfy-between uppercase text-[18px] font-light lg:w-[712px] leading-[28px] gap-[45px] ml-auto whitespace-nowrap -mt-[50px] -mr-[20px]">
-          <Link to="/aboutus">О нас</Link>
-          <Link to="/therapy">Цена</Link>
-          <Link to="/eatingdisorder">Помогаем</Link>
-          <Link to="/livestream">Онлайн События</Link>
-          <Link to="/contactus" className="font-bold">
+        <ul className="hidden lg:flex flex-row items-center jusitfy-between uppercase text-[18px] font-light lg:w-[712px] leading-[28px] gap-[45px] ml-auto whitespace-nowrap text-white">
+          <Link
+            to="/aboutus"
+            className="hover:scale-125 transition-all duration-500"
+          >
+            О нас
+          </Link>
+          <Link
+            to="/therapy"
+            className="hover:scale-125 transition-all duration-500"
+          >
+            Цена
+          </Link>
+          <a
+            href="http://freyanow.com/anxiety"
+            target="_blank"
+            className="hover:scale-125 transition-all duration-500"
+          >
+            Помогаем
+          </a>
+          <a
+            href="http://freyanow.com/affirmations"
+            target="_blank"
+            className="hover:scale-125 transition-all duration-500"
+          >
+            НАШИ НОВОСТИ
+          </a>
+          <Link
+            to="/contactus"
+            className="hover:scale-125 transition-all duration-500 font-bold"
+          >
             Свяжитесь с нами
           </Link>
         </ul>

@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 export default function IndexJumbo() {
   return (
     <div className="flex flex-col px-[20px] lg:w-[1200px] lg:mx-auto lg:mt-[70px]">
-      <div className="flex flex-row items-center justify-start h-[100px] w-full gap-[18px] cursor-pointer z-50">
+      <nav className="flex flex-row items-center justify-start h-[100px] w-full gap-[18px] cursor-pointer z-50">
         <Link
           to="/"
           className="flex flex-row items-center justify-start h-[100px] w-full gap-[18px] cursor-pointer z-50"
@@ -39,18 +39,12 @@ export default function IndexJumbo() {
           >
             Цена
           </Link>
-          <Link
-            to="/eatingdisorder"
+          <a href="http://freyanow.com/anxiety" target="_blank"             className="hover:scale-125 transition-all duration-500">Помогаем</a>
+          <a href="http://freyanow.com/affirmations" target="_blank"
             className="hover:scale-125 transition-all duration-500"
           >
-            Помогаем
-          </Link>
-          <Link
-            to="/livestream"
-            className="hover:scale-125 transition-all duration-500"
-          >
-            Онлайн События
-          </Link>
+            НАШИ НОВОСТИ
+          </a>
           <Link
             to="/contactus"
             className="hover:scale-125 transition-all duration-500"
@@ -58,7 +52,7 @@ export default function IndexJumbo() {
             Свяжитесь с нами
           </Link>
         </ul>
-      </div>
+      </nav>
       <Link
         to="/aboutus"
         className="flex flex-row items-end lg:items-center justify-start gap-[18px] lg:mt-[60px] lg:gap-[25px]"

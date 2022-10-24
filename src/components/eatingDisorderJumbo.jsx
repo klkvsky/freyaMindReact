@@ -18,7 +18,7 @@ export default function IndexJumbo() {
           <Link to="/aboutus">О нас</Link>
           <Link to="/therapy">Цена</Link>
           <Link to="/eatingdisorder">Помогаем</Link>
-          <Link to="/livestream">Онлайн События</Link>
+          <a href="http://freyanow.com/affirmations" target="_blank" >НАШИ НОВОСТИ</a>
           <Link to="/contactus">Свяжитесь с нами</Link>
         </ul>
       </div>

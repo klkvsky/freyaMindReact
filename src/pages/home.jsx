@@ -485,9 +485,9 @@ export default function Home() {
             Наши терапевты
           </button> */}
 
-          <button className=" w-[260px] rounded-full h-[40px] text-white font-semibold text-[14px] mx-auto scale-[120%] relative z-10 lg:w-[520px] lg:h-[61px] lg:scale-100 lg:text-[22px]  bg-dark-green border-2 border-dark-green leading-[15px] -mt-[80px] mb-[50px] hover:bg-white hover:text-dark-green transition-all lg:mt-[65px] uppercase">
+          <a className=" w-[260px] rounded-full h-[40px] text-white font-semibold text-[14px] mx-auto scale-[120%] relative z-10 lg:w-[520px] lg:h-[61px] lg:scale-100 lg:text-[22px]  bg-dark-green border-2 border-dark-green leading-[15px] -mt-[80px] mb-[50px] hover:bg-white hover:text-dark-green transition-all lg:mt-[65px] uppercase grid place-items-center" href="https://bystro.freyamind.com/our-therapists" target="_blank">
             Наши терапевты
-          </button>
+          </a>
         </div>
         <div className="bg-dark-green grid place-items-center h-[560px] lg:mt-[180px] lg:h-[563px]">
           <div className="relative w-[271px] lg:w-[923px] h-[57px] scale-[129%] lg:scale-100">

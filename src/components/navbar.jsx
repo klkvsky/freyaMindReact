@@ -85,7 +85,7 @@ export default function Navbar() {
               className={(navData) => (navData.isActive ? "font-bold" : "")}
               to="/livestream"
             >
-              Онлайн События
+              НАШИ НОВОСТИ
             </NavLink>
             <NavLink
               className={(navData) => (navData.isActive ? "font-bold" : "")}

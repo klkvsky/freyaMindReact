@@ -2,7 +2,7 @@
 //   ActiveCampaignInputs,
 //   handleActiveCampaignSubmit,
 // } from "active-campaign-react";
-import { useForm } from "react-hook-form";
+// import { useForm } from "react-hook-form";
 //
 import { useState } from "react";
 //
@@ -19,13 +19,13 @@ export default function FeedbackComponent(prop) {
     fbq("track", "Lead");
     isSubmited(true);
     //
-    // const data = new FormData(event.target.value);
-    // fetch("https://sobakipavlova23493.activehosted.com/proc.php", {
-    //   method: "POST",
-    //   body: data,
-    //   mode: "no-cors",
-    //   cache: "no-cache",
-    // }).catch((error) => console.log("Request failed", error));
+    const data = new FormData(e.target);
+    fetch("https://sobakipavlova23493.activehosted.com/proc.php", {
+      method: "POST",
+      body: data,
+      mode: "no-cors",
+      cache: "no-cache",
+    }).catch((error) => console.log("Request failed", error));
   }
   //
   const [submited, isSubmited] = useState(false);
@@ -34,9 +34,9 @@ export default function FeedbackComponent(prop) {
   // const phoneInput = document.querySelector("input[type=tel]");
   setTimeout(() => {
     const phoneInput = document.querySelector(".react-tel-input .form-control");
-  phoneInput?.setAttribute("type", "tel");
-  phoneInput?.setAttribute("id", "phone");
-  phoneInput?.setAttribute("name", "phone");
+    phoneInput?.setAttribute("type", "tel");
+    phoneInput?.setAttribute("id", "phone");
+    phoneInput?.setAttribute("name", "phone");
   }, 1000);
   return (
     <div>
@@ -95,10 +95,13 @@ export default function FeedbackComponent(prop) {
       )}
       <form
         method="POST"
-        action="https://sobakipavlova23493.activehosted.com/proc.php"
+        // action="https://sobakipavlova23493.activehosted.com/proc.php"
         id="_form_4_"
         className="_form _form_4 _inline-form  _dark"
         noValidate
+        onSubmit={(e) => {
+          sumbitFunc(e);
+        }}
       >
         <input type="hidden" name="u" value="4" />
         <input type="hidden" name="f" value="4" />

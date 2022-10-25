@@ -226,7 +226,7 @@ export default function About() {
               >
                 Узнать больше
               </a>
-              <p className="text-[12px] text-black mt-[10px] text-center">
+              <p className="text-[12px] text-black mt-[10px] text-center hidden">
                 ** при оплате 12 сессий
               </p>
             </div>

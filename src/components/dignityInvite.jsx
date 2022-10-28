@@ -3,14 +3,16 @@ import React from "react";
 export default function DignityInvite() {
 
     return (
-        <section>
-            <p>Invite check</p>
-            <h2>Групповая терапия за 1 €</h2>
-            <p>Вы получите инструменты для быстрой адаптации на новом месте за 3 сессии по 90 минут.</p>
-            <a href="https://t.me/freya_mind_bot">
-                <button>ЗАПИСАТЬСЯ</button>
-            </a>
-            <p>До начала встречи еще есть время, пора записаться</p>
+        <section className="invitation">
+            <img className="invitation__svg" src="/src/assets/Website Assets/Dignity/Invite/Group 614.svg" alt=""/>
+            <div className="wrapper invitation-wrap">
+                <div><img src="/src/assets/Website Assets/Dignity/Invite/Group 612.svg"/></div>
+                {/* <h2 className="invitation__heading">Групповая терапия за<span className="invitation__">1 €</span></h2> */}
+                <p className="invitation__description">Вы получите инструменты для быстрой адаптации на новом месте за 3 сессии по 90 минут.</p>
+                <a className="invitation__btn" href="https://t.me/freya_mind_bot">Записаться</a>
+                <p className="invitation__caption">До начала встречи еще есть время, пора записаться</p>
+            </div>
+            <img className="invitation__logo" src="/src/assets/Website Assets/Dignity/Invite/Слой 1 (1).svg" alt=""/>
         </section>
 
     )

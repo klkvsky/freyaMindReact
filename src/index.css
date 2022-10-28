@@ -321,6 +321,7 @@ details > summary::-webkit-details-marker {
   bottom: 0;
 }
 
+
 @media (min-width: 1024px) {
   .react-tel-input .form-control {
     width: 100%;

@@ -71,6 +71,231 @@ details > summary::-webkit-details-marker {
   transition: height 500ms;
 }
 
+/* Стили для страниц без tailwind */
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Asgard";
+    src: url("font/AsgardTrial-WideBold.ttf"),
+    url("font/AsgardTrial-WideBoldBackslant.woff"),
+    url("font/AsgardTrial-WideBoldItalic.woff"),
+    url("font/AsgardTrial-WideFat.woff"),
+    url("font/AsgardTrial-WideFatBackslant.woff"),
+    url("font/AsgardTrial-WideFatItalic.woff"),
+    url("font/AsgardTrial-WideLight.woff"),
+    url("font/AsgardTrial-WideLightBackslant.woff"),
+    url("font/AsgardTrial-WideLightItalic.woff"),
+    url("font/AsgardTrial-WideMedium.woff"),
+    url("font/AsgardTrial-WideMediumBackslant.woff"),
+    url("font/AsgardTrial-WideMediumItalic.woff"),
+    url("font/AsgardTrial-WideRegular.woff"),
+    url("font/AsgardTrial-WideRegularBackslant.woff"),
+    url("font/AsgardTrial-WideMediumItalic.woff"),
+    url("font/AsgardTrial-WideRegular.woff"),
+    url("font/AsgardTrial-WideRegularBackslant.woff"),
+    url("font/AsgardTrial-WideRegularItalic.woff"),
+    url("font/AsgardTrial-WideThin.woff"),
+    url("font/AsgardTrial-WideThinBackslant.woff"),
+    url("font/AsgardTrial-WideXboldItalic.woff"),
+    url("font/AsgardTrial-WideXbold.woff"),
+    url("font/AsgardTrial-WideXboldBackslant.woff"),
+    url("font/AsgardTrial-WideXlight.woff"),
+    url("font/AsgardTrial-WideXlightBackslant.woff"),
+    url("font/AsgardTrial-WideXlightItalic.woff");
+}
+
+.wrapper {
+  max-width: 1124px;
+}
+.intro {
+  background-image: url("./assets/Website Assets/Dignity/Intro/5528488 1.png");
+  height: 930px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro__heading {
+  font-family: 'Asgard', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 65px;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.intro__paragraph {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 28px;
+}
+
+.intro__btn {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  background-color: #fff;
+  border-radius: 22px;
+  padding: 12px 54px;
+}
+
+.cards-container {
+  background-color: #FAF2E7;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 161px 0;
+}
+.card {
+  width: 357px;
+  height: 584px;
+  position: relative;
+  perspective: 1000px;
+}
+
+.card__date {
+  font-family: 'Asgard', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  color: #000;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.card__announce-front {
+  font-family: 'Asgard', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: #000;
+  width: 306px;
+}
+
+.card__announce-back {
+  font-family: 'Asgard', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  color: #fff;
+  width: 306px;
+}
+
+.card__description {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+}
+
+.speaker {
+  margin-top: 24px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+}
+
+.card__btn {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  background-color: #fff;
+  border-radius: 22px;
+  padding: 12px 54px;
+}
+
+.front1 {
+  background-size: cover;
+  background-image: url("./assets/Website Assets/Dignity/Cards/Untitled-1 1.png");
+}
+
+.front2 {
+  background-size: cover;
+  background-image: url("./assets/Website Assets/Dignity/Cards/Ai-file-1 1.png");
+}
+
+.front3 {
+  background-size: cover;
+  background-image: url("./assets/Website Assets/Dignity/Cards/Ai-file-3 1.png");
+}
+
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.75s;
+  backface-visibility: hidden;
+  border: 1px solid #000000;
+}
+
+.front {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px;
+  align-items: flex-start;
+}
+
+.back {
+  background-color: #2E2E2E;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 31px 27px;
+  transform: rotateY(180deg);
+}
+
+.card:hover .front {
+    transform: rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: rotateY(360deg);
+}
+
+.star-left {
+  position: absolute;
+  left: calc(50% - 214px);
+}
+
+.star-right {
+  position: absolute;
+  right: calc(50% - 230px);
+}
+
 @media (min-width: 1024px) {
   .react-tel-input .form-control {
     width: 100%;

@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import FeedbackComponent from "./feedbackComponent";
 //
-import LogoWhite from "../assets/Website Assets /logo-white.svg";
-import JumboImage from "../assets/Website Assets /Contact Us Page/Dr-Anna.svg";
+import LogoWhite from "../assets/Website Assets/logo-white.svg";
+import JumboImage from "../assets/Website Assets/Contact Us Page/Dr-Anna.svg";
 
 export default function IndexJumbo() {
   return (

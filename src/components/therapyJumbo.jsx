@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import Feedback from "../components/feedbackComponent";
 //
-import LogoWhite from "../assets/Website Assets /logo-white.svg";
-import JumboImage from "../assets/Website Assets /Price Page/ARK_4119.jpg";
+import LogoWhite from "../assets/Website Assets/logo-white.svg";
+import JumboImage from "../assets/Website Assets/Price Page/ARK_4119.jpg";
 export default function IndexJumbo() {
   return (
     <div className="flex flex-col lg:w-[1200px] lg:mx-auto lg:mt-[70px] px-[20px]">

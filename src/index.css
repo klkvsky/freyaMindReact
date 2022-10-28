@@ -306,12 +306,14 @@ details > summary::-webkit-details-marker {
   height: 896px;
   background-color: #F2D4B5;
   position: relative;
+  z-index: -2;
 }
 
 .speakers-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .speakers__svg {
@@ -319,8 +321,80 @@ details > summary::-webkit-details-marker {
   left: 20%;
   right: 20%;
   bottom: 0;
+  z-index: -1;
 }
 
+.speaker {
+  position: relative;
+  margin: 174px 0 0 0;
+}
+.speaker__name {
+  width: 313px;
+  height: 109px;
+  background-color: #fff;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Asgard', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #000;
+  text-align: center;
+  position: absolute;
+  bottom: -40px;
+}
+
+.speaker__container {
+  width: 314px;
+  height: 499px;
+  border-radius: 170px / 250px;
+  border: 1px solid #000;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.speaker__overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: #fff;
+  border-radius: 170px / 250px;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.speaker__education {
+  margin-top: 20px;
+}
+
+.speaker:hover .speaker__overlay {
+  opacity: 1;
+}
+
+.speakers__heading {
+  position: absolute;
+  right: 0;
+  bottom: -130px;
+  font-family: 'Asgard', sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 70px;
+  letter-spacing: -0.02em;
+  color: #000;
+}
 
 @media (min-width: 1024px) {
   .react-tel-input .form-control {

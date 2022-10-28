@@ -26,7 +26,7 @@ export default function DignityForm() {
                     <input
                         name="name"
                         type="name"
-                        className="form__input form__input-reg"
+                        className="dignity-form__input"
                         placeholder="Имя"
                         id="name-field"
                         minLength="2"
@@ -39,20 +39,19 @@ export default function DignityForm() {
                 <input
                     name="email"
                     type="email"
-                    className="form__input form__input-reg"
+                    className="dignity-form__input"
                     placeholder="Email"
                     id="Email-field"
                     minLength="2"
                     maxLength="40"
                     required
-                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                     value={email || ""}
                     onChange={handleEmailChange}
                 />
                 <input
                     name="password"
                     type="password"
-                    className="form__input form__input-reg"
+                    className="dignity-form__input"
                     placeholder="Пароль"
                     id="password-field"
                     minLength="2"
@@ -63,7 +62,7 @@ export default function DignityForm() {
                 />
             <button
                 type="submit"
-                className="form__button form__button-reg"
+                className="dignity-form__btn"
             > ПРИСОЕДИНИТЬСЯ!
             </button>
         </form>

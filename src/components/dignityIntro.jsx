@@ -3,7 +3,7 @@ import React from "react";
 export default function DignityIntro(props) {
 
     const openPopup = () => {
-        props.openPopup()
+        props.openPopup(true)
     }
 
     return (

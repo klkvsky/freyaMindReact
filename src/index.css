@@ -119,8 +119,13 @@ details > summary::-webkit-details-marker {
 }
 
 .intro-wrap {
+  height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 66px;
+  padding-bottom: 211px;
 }
 
 .intro__heading {
@@ -210,7 +215,7 @@ details > summary::-webkit-details-marker {
   color: #FFFFFF;
 }
 
-.speaker {
+.card__speaker {
   margin-top: 24px;
   font-weight: 900;
   font-size: 18px;
@@ -294,6 +299,26 @@ details > summary::-webkit-details-marker {
 .star-right {
   position: absolute;
   right: calc(50% - 230px);
+}
+
+
+.speakers {
+  height: 896px;
+  background-color: #F2D4B5;
+  position: relative;
+}
+
+.speakers-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.speakers__svg {
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  bottom: 0;
 }
 
 @media (min-width: 1024px) {

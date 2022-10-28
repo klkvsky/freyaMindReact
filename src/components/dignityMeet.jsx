@@ -3,25 +3,25 @@ import React from "react";
 export default function DignityMeet() {
 
     return (
-        <section>
-            <p>Meet check</p>
-            <div>
-                <h2>Что вы получите от встреч</h2>
-                <button>ПРИСОЕДИНИТЬСЯ К ВСТРЕЧЕ</button>
-                <p>Мы напомним вам о ней за 1 час до эфира</p>
-            </div>
-            <div>
-                <div>
-                    <img/>
-                    <p>поймете, куда двигаться, чтобы справиться с проблемой
-                    </p>
+        <section className="meet">
+            <div className="wrapper meet-wrap">
+                <div className="meet__promo">
+                    <h2 className="meet__promo__heading">Что вы получите от встреч</h2>
+                    <button className="meet__promo__btn">ПРИСОЕДИНИТЬСЯ К ВСТРЕЧЕ</button>
+                    <p className="meet__promo__caption">Мы напомним вам о ней за 1 час до эфира</p>
                 </div>
-                <div>
-                    <p>найдете своего специалиста и разберетесь с проблемой </p>
-                </div>
-                <div>
-                    <p>решите свою проблему благодаря инсайтам от встречи</p>
-                </div>
+                <ul className="meet__effects">
+                    <li className="meet__effect">
+                        <img className="meet__effect__star" src="/src/assets/Website Assets/Dignity/Meet/Vector (11).svg"/>
+                        <p className="meet__effect__text1">поймете, куда двигаться, чтобы справиться с проблемой</p>
+                    </li>
+                    <li className="meet__effect">
+                        <p className="meet__effect__text2">найдете своего специалиста и разберетесь с проблемой </p>
+                    </li>
+                    <li className="meet__effect">
+                        <p className="meet__effect__text3">решите свою проблему благодаря инсайтам от встречи</p>
+                    </li>
+                </ul>
             </div>
         </section>
 

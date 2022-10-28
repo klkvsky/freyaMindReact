@@ -6,7 +6,7 @@ import Navbar from "../components/navbarForContactUs";
 import ContactJumbo from "../components/contactJumbo";
 import Feedback from "../components/feedbackComponent";
 // 
-import footerLogo from "../assets/Website Assets /About Us Page/freyaGreenFooterLogo.svg"
+import footerLogo from "../assets/Website Assets/About Us Page/freyaGreenFooterLogo.svg"
 
 export default function About() {
   return (

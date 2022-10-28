@@ -1,5 +1,5 @@
-import LogoWhite from "../assets/Website Assets /logo-white.svg";
-import JumboImage from "../assets/Website Assets /About Us Page/Section 1/About-Us-Background.webp";
+import LogoWhite from "../assets/Website Assets/logo-white.svg";
+import JumboImage from "../assets/Website Assets/About Us Page/Section 1/About-Us-Background.webp";
 //
 import { Link } from "react-router-dom";
 

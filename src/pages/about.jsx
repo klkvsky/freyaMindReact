@@ -11,30 +11,30 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 //
-import Bullet1 from "../assets/Website Assets /About Us Page/Section 2/Bullet 2.1.svg";
-import Arrow from "../assets/Website Assets /About Us Page/Section 2/Arrow 2.svg";
-import Bullet2 from "../assets/Website Assets /About Us Page/Section 2/Bullet 2.3.svg";
-import Bullet3 from "../assets/Website Assets /About Us Page/Section 2/Bullet 2.2.svg";
+import Bullet1 from "../assets/Website Assets/About Us Page/Section 2/Bullet 2.1.svg";
+import Arrow from "../assets/Website Assets/About Us Page/Section 2/Arrow 2.svg";
+import Bullet2 from "../assets/Website Assets/About Us Page/Section 2/Bullet 2.3.svg";
+import Bullet3 from "../assets/Website Assets/About Us Page/Section 2/Bullet 2.2.svg";
 //
-import Item1URL from "../assets/Website Assets /About Us Page/Section 4/S 4 Item 1.svg";
-import Item2URL from "../assets/Website Assets /About Us Page/Section 4/S 4 Item 2.svg";
-import Item3URL from "../assets/Website Assets /About Us Page/Section 4/S 4 Item 3.svg";
-import Item4URL from "../assets/Website Assets /About Us Page/Section 4/S4 Item 4.svg";
+import Item1URL from "../assets/Website Assets/About Us Page/Section 4/S 4 Item 1.svg";
+import Item2URL from "../assets/Website Assets/About Us Page/Section 4/S 4 Item 2.svg";
+import Item3URL from "../assets/Website Assets/About Us Page/Section 4/S 4 Item 3.svg";
+import Item4URL from "../assets/Website Assets/About Us Page/Section 4/S4 Item 4.svg";
 //
-import Anastasia from "../assets/Website Assets /About Us Page/Section 5/AnastasiaOld.svg";
-import Margo from "../assets/Website Assets /About Us Page/Section 5/margoOld.svg";
+import Anastasia from "../assets/Website Assets/About Us Page/Section 5/AnastasiaOld.svg";
+import Margo from "../assets/Website Assets/About Us Page/Section 5/margoOld.svg";
 //
-import ins1 from "../assets/Website Assets /Home Page/Section 5/Institution 1.svg";
-import ins2 from "../assets/Website Assets /Home Page/Section 5/Institution 2.svg";
-import ins3 from "../assets/Website Assets /Home Page/Section 5/Institution 3.svg";
-import ins4 from "../assets/Website Assets /Home Page/Section 5/Institution 4.svg";
-import ins5 from "../assets/Website Assets /About Us Page/Section 6/Institution 5.svg"
+import ins1 from "../assets/Website Assets/Home Page/Section 5/Institution 1.svg";
+import ins2 from "../assets/Website Assets/Home Page/Section 5/Institution 2.svg";
+import ins3 from "../assets/Website Assets/Home Page/Section 5/Institution 3.svg";
+import ins4 from "../assets/Website Assets/Home Page/Section 5/Institution 4.svg";
+import ins5 from "../assets/Website Assets/About Us Page/Section 6/Institution 5.svg"
 // 
-import Anastasia1 from "../assets/Website Assets /About Us Page/Section 7/Anastasia Img.svg"
-import Bage from "../assets/Website Assets /About Us Page/Section 7/Bage.svg"
+import Anastasia1 from "../assets/Website Assets/About Us Page/Section 7/Anastasia Img.svg"
+import Bage from "../assets/Website Assets/About Us Page/Section 7/Bage.svg"
 // 
-import footerImage from "../assets/Website Assets /About Us Page/Section 8/wholeImage.svg"
-import footerLogo from "../assets/Website Assets /About Us Page/freyaGreenFooterLogo.svg"
+import footerImage from "../assets/Website Assets/About Us Page/Section 8/wholeImage.svg"
+import footerLogo from "../assets/Website Assets/About Us Page/freyaGreenFooterLogo.svg"
 
 export default function About() {
   return (

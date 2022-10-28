@@ -8,6 +8,7 @@ export default function DignitySlider() {
         <section className="slider-quotes">
             <div className="wrapper slider-wrap">
             <h2 className="slider__heading" >Что с нами происходит</h2>
+                <div className="slider-swiper-wrap">
                 <Swiper
                     slidesPerView={1}
                     loop={true}
@@ -83,6 +84,7 @@ export default function DignitySlider() {
                     </SwiperSlide>
                     <SlideNextButton />
                 </Swiper>
+                </div>
             </div>
         </section>
     )

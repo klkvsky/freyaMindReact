@@ -9,14 +9,14 @@ import DignityInvite from "../components/dignityInvite.jsx";
 import DignityPopup from "../components/dignitPopup.jsx";
 
 export default function Dignity() {
-    const [popupVisible, setPopupVisible] = React.useState([false])
+    const [popupVisible, setPopupVisible] = React.useState(false)
     return(
         <section>
             <div><p>Check</p></div>
-            <DignityIntro />
+            <DignityIntro openPopup={setPopupVisible}/>
             <DignitySlider />
-            <DignityCards />
-            <DignityMeet />
+            <DignityCards openPopup={setPopupVisible}/>
+            <DignityMeet openPopup={setPopupVisible}/>
             <DignitySpeakers />
             <DignityInvite />
             <DignityPopup isVisible={popupVisible} toggle={setPopupVisible}/>

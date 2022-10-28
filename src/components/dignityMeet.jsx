@@ -1,6 +1,10 @@
 import React from "react";
 
-export default function DignityMeet() {
+export default function DignityMeet(props) {
+
+    const openPopup = () => {
+        props.openPopup()
+    }
 
     return (
         <section className="meet">
@@ -8,7 +12,11 @@ export default function DignityMeet() {
                 <div className="meet__promo">
                     <h2 className="meet__promo__heading">Что вы получите от встреч</h2>
                     <div>
-                        <button className="meet__promo__btn">ПРИСОЕДИНИТЬСЯ К ВСТРЕЧЕ</button>
+                        <button className="meet__promo__btn"
+                            onClick={ ()=>{
+                                openPopup();
+                            }}
+                        >ПРИСОЕДИНИТЬСЯ К ВСТРЕЧЕ</button>
                         <p className="meet__promo__caption">Мы напомним вам о ней за 1 час до эфира</p>
                     </div>
                 </div>

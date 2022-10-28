@@ -1,7 +1,24 @@
-
+import React from "react";
 
 export default function DignityForm() {
+    const [name, setName] = React.useState("");
+    const [email, setEmail] = React.useState("");
+    const [phNumber, setPhNumber] = React.useState("");
+
+    const handleNameChange = (e) => {
+        setName(e.target.value);
+    }
+
+    const handleEmailChange = (e) => {
+        setEmail(e.target.value);
+    }
+
+    const handlePhNumberChange = (e) => {
+        setPhNumber(e.target.value);
+    }
+
   return (
+
     <section>
         <form
             className="dignity-form"
@@ -15,9 +32,8 @@ export default function DignityForm() {
                         minLength="2"
                         maxLength="40"
                         required
-                        value={values.name || ""}
-                        onChange={handleChange}
-                        disabled={inputDisabled}
+                        value={name || ""}
+                        onChange={handleNameChange}
                     />
 
                 <input
@@ -30,11 +46,9 @@ export default function DignityForm() {
                     maxLength="40"
                     required
                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-                    value={values.email || ""}
-                    onChange={handleChange}
-                    disabled={inputDisabled}
+                    value={email || ""}
+                    onChange={handleEmailChange}
                 />
-                <span className="form__input-error">{errors.email || ""}</span>
                 <input
                     name="password"
                     type="password"
@@ -44,14 +58,13 @@ export default function DignityForm() {
                     minLength="2"
                     maxLength="40"
                     required
-                    value={values.password || ""}
-                    onChange={handleChange}
-                    disabled={inputDisabled}
+                    value={phNumber || ""}
+                    onChange={handlePhNumberChange}
                 />
             <button
                 type="submit"
                 className="form__button form__button-reg"
-            >
+            > ПРИСОЕДИНИТЬСЯ!
             </button>
         </form>
     </section>

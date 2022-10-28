@@ -1,4 +1,4 @@
-
+import DignityForm from "../components/digForm.jsx";
 
 export default function DignityPopup(props) {
 
@@ -16,7 +16,7 @@ export default function DignityPopup(props) {
       >123</button>
       <div className="popup-container">
         <h2>Я хочу участвовать во встрече</h2>
-
+            <DignityForm />
       </div>
     </section>
   );

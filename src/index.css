@@ -80,7 +80,7 @@ details > summary::-webkit-details-marker {
 
 @font-face {
   font-family: "Asgard";
-    src: url("font/AsgardTrial-WideBold.woff"),
+    src: url("font/AsgardTrial-WideBold.ttf"),
     url("font/AsgardTrial-WideBoldBackslant.woff"),
     url("font/AsgardTrial-WideBoldItalic.woff"),
     url("font/AsgardTrial-WideFat.woff"),
@@ -116,6 +116,11 @@ details > summary::-webkit-details-marker {
   height: 930px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.intro-wrap {
+  display: flex;
+  flex-direction: column;
 }
 
 .intro__heading {

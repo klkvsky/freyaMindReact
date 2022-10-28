@@ -4,7 +4,7 @@ export default function DignityIntro() {
 
     return (
         <section className="intro">
-            <div className="wrapper">
+            <div className="wrapper intro-wrap">
                 <div>
                     <a href="">
                         <img src="/src/assets/Website Assets/Dignity/Intro/Слой 1.png" alt="logo" />

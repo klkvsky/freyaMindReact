@@ -11,13 +11,6 @@ export default function DignityInvite() {
                 <button>ЗАПИСАТЬСЯ</button>
             </a>
             <p>До начала встречи еще есть время, пора записаться</p>
-            <img style={{position: 'absolute',
-                left: '52.15%',
-                right: '-1.94%',
-                top: '93.34%',
-                bottom: '0.06%',
-                width: '717px',
-                height: '350px',}} src="../../icons/Layer%202.png"/>
         </section>
 
     )

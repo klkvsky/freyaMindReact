@@ -69,6 +69,7 @@ export default function DignityCards() {
                             <button className="card__btn">Присоединиться!</button>
                         </div>
                     </div>
+                    <img className="star star-left star-left-second" src="/src/assets/Website Assets/Dignity/Cards/Star.svg" alt="star"/>
                     <img className="star star-left" src="/src/assets/Website Assets/Dignity/Cards/Star.svg" alt="star"/>
                     <img className="star star-right" src="/src/assets/Website Assets/Dignity/Cards/Star.svg" alt="star"/>
                 </div>

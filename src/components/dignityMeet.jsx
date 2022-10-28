@@ -7,8 +7,10 @@ export default function DignityMeet() {
             <div className="wrapper meet-wrap">
                 <div className="meet__promo">
                     <h2 className="meet__promo__heading">Что вы получите от встреч</h2>
-                    <button className="meet__promo__btn">ПРИСОЕДИНИТЬСЯ К ВСТРЕЧЕ</button>
-                    <p className="meet__promo__caption">Мы напомним вам о ней за 1 час до эфира</p>
+                    <div>
+                        <button className="meet__promo__btn">ПРИСОЕДИНИТЬСЯ К ВСТРЕЧЕ</button>
+                        <p className="meet__promo__caption">Мы напомним вам о ней за 1 час до эфира</p>
+                    </div>
                 </div>
                 <ul className="meet__effects">
                     <li className="meet__effect">

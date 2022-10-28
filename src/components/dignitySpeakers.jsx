@@ -36,6 +36,7 @@ export default function DignitySpeakers() {
                     <h1 className="speakers__heading">Спикеры</h1>
                 </ul>
             </div>
+            <img className="speakers__svg1" src="/src/assets/Website Assets/Dignity/Speakers/Group 613.svg"/>
             <img className="speakers__svg" src="/src/assets/Website Assets/Dignity/Speakers/Group 613.svg"/>
         </section>
     )

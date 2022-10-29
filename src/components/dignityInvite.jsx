@@ -1,5 +1,4 @@
 import React from "react";
-
 import logoFooter from "../assets/Website Assets/Dignity/Invite/Слой 1 (1).svg";
 import invitation from "../assets/Website Assets/Dignity/Invite/Group 614.svg";
 import invitationText from "../assets/Website Assets/Dignity/Invite/Group 612.svg"

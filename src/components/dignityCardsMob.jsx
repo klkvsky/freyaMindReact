@@ -3,7 +3,6 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import OpenCardButton from "./openCardButton.jsx";
 import star from "../assets/Website Assets/Dignity/Cards/Star.svg";
 
-import star from "../assets/Website Assets/Dignity/Cards/Star.svg";
 
 export default function DignityCardsMob(props) {
 
@@ -54,7 +53,7 @@ export default function DignityCardsMob(props) {
                     <SwiperSlide className="card">
                         <div className="frontM front2">
                             <h3 className="card__announce-front">Как не потерять самоуважение в новой стране</h3>
-                            <div className="card__date">
+                            <div className="card__date left">
                                 <svg width="146" height="23" viewBox="0 0 146 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M51.1826 1.44065V18.2483H45.3603V12.4136H35.2305V18.2483H29.4082V1.44065H35.2305V7.9476H45.3603V1.44065H51.1826Z" fill="black"/>
                                     <path d="M61.5858 18.6084C59.6609 18.6084 58.012 18.3603 56.6393 17.8641C55.2665 17.3519 54.2173 16.6235 53.4915 15.6791C52.7657 14.7347 52.4027 13.5982 52.4027 12.2696C52.4027 10.2526 53.2074 8.69193 54.8169 7.58743C56.4263 6.46693 58.6826 5.90667 61.5858 5.90667C63.5108 5.90667 65.1597 6.16279 66.5324 6.67502C67.9209 7.17125 68.9781 7.89958 69.7039 8.86001C70.4297 9.82045 70.7926 10.965 70.7926 12.2936C70.7926 13.6062 70.4297 14.7347 69.7039 15.6791C68.9781 16.6235 67.9209 17.3519 66.5324 17.8641C65.1597 18.3603 63.5108 18.6084 61.5858 18.6084ZM57.7043 12.2696C57.7043 13.1339 58.0436 13.8063 58.722 14.2865C59.4005 14.7667 60.3551 15.0068 61.5858 15.0068C62.8008 15.0068 63.7475 14.7667 64.426 14.2865C65.1202 13.8063 65.4674 13.1339 65.4674 12.2696C65.4674 11.3892 65.1281 10.7088 64.4496 10.2286C63.7712 9.73241 62.8166 9.48429 61.5858 9.48429C60.3551 9.48429 59.4005 9.73241 58.722 10.2286C58.0436 10.7088 57.7043 11.3892 57.7043 12.2696Z" fill="black"/>

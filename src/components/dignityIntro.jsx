@@ -1,8 +1,6 @@
 import React from "react";
 import logoHeader from "../assets/Website Assets/Dignity/Intro/logo.png"
 
-import logoHeader from "../assets/Website Assets/Dignity/Intro/logo.png"
-
 export default function DignityIntro(props) {
 
     const openPopup = () => {

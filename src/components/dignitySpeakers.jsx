@@ -13,8 +13,10 @@ import sunSvg from "../assets/Website Assets/Dignity/Speakers/Group 613.svg"
 export default function DignitySpeakers() {
 
     const [isHovVisible, setIsHovVisible] = React.useState(true);
-
+ 
     const toggleHover = () => {
+        setIsHovVisible2(true);
+        setIsHovVisible3(true);
         if (isHovVisible === true) {
             setIsHovVisible(false);
         } else if (isHovVisible === false) {
@@ -25,6 +27,8 @@ export default function DignitySpeakers() {
     const [isHovVisible2, setIsHovVisible2] = React.useState(true);
 
     const toggleHover2 = () => {
+        setIsHovVisible(true);
+        setIsHovVisible3(true);
         if (isHovVisible2 === true) {
             setIsHovVisible2(false);
         } else if (isHovVisible2 === false) {
@@ -35,6 +39,8 @@ export default function DignitySpeakers() {
     const [isHovVisible3, setIsHovVisible3] = React.useState(true);
 
     const toggleHover3 = () => {
+        setIsHovVisible(true);
+        setIsHovVisible2(true);
         if (isHovVisible3 === true) {
             setIsHovVisible3(false);
         } else if (isHovVisible3 === false) {
@@ -48,7 +54,7 @@ export default function DignitySpeakers() {
                 <ul className="speakers-list">
                     <li className="speaker">
                         <div className="speaker__container">
-                            <img loading="lazy" src={therapist1} alt="therapist"/>
+                            <img className={isHovVisible ? '' : "overlay__bg"} loading="lazy" src={therapist1} alt="therapist"/>
                             <div className={isHovVisible ? "overlay__visible" : "speaker__overlay"} >
                                 <img className="speaker__education" loading="lazy" src={backdrop2} alt="info" />
                             </div>
@@ -66,7 +72,7 @@ export default function DignitySpeakers() {
                     </li>
                     <li className="speaker">
                         <div className="speaker__container">
-                            <img loading="lazy" src={therapist2} alt="therapist"/>
+                            <img className={isHovVisible2 ? '' : "overlay__bg"} loading="lazy" src={therapist2} alt="therapist"/>
                             <div className={isHovVisible2 ? "overlay__visible" : "speaker__overlay"}>
                                 <img className="speaker__education"loading="lazy" src={backdrop} alt="info" />
                             </div>
@@ -82,7 +88,7 @@ export default function DignitySpeakers() {
                     </li>
                     <li className="speaker">
                         <div className="speaker__container">
-                            <img loading="lazy" src={therapist3} alt="therapist"/>
+                            <img className={isHovVisible3 ? '' : "overlay__bg"} loading="lazy" src={therapist3} alt="therapist"/>
                             <div className={isHovVisible3 ? "overlay__visible" : "speaker__overlay"}>
                                 <img className="speaker__education"loading="lazy" src={backdrop3} alt="info" />
                             </div>

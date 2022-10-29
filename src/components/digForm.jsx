@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function DignityForm() {
+export default function DignityForm(props) {
     const [name, setName] = React.useState("");
     const [email, setEmail] = React.useState("");
     const [phNumber, setPhNumber] = React.useState("");
@@ -17,11 +17,17 @@ export default function DignityForm() {
         setPhNumber(e.target.value);
     }
 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        props.toggleMsg(true);
+    }
+
   return (
 
     <section>
         <form
             className="dignity-form"
+            onSubmit={handleSubmit}
         >
                     <input
                         name="name"
@@ -49,10 +55,10 @@ export default function DignityForm() {
                     onChange={handleEmailChange}
                 />
                 <input
-                    name="password"
-                    type="password"
+                    name="phone"
+                    type="tel"
                     className="dignity-form__input"
-                    placeholder="Пароль"
+                    placeholder="+79999999999"
                     id="password-field"
                     minLength="2"
                     maxLength="40"

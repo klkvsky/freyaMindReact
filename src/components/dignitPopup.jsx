@@ -1,6 +1,10 @@
+import React from "react";
+
 import DignityForm from "../components/digForm.jsx";
 
 export default function DignityPopup(props) {
+
+  const [messageVisible, setMessageVisible] = React.useState(false);
 
   const closePopup = () => {
     props.toggle(false);
@@ -21,8 +25,12 @@ export default function DignityPopup(props) {
           </svg>
         </button>
         <div className="popup-container">
-          <h2 className="popup__heading">Я хочу участвовать во встрече</h2>
-              <DignityForm />
+          { messageVisible
+              ? <div>Вы успешно зарегистрировались, ждем вас!</div>
+              :  <div>
+                <h2 className="popup__heading">Я хочу участвовать во встрече</h2>
+                <DignityForm toggleMsg={setMessageVisible}/>
+              </div> }
         </div>
       </div>
     </section>

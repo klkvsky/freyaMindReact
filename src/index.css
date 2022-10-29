@@ -1089,7 +1089,7 @@ details > summary::-webkit-details-marker {
     align-items: flex-start;
     padding: 31px 27px;
     transition: all 0.2s ease-in-out;
-    color: #fff;
+    color: #FFFFFF;
     opacity: 1;
   }
   .card:hover .back {
@@ -1116,8 +1116,6 @@ details > summary::-webkit-details-marker {
     right: 0;
     z-index: 3;
   }
-
-
 
   .speakers {
     height: max-content;

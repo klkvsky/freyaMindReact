@@ -291,6 +291,13 @@ details > summary::-webkit-details-marker {
   opacity: 1;
 }
 
+.cards-mobile-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
 
 .star-left {
   position: absolute;
@@ -767,6 +774,92 @@ details > summary::-webkit-details-marker {
   border-radius: 22px;
 }
 
+.timer-line {
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 9;
+  height: 85px;
+  border: 1px solid #000000;
+}
+
+.timer-wrap {
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 1340px;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  justify-content: space-between;
+}
+
+.timer__description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000;
+  max-width: 382px;
+}
+
+.timer__btn {
+  width: 310px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  color: #fff;
+  background-color: #000;
+  padding: 12px 0;
+  border-radius: 22px;
+}
+
+.timer__btn__svg {
+  display: none;
+}
+
+.timer__time {
+  display: flex;
+
+}
+
+.timer__hours {
+  display: flex;
+  flex-direction: column;
+  align-items: unset;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.02em;
+  margin-right: 14px;
+}
+
+.timer__hours__text {
+  font-family: 'Asgard', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  color: #000;
+}
+
+.timer__days {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.02em;
+  margin-right: 14px;
+}
+.timer__days__text {
+  font-family: 'Asgard', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  color: #000;
+}
 @media (min-width: 1024px) {
   .react-tel-input .form-control {
     width: 100%;
@@ -1287,6 +1380,78 @@ details > summary::-webkit-details-marker {
     line-height: 19px;
     margin-top: 60px;
     margin-bottom: 41px;
+  }
+
+  .timer-line {
+    background-color: #fff;
+    position: fixed;
+    bottom: unset;
+    top: 0;
+    height: 77px;
+  }
+  
+  .timer-wrap {
+    max-width: 327px;
+  }
+  
+  .timer__description {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    max-width: 138px;
+  }
+  
+  .timer__btn {
+    width: unset;
+    background-color: transparent;
+    padding: 0;
+  }
+  .timer__btn__text {
+    display: none;
+  }
+  .timer__btn__svg {
+    display: block;
+  }
+  
+  .timer__time {
+    display: flex;
+  }
+  
+  .timer__hours {
+    display: flex;
+    flex-direction: column;
+    align-items: unset;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    margin-right: 6px;
+  }
+  
+  .timer__hours__text {
+    font-family: 'Asgard', sans-serif;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 8px;
+    letter-spacing: -0.02em;
+    color: #000;
+  }
+  
+  .timer__days {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    margin-right: 6px;
+  }
+  .timer__days__text {
+    font-family: 'Asgard', sans-serif;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 8px;
+    letter-spacing: -0.02em;
+    color: #000;
   }
 }
 

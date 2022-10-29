@@ -11,21 +11,19 @@ export default function DignityCardsMob(props) {
 
     return (
         <section style={{height:"1000px"}}>
-            <img className="star star-left star-left-second" src="/src/assets/Website Assets/Dignity/Cards/Star.svg" alt="star"/>
-            <img className="star star-left" src="/src/assets/Website Assets/Dignity/Cards/Star.svg" alt="star"/>
-            <img className="star star-right" src="/src/assets/Website Assets/Dignity/Cards/Star.svg" alt="star"/>
-
-            <Swiper
+            <div className="cards-mobile-wrap">
+                
+            <Swiper style={{width: "300px"}}
                 slidesPerView={1}
                 loop={true}
             >
-                <SwiperSlide>
+                <SwiperSlide style={{width:"300px"}} >
                     <div className="front front1">
                         <h3 className="card__announce-front">Как экспату справиться с чувством вины</h3>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <div className="back">
+                <SwiperSlide style={{width:"300px"}}>
+                    <div style={{backgroundColor:"red"}} className="back">
                         <h3 className="card__announce-back">Как экспату справиться с чувством вины</h3>
                         <div className="card__description">Вы чувствуете себя предателем, потому что пришлось оставить родителей, друзей и любимый город? Знайте, что вы берете на себя слишком много ответственности. Вы не причастны к тем обстоятельствам, которые вынудили вас покинуть страну.Терапия поможет прожить чувство вины, осознать ее разрушительное влияние.<p className="card__speaker">Спикер: Наталья Гладских</p></div>
                         <button className="card__btn"
@@ -82,6 +80,7 @@ export default function DignityCardsMob(props) {
                     </div>
                 </SwiperSlide>
             </Swiper>
+            </div>
 
         </section>
     )

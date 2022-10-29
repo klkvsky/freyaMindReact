@@ -396,6 +396,10 @@ details > summary::-webkit-details-marker {
   opacity: 1;
 }
 
+.speaker__overlay-visible {
+  opacity: 1;
+}
+
 .speakers__heading {
   position: absolute;
   right: 0;

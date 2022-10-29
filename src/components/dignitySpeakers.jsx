@@ -12,6 +12,17 @@ import sunSvg from "../assets/Website Assets/Dignity/Speakers/Group 613.svg"
 
 export default function DignitySpeakers() {
 
+    const [isHovVisible, setIsHovVisible] = React.useState(false);
+
+    const toggleHover = () => {
+        if (isHovVisible === true) {
+            setIsHovVisible(false);
+        } else if (isHovVisible === false) {
+            setIsHovVisible(true);
+        }
+        console.log(isHovVisible)
+    }
+
     return (
         <section className="speakers">
             <div className="wrapper">
@@ -19,11 +30,17 @@ export default function DignitySpeakers() {
                     <li className="speaker">
                         <div className="speaker__container">
                             <img loading="lazy" src={therapist1} alt="therapist"/>
-                            <div className="speaker__overlay">
+                            <div className="speaker__overlay" >
                                 <img className="speaker__education" loading="lazy" src={backdrop2} alt="info" />
                             </div>
                         </div>
                         <div className="speaker__name">Екатерина Быстрова</div>
+                        {window.innerWidth > 1123 ? "" :
+                            <button onClick={
+                            ()=>{toggleHover()}}
+                        >arrooooooooooooooooooooooooooooooow</button>}
+
+
                     </li>
                     <li className="speaker">
                         <div className="speaker__container">

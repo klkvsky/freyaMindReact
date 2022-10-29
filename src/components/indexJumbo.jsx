@@ -40,7 +40,7 @@ export default function IndexJumbo() {
             Цена
           </Link>
           <a href="http://freyanow.com/anxiety" target="_blank"             className="hover:scale-125 transition-all duration-500">Помогаем</a>
-          <Link to="/dignity"  target="_blank"
+          <Link to="/think-clearly"  target="_blank"
             className="hover:scale-125 transition-all duration-500"
           >
             НАШИ НОВОСТИ

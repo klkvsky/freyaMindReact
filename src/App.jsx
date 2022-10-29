@@ -21,7 +21,7 @@ export default function App() {
         <Route path="/privacy" element={<Privacy />}></Route>
         <Route path="/personal" element={<PersonalPrivacy />}></Route>
         <Route path="/freetherapy" element={<FreeTherapy />}></Route>
-        <Route path="dignity" element={<Dignity />}></Route>
+        <Route path="/think-clearly" element={<Dignity />}></Route>
       </Routes>
     </div>
     // <div className="w-screen overflow-hidden">

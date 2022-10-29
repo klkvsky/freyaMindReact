@@ -5,10 +5,11 @@ export default function OpenCardButton() {
   const swiper = useSwiper();
   console.log(swiper)
   return (
-      <button className='slider__btn__next' onClick={() => swiper.slideNext()}>
-      <svg width="20" height="38" viewBox="0 0 20 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M1 37L19 19L1 0.999998" stroke="black"/>
-      </svg>
+      <button className='card__nextcard__btn' onClick={() => swiper.slideNext()}>
+        <svg width="30" height="16" viewBox="0 0 30 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M22 15L29 8L22 0.999999" stroke="black"/>
+          <path d="M0 8H29.5" stroke="black"/>
+        </svg>
       </button>
   );
 }

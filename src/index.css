@@ -585,7 +585,7 @@ details > summary::-webkit-details-marker {
   position: relative;
 }
 .slider-swiper-wrap {
-  
+
   position: absolute;
   top: 228px;
   left: calc(50% - 430px);
@@ -706,6 +706,19 @@ details > summary::-webkit-details-marker {
   height: 100%;
   position: fixed;
 }
+
+.star-mob1 {
+  position: absolute;
+  top: -50px;
+  left: -50px;
+}
+
+.star-mob1 {
+  position: absolute;
+  top: -70px;
+  left: -70px;
+}
+
 
 .dignity-popup-hidden {
   display: none;
@@ -895,7 +908,7 @@ details > summary::-webkit-details-marker {
 
   .react-tel-input .form-control{
     border-radius: 5px;
-  }  
+  }
 }
 
 
@@ -924,7 +937,7 @@ details > summary::-webkit-details-marker {
     justify-content: center;
     width: 100%;
   }
-  
+
   .intro-wrap {
     height: 100%;
     display: flex;
@@ -934,21 +947,21 @@ details > summary::-webkit-details-marker {
     padding-top: 123px;
     padding-bottom: 66px;
   }
-  
+
   .intro__heading {
     font-family: 'Asgard', sans-serif;
     font-weight: 700;
     font-size: 35px;
     line-height: 38px;
   }
-  
+
   .intro__paragraph {
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
     margin-bottom: 48px;
   }
-  
+
   .intro__btn {
     font-weight: 700;
     font-size: 16px;
@@ -956,7 +969,7 @@ details > summary::-webkit-details-marker {
     padding: 12px 45px;
     width: 300px;
   }
-  
+
   .cards-container {
     background-color: #FAF2E7;
   }
@@ -974,7 +987,7 @@ details > summary::-webkit-details-marker {
     position: relative;
     perspective: unset;
   }
-  
+
   .card__date {
     font-family: 'Asgard', sans-serif;
     font-weight: 700;
@@ -986,7 +999,7 @@ details > summary::-webkit-details-marker {
     justify-content: flex-end;
     width: 100%;
   }
-  
+
   .card__announce-front {
     font-family: 'Asgard', sans-serif;
     font-weight: 700;
@@ -996,7 +1009,7 @@ details > summary::-webkit-details-marker {
     color: #000;
     width: 253px;
   }
-  
+
   .card__announce-back {
     font-family: 'Asgard', sans-serif;
     font-weight: 700;
@@ -1006,20 +1019,20 @@ details > summary::-webkit-details-marker {
     color: #fff;
     width: 251px;
   }
-  
+
   .card__description {
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
   }
-  
+
   .card__speaker {
     margin-top: 24px;
     font-weight: 800;
     font-size: 15px;
     line-height: 18px;
   }
-  
+
   .card__btn {
     width: 251px;
     font-weight: 700;
@@ -1032,7 +1045,7 @@ details > summary::-webkit-details-marker {
     border-radius: 22px;
     padding: 11px 0;
   }
-  
+
   .frontM,
   .backM {
     position: absolute;
@@ -1048,7 +1061,7 @@ details > summary::-webkit-details-marker {
     backface-visibility: hidden;
     border: 1px solid #000000;
   }
-  
+
   .frontM {
     display: flex;
     flex-direction: column;
@@ -1056,7 +1069,7 @@ details > summary::-webkit-details-marker {
     padding: 25px;
     align-items: flex-start;
   }
-  
+
   .backM {
     background-color: #2E2E2E;
     display: flex;
@@ -1079,26 +1092,26 @@ details > summary::-webkit-details-marker {
     z-index: 1;
     display: none;
   }
-  
+
   .starM-left {
     position: absolute;
     top: -30px;
     z-index: 3;
   }
-  
+
   .starM-right {
     position: absolute;
     top: -30px;
     right: 0;
     z-index: 3;
   }
-  
-  
-  
+
+
+
   .speakers {
     height: 1642px;
   }
-  
+
   .speakers-list {
     flex-direction: column;
     padding-top: 100px;
@@ -1122,7 +1135,7 @@ details > summary::-webkit-details-marker {
     bottom: 0;
     z-index: -1;
   }
-  
+
   .speaker {
     position: relative;
     margin: 40px;
@@ -1135,7 +1148,7 @@ details > summary::-webkit-details-marker {
     line-height: 20px;
     bottom: 0px;
   }
-  
+
   .speaker__container {
     width: 256px;
     height: 407px;
@@ -1144,7 +1157,7 @@ details > summary::-webkit-details-marker {
   .speaker__container img {
     transform: scale(0.95);
   }
-  
+
   .speakers__heading {
     position: absolute;
     right: unset;
@@ -1157,13 +1170,24 @@ details > summary::-webkit-details-marker {
     letter-spacing: -0.02em;
     color: #000;
   }
-  
+
   .meet {
     width: 100%;
     height: 673px;
     background: #2E2E2E;
   }
-  
+
+  .star-mob1 {
+    top: -20px;
+    left: 15px;
+  }
+
+  .star-mob2 {
+    top: -70px;
+    left: 20px;
+  }
+
+
   .meet-wrap {
     position: relative;
     display: flex;
@@ -1188,7 +1212,7 @@ details > summary::-webkit-details-marker {
     margin-bottom: 52px;
     text-align: center;
   }
-  
+
   .meet__promo__btn {
     width: 300px;
     font-weight: 700;
@@ -1199,7 +1223,7 @@ details > summary::-webkit-details-marker {
     background-color: #fff;
     border-radius: 22px;
   }
-  
+
   .meet__promo__caption {
     margin-top: 10px;
     font-weight: 300;
@@ -1208,7 +1232,7 @@ details > summary::-webkit-details-marker {
     color: #fff;
     text-align: center;
   }
-  
+
   .meet__effects {
     position: absolute;
     top: 167px;
@@ -1216,7 +1240,7 @@ details > summary::-webkit-details-marker {
     flex-direction: column;
     margin-right: 0;
   }
-  
+
   .meet__effect {
     width: 300px;
     height: 90px;
@@ -1227,7 +1251,7 @@ details > summary::-webkit-details-marker {
     text-align: left;
     padding: 11px 31px;
   }
-  
+
   .meet__effect__star {
     width: 54px;
     height: auto;
@@ -1235,7 +1259,7 @@ details > summary::-webkit-details-marker {
     top: -30px;
     right: -25px;
   }
-  
+
   .meet__effect__text1 {
     font-weight: 900;
     font-size: 16px;
@@ -1246,26 +1270,26 @@ details > summary::-webkit-details-marker {
   .meet__effect:first-of-type {
     padding-bottom: 11px;
   }
-  
+
   .meet__effect__text2 {
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
     color: #fff;
   }
-  
+
   .meet__effect__text3 {
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
     color: #fff;
   }
-  
+
   .invitation {
     position: relative;
     height: 735px;
   }
-  
+
   .invitation__svg {
     min-width: 836px;
     position: absolute;
@@ -1274,7 +1298,7 @@ details > summary::-webkit-details-marker {
     bottom: 0;
     z-index: -1;
   }
-  
+
   .invitation__logo {
     width: 300px;
     position: absolute;
@@ -1282,7 +1306,7 @@ details > summary::-webkit-details-marker {
     bottom: 0;
     z-index: -1;
   }
-  
+
   .invitation-wrap {
     display: flex;
     flex-direction: column;
@@ -1290,26 +1314,26 @@ details > summary::-webkit-details-marker {
     justify-content: center;
     height: 735px;
   }
-  
+
   .invitation__heading {
     width: 300px;
 
   }
-  
+
   .invitation__description {
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
     max-width: 300px;
   }
-  
+
   .invitation__btn {
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
     width: 300px;
   }
-  
+
   .invitation__caption {
     text-align: center;
     margin-top: 12px;
@@ -1329,8 +1353,8 @@ details > summary::-webkit-details-marker {
     left: calc(50% - 120px);
     right: calc(50% - 120px);
   }
-  
-  
+
+
   .slider__btn__next {
     transform: scale(0.5);
     position: absolute;
@@ -1338,7 +1362,7 @@ details > summary::-webkit-details-marker {
     right: -40px;
     z-index: 3;
   }
-  
+
   .slider__btn__prev {
     transform: scale(0.5);
     position: absolute;
@@ -1346,7 +1370,7 @@ details > summary::-webkit-details-marker {
     left: -50px;
     z-index: 3;
   }
-  
+
   .slider__heading {
     position: absolute;
     top: 65px;
@@ -1357,14 +1381,14 @@ details > summary::-webkit-details-marker {
     font-size: 25px;
     line-height: 25px;
   }
-  
+
   .slide-box {
     width: 239px;
     height: 377px;
     border: 1px solid #000000;
     position: relative;
   }
-  
+
   .slide-box::before {
     content: '';
     width: 239px;
@@ -1375,18 +1399,18 @@ details > summary::-webkit-details-marker {
     left: -9px;
     z-index: -1;
   }
-  
+
   .slide-quote {
     padding: 9px;
   }
-  
+
   .slide__author {
     position: absolute;
     top: unset;
     bottom: 17px;
     left: 33px;
   }
-  
+
   .author__placeholder {
     width: 28px;
     height: 28px;
@@ -1394,14 +1418,14 @@ details > summary::-webkit-details-marker {
     border-radius: 14px;
     border: 1px solid #000;
   }
-  
+
   .author {
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
     margin-left: 12px;
   }
-  
+
   .expression__text {
     max-width: 222px;
     font-weight: 400;
@@ -1420,14 +1444,14 @@ details > summary::-webkit-details-marker {
     background: radial-gradient(69.26% 137.5% at 46.58% 30.74%, #FFFFFF 9.45%, rgba(255, 255, 255, 0.4) 100%);
     position: relative;
   }
-  
+
   .popup__close__btn {
     position: absolute;
     transform: scale(0.6);
     top: 20px;
     right: 20px;
   }
-  
+
   .popup-container {
     margin: 175px 16px 0 16px;
     display: flex;
@@ -1435,7 +1459,7 @@ details > summary::-webkit-details-marker {
     align-items: center;
     justify-content: space-between;
   }
-  
+
   .popup__heading {
     font-size: 20px;
     line-height: 21px;
@@ -1443,7 +1467,7 @@ details > summary::-webkit-details-marker {
     max-width: 269px;
     margin-bottom: 29px;
   }
-  
+
   .dignity-form__input {
     border: 1px solid #000000;
     width: 270px;
@@ -1451,7 +1475,7 @@ details > summary::-webkit-details-marker {
     margin-bottom: 20px;
     padding: 10px 15px;
   }
-  
+
   .dignity-form__btn {
     width: 270px;
     font-weight: 700;
@@ -1468,19 +1492,19 @@ details > summary::-webkit-details-marker {
     top: 0;
     height: 77px;
   }
-  
+
   .timer-wrap {
     max-width: 327px;
     padding: 16px 0;
   }
-  
+
   .timer__description {
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
     max-width: 138px;
   }
-  
+
   .timer__btn {
     width: unset;
     background-color: transparent;
@@ -1492,11 +1516,11 @@ details > summary::-webkit-details-marker {
   .timer__btn__svg {
     display: block;
   }
-  
+
   .timer__time {
     display: flex;
   }
-  
+
   .timer__hours {
     display: flex;
     flex-direction: column;
@@ -1508,7 +1532,7 @@ details > summary::-webkit-details-marker {
     letter-spacing: -0.02em;
     margin-right: 6px;
   }
-  
+
   .timer__hours__text {
     font-family: 'Asgard', sans-serif;
     font-weight: 400;
@@ -1517,7 +1541,7 @@ details > summary::-webkit-details-marker {
     letter-spacing: -0.02em;
     color: #000;
   }
-  
+
   .timer__days {
     font-weight: 700;
     font-size: 22px;
@@ -1534,4 +1558,5 @@ details > summary::-webkit-details-marker {
     color: #000;
   }
 }
+
 

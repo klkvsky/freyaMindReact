@@ -20,7 +20,7 @@ export default function DignitySpeakers() {
                         <div className="speaker__container">
                             <img loading="lazy" src={therapist1} alt="therapist"/>
                             <div className="speaker__overlay">
-                                <img className="speaker__education" loading="lazy" src={backdrop} alt="info" />
+                                <img className="speaker__education" loading="lazy" src={backdrop2} alt="info" />
                             </div>
                         </div>
                         <div className="speaker__name">Екатерина Быстрова</div>
@@ -29,7 +29,7 @@ export default function DignitySpeakers() {
                         <div className="speaker__container">
                             <img loading="lazy" src={therapist2} alt="therapist"/>
                             <div className="speaker__overlay">
-                                <img className="speaker__education"loading="lazy" src={backdrop2} alt="info" />
+                                <img className="speaker__education"loading="lazy" src={backdrop} alt="info" />
                             </div>
                         </div>
                         <div className="speaker__name">Мария Домбровская</div>

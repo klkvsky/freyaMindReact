@@ -8,6 +8,7 @@ export default function DignityPopup(props) {
 
   const closePopup = () => {
     props.toggle(false);
+    setMessageVisible(false);
   }
 
   return (

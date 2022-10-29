@@ -1,8 +1,8 @@
 import React from "react";
 
 import therapist1 from "../assets/Website Assets/Dignity/Speakers/therapist1.png";
-import therapist2 from "../assets/Website Assets/Dignity/Speakers/therapist3.png";
-import therapist3 from "../assets/Website Assets/Dignity/Speakers/therapist2.png";
+import therapist2 from "../assets/Website Assets/Dignity/Speakers/therapist2.png";
+import therapist3 from "../assets/Website Assets/Dignity/Speakers/therapist3.png";
 import backdrop from "../assets/Website Assets/Dignity/Speakers/backdrop.png";
 import backdrop2 from "../assets/Website Assets/Dignity/Speakers/backdrop2.png";
 import backdrop3 from "../assets/Website Assets/Dignity/Speakers/backdrop3.png";

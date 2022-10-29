@@ -1,6 +1,8 @@
 import React from "react";
 import logoHeader from "../assets/Website Assets/Dignity/Intro/logo.png"
 
+import logoHeader from "../assets/Website Assets/Dignity/Intro/logo.png"
+
 export default function DignityIntro(props) {
 
     const openPopup = () => {
@@ -13,7 +15,7 @@ export default function DignityIntro(props) {
                 <div className="intro__logo-container">
                     <a href="" className="intro__logo">
                         <img loading="eager"
-                            src={logoHeader} alt="logo" />
+                             src={logoHeader} alt="logo" />
                     </a>
                 </div>
                 <div>

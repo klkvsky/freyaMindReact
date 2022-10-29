@@ -89,8 +89,8 @@ export default function DignityCards(props) {
                         </div>
                     </div>
                     <img className="star star-left star-left-second" loading="lazy" src={star} alt="star"/>
-                    <img className="star star-left"  loading="lazy" src={star} alt="star"/>
-                    <img className="star star-right"  loading="lazy" src={star} alt="star"/>
+                    <img className="star star-left" loading="lazy" src={star} alt="star"/>
+                    <img className="star star-right" loading="lazy" src={star} alt="star"/>
                 </div>
             </div>
         </section>

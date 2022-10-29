@@ -1,4 +1,5 @@
 import React from "react";
+import effectStar from "../assets/Website Assets/Dignity/Meet/Vector (11).svg"
 
 import effectStar from "../assets/Website Assets/Dignity/Meet/Vector (11).svg"
 

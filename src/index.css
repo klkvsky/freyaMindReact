@@ -315,6 +315,7 @@ details > summary::-webkit-details-marker {
   background-color: #F2D4B5;
   position: relative;
   z-index: 1;
+  padding-top: 174px;
 }
 
 .speakers-list {
@@ -338,7 +339,6 @@ details > summary::-webkit-details-marker {
 
 .speaker {
   position: relative;
-  margin: 174px 0 0 0;
 }
 .speaker__name {
   width: 313px;
@@ -389,7 +389,7 @@ details > summary::-webkit-details-marker {
 }
 
 .speaker__education {
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 .speaker:hover .speaker__overlay {
@@ -1120,7 +1120,8 @@ details > summary::-webkit-details-marker {
 
 
   .speakers {
-    height: 1642px;
+    height: max-content;
+    padding-top: 0;
   }
 
   .speakers-list {
@@ -1149,7 +1150,7 @@ details > summary::-webkit-details-marker {
 
   .speaker {
     position: relative;
-    margin-bottom: 70px;
+    margin-bottom: 65px;
     margin-top: 0;
     overflow: hidden;
   }
@@ -1160,38 +1161,42 @@ details > summary::-webkit-details-marker {
     font-size: 20px;
     line-height: 20px;
     bottom: 0px;
+    left: 25px;
+    padding: 10px;
+    text-align: center;
   }
 
   .speaker__container {
-    width: 256px;
-    height: 407px;
+    width: 272px;
+    height: 433px;
   }
 
-  .speaker__container img {
+  .speaker__container:first-child {
+    filter: brightness(1);
     transform: scale(0.95);
+    width: 100%;
+    height: 100%;
+    border: 10px solid #fff;
+    border-radius: 100%;
+    outline: 1px solid #000;
+    
   }
 
   .speaker__overlay {
     position: absolute;
-    opacity: 0;
-    top: 2px;
-    left: 2px;
-    width: 253px;
-    height: 405px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
     transition: 0.2s ease;
-    background-color: #fff;
-    border-radius: 50%;
+    background-color: transparent;
+    border-radius: unset;
     border: none;
   }
   
   .speaker__education {
-    margin-top: 0;
+    margin-top: unset;
   }
-  
-  .speaker:hover .speaker__overlay {
-    opacity: 1;
-  }
-
   .speakers__heading {
     position: absolute;
     right: unset;
@@ -1209,11 +1214,15 @@ details > summary::-webkit-details-marker {
     position: absolute;
     z-index: 4;
     bottom: 9px;
-    right: 15px;
+    right: 40px;
   }
 
   .overlay__visible {
     opacity: 1;
+  }
+
+  .overlay__bg {
+    filter: brightness(0) invert(1);
   }
 
   .meet {

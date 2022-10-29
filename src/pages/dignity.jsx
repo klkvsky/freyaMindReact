@@ -17,9 +17,9 @@ export default function Dignity() {
             <DignityTimer date={new Date('tue, 1 nov 2022 18:00:00')}  openPopup={setPopupVisible}/>
             <DignityIntro openPopup={setPopupVisible}/>
             <DignitySlider />
-            {window.innerWidth > 1124 
+            {window.innerWidth > 1124
                 ? <DignityCards openPopup={setPopupVisible}/>
-                : <DignityCardsMob />
+                : <DignityCardsMob openPopup={setPopupVisible}/>
             }
             <DignityMeet openPopup={setPopupVisible}/>
             <DignitySpeakers />

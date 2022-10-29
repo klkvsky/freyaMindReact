@@ -713,7 +713,7 @@ details > summary::-webkit-details-marker {
   left: -50px;
 }
 
-.star-mob1 {
+.star-mob2 {
   position: absolute;
   top: -70px;
   left: -70px;
@@ -1178,13 +1178,13 @@ details > summary::-webkit-details-marker {
   }
 
   .star-mob1 {
-    top: -20px;
+    top: -50px;
     left: 15px;
   }
 
   .star-mob2 {
     top: -70px;
-    left: 20px;
+    left: 10px;
   }
 
 

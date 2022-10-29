@@ -1,6 +1,7 @@
 import React from "react";
 import {Swiper, SwiperSlide} from "swiper/react";
 import OpenCardButton from "./openCardButton.jsx";
+import star from "../assets/Website Assets/Dignity/Cards/Star.svg";
 
 
 export default function DignityCardsMob(props) {
@@ -17,7 +18,7 @@ export default function DignityCardsMob(props) {
                     loop={true}
                 >
                     <OpenCardButton />
-                    <img src="/src/assets/Website Assets/Dignity/Cards/Star.svg" alt="" className="starM-left" />
+                    <img loading="lazy" src={star} alt="" className="starM-left" />
                     <SwiperSlide className="card">
                         <div className="frontM front1">
                             <div className="card__date">
@@ -51,7 +52,7 @@ export default function DignityCardsMob(props) {
                     loop={true}
                 >
                     <OpenCardButton className="card__nextcard__btn" />
-                    <img src="/src/assets/Website Assets/Dignity/Cards/Star.svg" alt="" className="starM-right" />
+                    <img loading="lazy" src={star} alt="" className="starM-right" />
                     <SwiperSlide className="card">
                         <div className="frontM front2">
                             <h3 className="card__announce-front">Как не потерять самоуважение в новой стране</h3>
@@ -85,7 +86,7 @@ export default function DignityCardsMob(props) {
                     loop={true}
                 >
                     <OpenCardButton />
-                    <img src="/src/assets/Website Assets/Dignity/Cards/Star.svg" alt="" className="starM-left" />
+                    <img loading="lazy" src={star} alt="" className="starM-left" />
                     <SwiperSlide className="card">
                         <div className="frontM front1">
                             <div className="card__date">

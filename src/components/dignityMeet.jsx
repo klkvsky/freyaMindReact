@@ -1,5 +1,7 @@
 import React from "react";
 
+import effectStar from "../assets/Website Assets/Dignity/Meet/Vector (11).svg"
+
 export default function DignityMeet(props) {
 
     const openPopup = () => {
@@ -22,7 +24,7 @@ export default function DignityMeet(props) {
                 </div>
                 <ul className="meet__effects">
                     <li className="meet__effect">
-                        <img className="meet__effect__star" src="/src/assets/Website Assets/Dignity/Meet/Vector (11).svg"/>
+                        <img className="meet__effect__star" loading="lazy" src={effectStar}/>
                         <p className="meet__effect__text1">поймете, куда двигаться, чтобы справиться с проблемой</p>
                     </li>
                     <li className="meet__effect">

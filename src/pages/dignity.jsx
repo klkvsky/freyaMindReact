@@ -8,15 +8,19 @@ import DignitySpeakers from "../components/dignitySpeakers.jsx";
 import DignityInvite from "../components/dignityInvite.jsx";
 import DignityPopup from "../components/dignitPopup.jsx";
 import DignityCardsMob from "../components/dignityCardsMob.jsx";
+import DignityTimer from "../components/digTimer.jsx";
 
 export default function Dignity() {
     const [popupVisible, setPopupVisible] = React.useState(false)
     return(
         <section>
+            <DignityTimer date={new Date('tue, 1 nov 2022 18:00:00')}  openPopup={setPopupVisible}/>
             <DignityIntro openPopup={setPopupVisible}/>
             <DignitySlider />
-            <DignityCards openPopup={setPopupVisible}/>
-            <DignityCardsMob />
+            {window.innerWidth > 1124 
+                ? <DignityCards openPopup={setPopupVisible}/>
+                : <DignityCardsMob />
+            }
             <DignityMeet openPopup={setPopupVisible}/>
             <DignitySpeakers />
             <DignityInvite />

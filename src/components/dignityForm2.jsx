@@ -9,6 +9,7 @@ import "react-phone-input-2/lib/plain.css";
 export default function DignityForm2(prop) {
     function sumbitFunc(e) {
         e.preventDefault();
+        prop.toggleMsg(true);
         console.log("sumbitFunc");
         fbq("track", "Lead");
         isSubmited(true);
@@ -81,9 +82,6 @@ export default function DignityForm2(prop) {
                                 d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                             />
                         </svg>
-                        <h1 className="text-[18px] text-center">
-                            Спасибо! Данные успешно отправлены
-                        </h1>
                     </div>
                 </div>
             )}
@@ -91,7 +89,7 @@ export default function DignityForm2(prop) {
                 method="POST"
                 // action="https://sobakipavlova23493.activehosted.com/proc.php"
                 id="_form_4_"
-                className="_form _form_4 _inline-form  _dark"
+                className="dignity-form"
                 noValidate
                 onSubmit={(e) => {
                     sumbitFunc(e);
@@ -109,7 +107,7 @@ export default function DignityForm2(prop) {
                     name="or"
                     value="aff7854179c8dca119fc24ec49221b70"
                 />
-                <div className="_form-content mt-[50px] w-[300px] flex flex-col gap-[20px] mx-auto lg:w-[362px] ">
+                <div className="_form-content w-[300px] flex flex-col gap-[20px] mx-auto lg:w-[362px] ">
                     <div className="_form_element _x54994482 _full_width ">
                         <label htmlFor="fullname" className="_form-label"></label>
                         <div className="_field-wrapper">
@@ -119,7 +117,7 @@ export default function DignityForm2(prop) {
                                 name="fullname"
                                 placeholder="  Имя"
                                 required
-                                className="border-[1px] w-full border-[#9e9e9e] rounded-[5px] text-[16px] h-[40px] px-[20px] lg:h-[50px]"
+                                className="dignity-form__input"
                             />
                         </div>
                     </div>
@@ -133,16 +131,17 @@ export default function DignityForm2(prop) {
                                 name="email"
                                 placeholder=" e-mail"
                                 required
-                                className="border-[1px] w-full border-[#9e9e9e] rounded-[5px] text-[16px] h-[40px] px-[20px] lg:h-[50px]"
+                                className="dignity-form__input"
                             />
                         </div>
                     </div>
-                    <div className="_form_element _x92297975 _full_width ">
+                    <div className="_form_element _x92297975 ">
                         <label htmlFor="phone" className="_form-label"></label>
                         <div className="_field-wrapper">
                             <ReactPhoneInput
                                 country={"ru"}
                                 className="rounded-[5px] overflow-hidden lg:bg-red-500 lg:overflow-visible lg:rounded-[15px]"
+                                style={window.innerWidth > 1023 ? {border: "1px black solid"} : {border: "1px black solid", maxWidth: "270px", marginLeft:"15px"}}
                                 required
                             />
                         </div>
@@ -151,14 +150,13 @@ export default function DignityForm2(prop) {
                         <button
                             id="_form_4_submit"
                             type="submit"
-                            className="bg-[#5d6541] text-white text-[14px] font-semibold h-[50px] px-[15px] rounded-full w-full uppercase _submit"
+                            className="dignity-form__btn"
                         >
                             ПРИСОЕДИНИТЬСЯ
                         </button>
                     </div>
                     <div className="_clear-element"></div>
                 </div>
-                <div className="_form-thank-you" style={{ display: "none" }}></div>
             </form>
         </div>
     );

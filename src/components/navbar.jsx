@@ -88,7 +88,7 @@ export default function Navbar() {
                 </ul>
               </details>
             </li> */}
-            <a href="http://freyanow.com/affirmations" target="_blank">
+            <a href="http://freyanow.com/think-clearly" target="_blank">
               НАШИ НОВОСТИ
             </a>
             {/* <NavLink

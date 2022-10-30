@@ -141,7 +141,7 @@ export default function DignityForm2(prop) {
                             <ReactPhoneInput
                                 country={"ru"}
                                 className="rounded-[5px] overflow-hidden lg:bg-red-500 lg:overflow-visible lg:rounded-[15px]"
-                                style={window.innerWidth > 1023 ? {border: "1px black solid"} : {border: "1px black solid", maxWidth: "270px", marginLeft:"15px"}}
+                                style={window.innerWidth > 1023 ? {border: "1px black solid", borderRadius: "5px"} : {border: "1px black solid", maxWidth: "270px", marginLeft:"15px"}}
                                 required
                             />
                         </div>

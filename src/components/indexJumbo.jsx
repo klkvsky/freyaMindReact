@@ -1,9 +1,9 @@
-import LogoURL from "../assets/Website Assets /logo.svg";
-import ImageForEUURL from "../assets/Website Assets /imageForEu.svg";
-import PhoneBg from "../assets/Website Assets /indexJumboBgPhone.png";
-import imageDefault from "../assets/Website Assets /Home Page/Feature Img/imageDefaultOld.png";
-import imageOnHover from "../assets/Website Assets /Home Page/Feature Img/imageOnHoverOld.png"
-import ArrowDown from "../assets/Website Assets /Home Page/Feature Img/Arrow_down.svg";
+import LogoURL from "../assets/Website Assets/logo.svg";
+import ImageForEUURL from "../assets/Website Assets/imageForEu.svg";
+import PhoneBg from "../assets/Website Assets/indexJumboBgPhone.png";
+import imageDefault from "../assets/Website Assets/Home Page/Feature Img/imageDefaultOld.png";
+import imageOnHover from "../assets/Website Assets/Home Page/Feature Img/imageOnHoverOld.png"
+import ArrowDown from "../assets/Website Assets/Home Page/Feature Img/Arrow_down.svg";
 //
 
 import { Link } from "react-router-dom";
@@ -40,11 +40,11 @@ export default function IndexJumbo() {
             Цена
           </Link>
           <a href="http://freyanow.com/anxiety" target="_blank"             className="hover:scale-125 transition-all duration-500">Помогаем</a>
-          <a href="http://freyanow.com/affirmations" target="_blank"
+          <Link to="/think-clearly"  target="_blank"
             className="hover:scale-125 transition-all duration-500"
           >
             НАШИ НОВОСТИ
-          </a>
+          </Link>
           <Link
             to="/contactus"
             className="hover:scale-125 transition-all duration-500"

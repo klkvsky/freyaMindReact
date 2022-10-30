@@ -11,45 +11,45 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 //
-import grid1 from "../assets/Website Assets /Home Page/Section 2/grid_1.svg";
-import grid2 from "../assets/Website Assets /Home Page/Section 2/grid_2.svg";
-import grid3 from "../assets/Website Assets /Home Page/Section 2/grid_3.svg";
-import grid4 from "../assets/Website Assets /Home Page/Section 2/grid_4.svg";
-import grid5 from "../assets/Website Assets /Home Page/Section 2/grid_5.svg";
-import grid6 from "../assets/Website Assets /Home Page/Section 2/grid_6.svg";
+import grid1 from "../assets/Website Assets/Home Page/Section 2/grid_1.svg";
+import grid2 from "../assets/Website Assets/Home Page/Section 2/grid_2.svg";
+import grid3 from "../assets/Website Assets/Home Page/Section 2/grid_3.svg";
+import grid4 from "../assets/Website Assets/Home Page/Section 2/grid_4.svg";
+import grid5 from "../assets/Website Assets/Home Page/Section 2/grid_5.svg";
+import grid6 from "../assets/Website Assets/Home Page/Section 2/grid_6.svg";
 //
-import diamondURL from "../assets/Website Assets /Home Page/Section 3/Diamond.svg";
-import separatorURL from "../assets/Website Assets /Home Page/Section 3/Separator.svg";
+import diamondURL from "../assets/Website Assets/Home Page/Section 3/Diamond.svg";
+import separatorURL from "../assets/Website Assets/Home Page/Section 3/Separator.svg";
 //
-import sectionIcon from "../assets/Website Assets /Home Page/Section 4/Section 4.1.svg";
-import itemIcon from "../assets/Website Assets /Home Page/Section 4/Bullet 1.svg";
-import Arrow from "../assets/Website Assets /Home Page/Section 4/Arrow.svg";
-import BackgroundSection from "../assets/Website Assets /Home Page/Section 4/BackgroundOld.svg";
+import sectionIcon from "../assets/Website Assets/Home Page/Section 4/Section 4.1.svg";
+import itemIcon from "../assets/Website Assets/Home Page/Section 4/Bullet 1.svg";
+import Arrow from "../assets/Website Assets/Home Page/Section 4/Arrow.svg";
+import BackgroundSection from "../assets/Website Assets/Home Page/Section 4/BackgroundOld.svg";
 //
-import ins1 from "../assets/Website Assets /Home Page/Section 5/Institution 1.svg";
-import ins2 from "../assets/Website Assets /Home Page/Section 5/Institution 2.svg";
-import ins3 from "../assets/Website Assets /Home Page/Section 5/Institution 3.svg";
-import ins4 from "../assets/Website Assets /Home Page/Section 5/Institution 4.svg";
+import ins1 from "../assets/Website Assets/Home Page/Section 5/Institution 1.svg";
+import ins2 from "../assets/Website Assets/Home Page/Section 5/Institution 2.svg";
+import ins3 from "../assets/Website Assets/Home Page/Section 5/Institution 3.svg";
+import ins4 from "../assets/Website Assets/Home Page/Section 5/Institution 4.svg";
 //
-import sunIcon from "../assets/Website Assets /Home Page/Section 6/Separator 1.svg";
+import sunIcon from "../assets/Website Assets/Home Page/Section 6/Separator 1.svg";
 //
-import test1_mobile from "../assets/Website Assets /Home Page/Section 6/Testimonials/Test1_Mobile.svg";
-import test1_desktop from "../assets/Website Assets /Home Page/Section 6/Testimonials/Test1_Desktop.jpg"
+import test1_mobile from "../assets/Website Assets/Home Page/Section 6/Testimonials/Test1_Mobile.svg";
+import test1_desktop from "../assets/Website Assets/Home Page/Section 6/Testimonials/Test1_Desktop.jpg"
 
-import test2_mobile from "../assets/Website Assets /Home Page/Section 6/Testimonials/Test2_mobile.webp";
-import test2_desktop from "../assets/Website Assets /Home Page/Section 6/Testimonials/Test2_Desktop.jpg"
+import test2_mobile from "../assets/Website Assets/Home Page/Section 6/Testimonials/Test2_mobile.webp";
+import test2_desktop from "../assets/Website Assets/Home Page/Section 6/Testimonials/Test2_Desktop.jpg"
 
-import test3_mobile from "../assets/Website Assets /Home Page/Section 6/Testimonials/Test3_mobile.png";
-import test3_desktop from "../assets/Website Assets /Home Page/Section 6/Testimonials/Test3_Desktop.jpg"
+import test3_mobile from "../assets/Website Assets/Home Page/Section 6/Testimonials/Test3_mobile.png";
+import test3_desktop from "../assets/Website Assets/Home Page/Section 6/Testimonials/Test3_Desktop.jpg"
 // 
-import AnastasiaURL from "../assets/Website Assets /Home Page/Section 7/Anastasia.svg"
-import MargoURL from "../assets/Website Assets /Home Page/Section 7/Margo.svg"
-import TherapystListIcon from "../assets/Website Assets /Home Page/Section 7/Bullet.svg"
+import AnastasiaURL from "../assets/Website Assets/Home Page/Section 7/Anastasia.svg"
+import MargoURL from "../assets/Website Assets/Home Page/Section 7/Margo.svg"
+import TherapystListIcon from "../assets/Website Assets/Home Page/Section 7/Bullet.svg"
 // 
-import MainFooterText from "../assets/Website Assets /Home Page/Section 8/mainText.svg"
-import FooterSunIcon from "../assets/Website Assets /Home Page/Section 8/Asset.svg"
+import MainFooterText from "../assets/Website Assets/Home Page/Section 8/mainText.svg"
+import FooterSunIcon from "../assets/Website Assets/Home Page/Section 8/Asset.svg"
 // 
-import FooterLogo from "../assets/Website Assets /Home Page/footerLogo.svg"
+import FooterLogo from "../assets/Website Assets/Home Page/footerLogo.svg"
 
 
 export default function Home() {

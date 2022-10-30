@@ -6,8 +6,8 @@ import Navbar from "../components/navbar";
 import TherapyJumbo from "../components/therapyJumbo";
 import Feedback from "../components/feedbackComponent";
 //
-import FooterImage from "../assets/Website Assets /Price Page/wholeFooterImage.svg";
-import footerLogo from "../assets/Website Assets /About Us Page/freyaGreenFooterLogo.svg";
+import FooterImage from "../assets/Website Assets/Price Page/wholeFooterImage.svg";
+import footerLogo from "../assets/Website Assets/About Us Page/freyaGreenFooterLogo.svg";
 
 export default function About() {
   return (

@@ -137,6 +137,7 @@ details > summary::-webkit-details-marker {
   letter-spacing: -0.02em;
   color: #fff;
   margin-bottom: 12px;
+  max-width: 1024px;
 }
 
 .intro__paragraph {

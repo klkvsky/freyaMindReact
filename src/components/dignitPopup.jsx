@@ -1,6 +1,7 @@
 import React from "react";
 
 import DignityForm from "../components/digForm.jsx";
+import DignityForm2 from "./dignityForm2.jsx";
 
 export default function DignityPopup(props) {
 
@@ -38,7 +39,7 @@ export default function DignityPopup(props) {
                   Вы успешно зарегистрировались, ждем вас!</p></div>
               :  <div>
                 <h2 className="popup__heading">Я хочу участвовать во встрече</h2>
-                <DignityForm toggleMsg={setMessageVisible}/>
+                <DignityForm2 toggleMsg={setMessageVisible}/>
               </div> }
         </div>
       </div>

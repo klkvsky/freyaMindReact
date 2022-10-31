@@ -137,6 +137,7 @@ details > summary::-webkit-details-marker {
   letter-spacing: -0.02em;
   color: #fff;
   margin-bottom: 12px;
+  max-width: 1024px;
 }
 
 .intro__paragraph {
@@ -195,6 +196,7 @@ details > summary::-webkit-details-marker {
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.02em;
+  overflow-wrap: break-word;
   color: #000;
   width: 306px;
 }

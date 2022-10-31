@@ -12,18 +12,29 @@ import DignityCardsMob from "../components/dignityCardsMob.jsx";
 import DignityTimer from "../components/digTimer.jsx";
 
 export default function Dignity() {
-    const [popupVisible, setPopupVisible] = React.useState(false)
+    const [popupVisible, setPopupVisible] = React.useState(false);
+    const [defaultPageWidth, setDefaultPageWidth] = React.useState(window.innerWidth);
+    const bp = 1124;
+    React.useEffect(() => {
+        const windowResizer = () => setDefaultPageWidth(window.innerWidth);
+        window.addEventListener("resize", windowResizer);
+        return () => {
+            window.removeEventListener("resize", windowResizer);
+        };
+    }, []);
+
+
     return(
         <section>
             <DignityTimer date={new Date('tue, 1 nov 2022 18:00:00')}  openPopup={setPopupVisible}/>
             <DignityIntro openPopup={setPopupVisible}/>
             <DignitySlider />
-            {window.innerWidth > 1124
+            {defaultPageWidth > bp
                 ? <DignityCards openPopup={setPopupVisible}/>
                 : <DignityCardsMob openPopup={setPopupVisible}/>
             }
             <DignityMeet openPopup={setPopupVisible}/>
-            {window.innerWidth > 1124
+            {defaultPageWidth > bp
                 ? <DignitySpeakersDesktop openPopup={setPopupVisible}/>
                 : <DignitySpeakers openPopup={setPopupVisible}/>
             }

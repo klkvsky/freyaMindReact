@@ -25,7 +25,7 @@ export default function DignitySlider() {
                                 </div>
                                 <div className="expression">
                                     <p className="expression__text">
-                                    "Я устал чувствовать себя виноватым в том, что я не поддерживаю".
+                                        &laquo;Я&nbsp;устал чувствовать себя виноватым в&nbsp;том, что я&nbsp;не&nbsp;поддерживаю&raquo;.
                                     </p>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@ export default function DignitySlider() {
                                 </div>
                                 <div className="expression">
                                     <p className="expression__text">
-                                        “Я забыл, когда говорил о будущем, мне не с кем общаться”.
+                                        &laquo;Я&nbsp;забыл, когда говорил о&nbsp;будущем, мне не&nbsp;с&nbsp;кем общаться&raquo;.
                                     </p>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@ export default function DignitySlider() {
                                 </div>
                                 <div className="expression">
                                     <p className="expression__text">
-                                        “Я боюсь говорить, что я русская”
+                                        &laquo;Я&nbsp;боюсь говорить, что я&nbsp;русская&raquo;.
                                     </p>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@ export default function DignitySlider() {
                                 </div>
                                 <div className="expression">
                                     <p className="expression__text">
-                                        “Я устала плакать от новостей и обсуждать их каждый день”.
+                                        &laquo;Я&nbsp;устала плакать от&nbsp;новостей и&nbsp;обсуждать их&nbsp;каждый день&raquo;.
                                     </p>
                                 </div>
                             </div>

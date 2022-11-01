@@ -735,7 +735,8 @@ details > summary::-webkit-details-marker {
   width: 937px;
   height: 584px;
   border: 1px solid #000000;
-  background: radial-gradient(69.26% 137.5% at 46.58% 30.74%, #FFFFFF 9.45%, rgba(255, 255, 255, 0.4) 100%);
+  /* background: radial-gradient(69.26% 137.5% at 46.58% 30.74%, #FFFFFF 9.45%, rgba(255, 255, 255, 0.4) 100%); */
+  @apply bg-white/80 backdrop-blur-md;
   position: relative;
 }
 

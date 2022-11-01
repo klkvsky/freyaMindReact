@@ -97,7 +97,7 @@ export default function FeedbackComponent(prop) {
         method="POST"
         // action="https://sobakipavlova23493.activehosted.com/proc.php"
         id="_form_4_"
-        className="_form _form_4 _inline-form  _dark"
+        className={`_form _form_4 _inline-form  _dark ${location.pathname}-form`}
         noValidate
         onSubmit={(e) => {
           sumbitFunc(e);

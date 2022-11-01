@@ -42,10 +42,10 @@ export default function About() {
                   <div className="w-[75px] h-[2px] bg-[#858585] -rotate-[30deg]" />
                 </div>
                 <h2 className="text-[40px] font-semibold text-[#858585]">
-                  €78
+                  €58
                 </h2>
                 <h2 className="text-[40px] font-semibold text-black ml-[12px]">
-                  €39*
+                  €29*
                 </h2>
                 <p className="text-black font-semibold text-[15px] ml-[3px]">
                   за 2 сессии
@@ -64,11 +64,11 @@ export default function About() {
               </p>
 
               <a
-                href="https://t.me/freya_mind_bot"
+                href="https://buy.stripe.com/bIYeWS5R58St8M0aFd"
                 target="_blank"
                 className="bg-black rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[50px] lg:mt-[50px] text-white grid place-items-center"
               >
-                СТОИМОСТЬ ТАРИФА 39€
+                СТОИМОСТЬ ТАРИФА 58€
               </a>
               <p className="text-[12px] text-black mt-[10px]">
                 **по промокоду “FRESHSTART” вы получите первые две сессии по
@@ -89,7 +89,7 @@ export default function About() {
 
               <div className="flex flex-row items-center justify-start border-[1px] border-white rounded-full mt-[30px] pl-[12px] relative w-[200px]">
                 <h2 className="text-[40px] font-semibold text-black ml-[12px]">
-                  €29*
+                  €49*
                 </h2>
                 <p className="text-black font-semibold text-[15px] ml-[3px]">
                   за сессию
@@ -111,11 +111,11 @@ export default function About() {
               </p>
 
               <a
-                href="https://t.me/freya_mind_bot"
+                href="https://buy.stripe.com/00g7uqbbpgkVfaodRz"
                 target="_blank"
                 className="bg-black rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[50px] lg:mt-[35px] text-white grid place-content-center"
               >
-                СТОИМОСТЬ ТАРИФА 116€
+                СТОИМОСТЬ ТАРИФА 196€
               </a>
               <p className="text-[12px] text-black mt-[10px]">
                 **при оплате четырехнедельного пакета
@@ -135,7 +135,7 @@ export default function About() {
 
               <div className="flex flex-row items-center justify-start border-[1px] border-white rounded-full mt-[30px] pl-[12px] relative w-[200px]">
                 <h2 className="text-[40px] font-semibold text-black ml-[12px]">
-                  €24*
+                  €39*
                 </h2>
                 <p className="text-black font-semibold text-[15px] ml-[3px]">
                   за сессию
@@ -154,11 +154,11 @@ export default function About() {
               </p>
 
               <a
-                href="https://t.me/freya_mind_bot"
+                href="https://buy.stripe.com/00gcOK6V9d8J2nC28J"
                 target="_blank"
                 className="bg-black rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[50px] lg:mt-[27px] text-white grid place-items-center"
               >
-                СТОИМОСТЬ ТАРИФА 288€
+                СТОИМОСТЬ ТАРИФА 468€
               </a>
               <p className="text-[12px] text-black mt-[10px]">
                 ** при оплате 12 сессий
@@ -213,7 +213,7 @@ export default function About() {
             </div>
             <div className="lg:w-[276px]">
               <a
-                href="https://t.me/freya_mind_bot"
+                href="https://buy.stripe.com/cN28yufrFgkV9Q43cP"
                 target="_blank"
                 className="bg-black rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[50px] lg:mt-[29px] text-white uppercase grid place-items-center"
               >
@@ -265,10 +265,10 @@ export default function About() {
                   <div className="w-[75px] h-[2px] bg-[#858585] -rotate-[30deg]" />
                 </div>
                 <h2 className="text-[40px] font-semibold text-[#858585]">
-                  €78
+                  €116
                 </h2>
                 <h2 className="text-[40px] font-semibold text-black ml-[12px]">
-                  €39*
+                  €58*
                 </h2>
                 <p className="text-black font-semibold text-[15px] ml-[3px]">
                   за 2 сессии
@@ -285,7 +285,7 @@ export default function About() {
                 target="_blank"
                 className="bg-black rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[50px] lg:mt-[50px] text-white grid place-items-center"
               >
-                СТОИМОСТЬ ТАРИФА 39€
+                СТОИМОСТЬ ТАРИФА 58€
               </a>
               <a
                 href="https://t.me/freya_mind_bot"
@@ -309,7 +309,7 @@ export default function About() {
 
               <div className="flex flex-row items-center justify-start border-[1px] border-white rounded-full mt-[10px] pl-[12px] relative w-[200px]">
                 <h2 className="text-[40px] font-semibold text-black ml-[12px]">
-                  €24*
+                  €65*
                 </h2>
                 <p className="text-black font-semibold text-[15px] ml-[3px]">
                   за сессию
@@ -327,11 +327,11 @@ export default function About() {
               </p>
 
               <a
-                href="https://t.me/freya_mind_bot"
+                href="https://buy.stripe.com/7sIg0WfrF4Cd6DS14L"
                 target="_blank"
                 className="bg-black rounded-full font-semibold text-[14px] w-[276px] min-h-[42px] mt-[50px] lg:mt-[37px] text-white grid place-items-center"
               >
-                СТОИМОСТЬ ТАРИФА 24€
+                СТОИМОСТЬ ТАРИФА 65€
               </a>
 
               <a

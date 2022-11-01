@@ -17,9 +17,9 @@ export default function IndexJumbo() {
             src={LogoWhite}
             className="h-[45px] w-[92px] lg:w-[106px] lg:h-[52px]"
           />
-          <span className="text-[45px] lg:text-[60px] font-bold uppercase w-6/12 lg:w-[228px] leading-[1.35] text-white">
+          {/* <span className="text-[45px] lg:text-[60px] font-bold uppercase w-6/12 lg:w-[228px] leading-[1.35] text-white">
             О нас
-          </span>
+          </span> */}
         </Link>
 
         <ul className="hidden lg:flex flex-row items-center jusitfy-between uppercase text-[18px] font-light lg:w-[712px] leading-[28px] gap-[45px] ml-auto whitespace-nowrap text-white">

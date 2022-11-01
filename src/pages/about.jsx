@@ -41,7 +41,8 @@ import { useLocation } from "react-router-dom";
 import PI from "react-phone-input-2";
 const ReactPhoneInput = PI.default ? PI.default : PI;
 import "react-phone-input-2/lib/plain.css";
-
+// 
+import { useState } from "react";
 export default function About() {
   function sumbitFunc(e) {
     e.preventDefault();

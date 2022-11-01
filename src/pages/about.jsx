@@ -28,15 +28,47 @@ import ins1 from "../assets/Website Assets/Home Page/Section 5/Institution 1.svg
 import ins2 from "../assets/Website Assets/Home Page/Section 5/Institution 2.svg";
 import ins3 from "../assets/Website Assets/Home Page/Section 5/Institution 3.svg";
 import ins4 from "../assets/Website Assets/Home Page/Section 5/Institution 4.svg";
-import ins5 from "../assets/Website Assets/About Us Page/Section 6/Institution 5.svg"
-// 
-import Anastasia1 from "../assets/Website Assets/About Us Page/Section 7/Anastasia Img.svg"
-import Bage from "../assets/Website Assets/About Us Page/Section 7/Bage.svg"
-// 
-import footerImage from "../assets/Website Assets/About Us Page/Section 8/wholeImage.svg"
-import footerLogo from "../assets/Website Assets/About Us Page/freyaGreenFooterLogo.svg"
+import ins5 from "../assets/Website Assets/About Us Page/Section 6/Institution 5.svg";
+//
+import Anastasia1 from "../assets/Website Assets/About Us Page/Section 7/Anastasia Img.svg";
+import Bage from "../assets/Website Assets/About Us Page/Section 7/Bage.svg";
+//
+import footerImage from "../assets/Website Assets/About Us Page/Section 8/wholeImage.svg";
+import footerLogo from "../assets/Website Assets/About Us Page/freyaGreenFooterLogo.svg";
+//
+import { useLocation } from "react-router-dom";
+//
+import PI from "react-phone-input-2";
+const ReactPhoneInput = PI.default ? PI.default : PI;
+import "react-phone-input-2/lib/plain.css";
 
 export default function About() {
+  function sumbitFunc(e) {
+    e.preventDefault();
+    console.log("sumbitFunc");
+    fbq("track", "Lead");
+    isSubmited(true);
+    //
+    const data = new FormData(e.target);
+    fetch("https://sobakipavlova23493.activehosted.com/proc.php", {
+      method: "POST",
+      body: data,
+      mode: "no-cors",
+      cache: "no-cache",
+    }).catch((error) => console.log("Request failed", error));
+  }
+  //
+  const [submited, isSubmited] = useState(false);
+  const location = useLocation();
+  //
+  // const phoneInput = document.querySelector("input[type=tel]");
+  setTimeout(() => {
+    const phoneInput = document.querySelector(".react-tel-input .form-control");
+    phoneInput?.setAttribute("type", "tel");
+    phoneInput?.setAttribute("id", "phone");
+    phoneInput?.setAttribute("name", "phone");
+  }, 1000);
+
   return (
     <div className="w-screen overflow-hidden">
       <Helmet>
@@ -379,7 +411,11 @@ export default function About() {
           </div>
 
           <div className="w-full grid place-content-center lg:my-[90px]">
-            <a href="https://bystro.freyamind.com/our-therapists" target="_blank" className="w-[270px] h-[40px] bg-[#5d6541] uppercase text-white rounded-full mt-[40px] ml-[5px] text-[16px] font-bold lg:w-[330px] lg:h-[45px] lg:ml-0 lg:mx-auto grid place-items-center">
+            <a
+              href="https://bystro.freyamind.com/our-therapists"
+              target="_blank"
+              className="w-[270px] h-[40px] bg-[#5d6541] uppercase text-white rounded-full mt-[40px] ml-[5px] text-[16px] font-bold lg:w-[330px] lg:h-[45px] lg:ml-0 lg:mx-auto grid place-items-center"
+            >
               Наши терапевты
             </a>
           </div>
@@ -483,76 +519,171 @@ export default function About() {
               className="w-[266px] mx-auto mt-2 lg:w-[362px] lg:h-[98px]"
             />
 
-            <Feedback />
+            <div>
+              {submited && (
+                <div
+                  className="w-screen h-screen fixed top-0 left-0 z-[500] grid place-items-center"
+                  id={`${location.pathname}-success`}
+                >
+                  <div
+                    onClick={() => {
+                      isSubmited(false);
+                    }}
+                    className="w-screen h-screen bg-black/80 fixed top-0 left-0"
+                  />
+                  <div className="flex flex-col bg-white rounded-[10px] w-96 aspect-video items-center justify-center gap-[15px] p-[25px] relative">
+                    <button
+                      onClick={() => {
+                        isSubmited(false);
+                      }}
+                      className="absolute top-4 right-4"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M6 18L18 6M6 6l12 12"
+                        />
+                      </svg>
+                    </button>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                      className="w-[80px] aspect-square stroke-green-400"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                    <h1 className="text-[18px] text-center">
+                      Спасибо! Данные успешно отправлены
+                    </h1>
+                  </div>
+                </div>
+              )}
+              <form
+                method="POST"
+                id="_form_12_"
+                className={`_form _form_12 _inline-form  _dark ${location.pathname}-form`}
+                noValidate
+                onSubmit={(e) => {
+                  sumbitFunc(e);
+                }}
+              >
+                <input type="hidden" name="u" value="12" />
+                <input type="hidden" name="f" value="12" />
+                <input type="hidden" name="s" />
+                <input type="hidden" name="c" value="0" />
+                <input type="hidden" name="m" value="0" />
+                <input type="hidden" name="act" value="sub" />
+                <input type="hidden" name="v" value="2" />
+                <input
+                  type="hidden"
+                  name="or"
+                  value="ae67f646fceb719303457ca26c531640"
+                />
+                <div className="_form-content mt-[50px] w-[300px] flex flex-col gap-[20px] mx-auto lg:w-[362px] ">
+                  <div className="_form_element _x54994482 _full_width ">
+                    <label htmlFor="fullname" className="_form-label"></label>
+                    <div className="_field-wrapper">
+                      <input
+                        type="text"
+                        id="fullname"
+                        name="fullname"
+                        placeholder="  Имя"
+                        required
+                        className="border-[1px] w-full border-[#9e9e9e] rounded-[5px] text-[16px] h-[40px] px-[20px] lg:h-[50px]"
+                      />
+                    </div>
+                  </div>
+                  <div className="_form_element _x16231362 _full_width ">
+                    <label htmlFor="email" className="_form-label"></label>
+                    <div className="_field-wrapper">
+                      <input
+                        type="text"
+                        id="email"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                        name="email"
+                        placeholder=" e-mail"
+                        required
+                        className="border-[1px] w-full border-[#9e9e9e] rounded-[5px] text-[16px] h-[40px] px-[20px] lg:h-[50px]"
+                      />
+                    </div>
+                  </div>
+                  <div className="_form_element _x92297975 _full_width ">
+                    <label htmlFor="phone" className="_form-label"></label>
+                    <div className="_field-wrapper">
+                      <ReactPhoneInput
+                        country={"ru"}
+                        className="rounded-[5px] overflow-hidden lg:bg-red-500 lg:overflow-visible lg:rounded-[15px]"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <select
+                    name="Selectbox"
+                    style={{
+                      color: "#858585",
+                      border: "1px solid #9e9e9e",
+                      backgroundColor: "#ffffff",
+                      borderRadius: "5px",
+                      fontSize: "16px",
+                      fontWeight: "400",
+                      height: window.innerWidth < 1024 ? "40px" : "50px",
+                    }}
+                    className="px-[15px] bg-white shadow-none appearance-none _form_element _x61590596 _full_width _clear"
+                    id={`${location.pathname}-select`}
+                    required
+                  >
+                    <option value="">Что вас беспокоит?</option>
+                    <option value="Взаимоотношения с родителями ">
+                      Взаимоотношения с родителями{" "}
+                    </option>
+                    <option value="Отношения">Отношения</option>
+                    <option value="Самореализация ">Самореализация </option>
+                    <option value="Самооценка ">Самооценка </option>
+                    <option value="Тревожность ">Тревожность </option>
+                    <option value="Бессонница">Бессонница</option>
+                    <option value="Депрессия ">Депрессия </option>
+                    <option value="Помогаем">Помогаем</option>
+                    <option value="Зависимость ">Зависимость </option>
+                    <option value="Созависимость ">Созависимость </option>
+                    <option value="Не понимаю, но нужна помощь">
+                      Не понимаю, но нужна помощь
+                    </option>
+                  </select>
+                  <div className="_button-wrapper _full_width">
+                    <button
+                      id="_form_12_submit"
+                      type="submit"
+                      className="bg-[#5d6541] text-white text-[14px] font-semibold h-[50px] px-[15px] rounded-full w-full uppercase _submit"
+                    >
+                      ОСТАВИТЬ ЗАПРОС
+                    </button>
+                  </div>
+                  <div className="_clear-element"></div>
+                </div>
+                <div
+                  className="_form-thank-you"
+                  style={{ display: "none" }}
+                ></div>
+              </form>
+            </div>
           </div>
         </div>
       </main>
-
-      {/* <footer className="bg-white text-black border-t-2 border-white/10 p-[15px] mt-[62px]">
-        <div className="lg:flex lg:flex-row-reverse lg:w-[1070px] lg:mx-auto lg:gap-[115px]">
-          <ul className="mt-[40px] flex flex-col gap-[20px] text-[16.6px] font-light">
-            <li>Главная страница</li>
-            <li>О нас</li>
-            <li>Терапия</li>
-            <li>Статьи</li>
-            <li>Тесты</li>
-          </ul>
-          <div className="flex flex-row items-center justify-start my-[25px] gap-[25px] ">
-            <a href="">
-              <img loading="lazy" 
-                src="https://static.tildacdn.com/tild3861-3130-4963-b765-363763656635/bx_bxl-instagram_1.svg"
-                alt=""
-                className="w-[27px] aspect-square scale-[129%] "
-              />
-            </a>
-            <a href="">
-              <img loading="lazy" 
-                src="https://static.tildacdn.com/tild6437-3436-4132-a635-366431303666/la_telegram-plane_1.svg"
-                className="w-[27px] aspect-square scale-[129%]"
-              />
-            </a>
-          </div>
-          <p className="text-[16.6px] pr-5 font-light mt-[20px]">
-            Важный момент. "Freya" — это не скорая психологическая помощь. Если
-            у вас серьезные, угрожающие вашей жизни проблемы, которые требуют
-            немедленного решения, вам лучше обратиться в{" "}
-            <a
-              href="http://freyamind.com/freetherapy/"
-              className="text-[#666c4b] underline decoration-[#666c4b]"
-            >
-              какую-либо из этих организаций.
-            </a>
-            <br />
-            <br />
-            Регистрация на сайте означает согласие с{" "}
-            <a
-              href="https://freyamind.com/privacy/"
-              className="text-[#666c4b] underline decoration-[#666c4b]"
-            >
-              пользовательским соглашением.
-            </a>{" "}
-            Политика в отношении обработки и{" "}
-            <a
-              href="https://freyamind.com/personal/"
-              className="text-[#666c4b] underline decoration-[#666c4b]"
-            >
-              {" "}
-              защиты персональных данных{" "}
-            </a>
-            .
-          </p>
-          <div className="lg:w-[120px]">
-            <img loading="lazy" 
-              src="https://static.tildacdn.com/tild3435-3837-4333-a635-316163306165/Asset_410x.svg"
-              className="w-[80px] h-[40px] scale-[129%] mt-[65px] ml-4 lg:scale-100 lg:w-[104px] lg:h-[51px] lg:mt-0"
-            />
-            <p className="mt-[15px] font-light text-[16px] lg:text-[12px]">
-              Freya 2022 ©
-            </p>
-          </div>
-        </div>
-      </footer> */}
-      {/* Removed as per Pilar's request */}
 
       <footer className="bg-white text-black border-t-2 lg:border-t-0 border-white/10 p-[15px] lg:pb-[104px] lg:pt-[50px]">
         <div className="lg:flex lg:flex-row-reverse lg:w-[1070px] lg:mx-auto lg:gap-[115px]">

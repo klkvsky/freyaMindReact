@@ -578,7 +578,7 @@ export default function About() {
                 method="POST"
                 id="_form_12_"
                 className={`_form _form_12 _inline-form  _dark ${location.pathname}-form`}
-                noValidate
+                
                 onSubmit={(e) => {
                   sumbitFunc(e);
                 }}

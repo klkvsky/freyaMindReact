@@ -160,7 +160,7 @@ export default function IndexJumbo() {
                 // action="https://sobakipavlova23493.activehosted.com/proc.php"
                 id="_form_11_"
                 className={`_form _form_11 _inline-form  _dark ${location.pathname}-form`}
-                noValidate
+                
                 onSubmit={(e) => {
                   sumbitFunc(e);
                 }}

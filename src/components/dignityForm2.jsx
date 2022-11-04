@@ -90,7 +90,7 @@ export default function DignityForm2(prop) {
                 // action="https://sobakipavlova23493.activehosted.com/proc.php"
                 id="_form_4_"
                 className="dignity-form"
-                noValidate
+                
                 onSubmit={(e) => {
                     sumbitFunc(e);
                 }}

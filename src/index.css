@@ -694,6 +694,14 @@ details > summary::-webkit-details-marker {
   justify-content: center;
 }
 
+.secret-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 324px;
+}
+
 .slide__author {
   position: absolute;
   top: 23px;
@@ -1063,6 +1071,24 @@ details > summary::-webkit-details-marker {
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
+  }
+
+  .book-heading {
+    font-size: 25px;
+    line-height: 29px;
+    width: 248px;
+  }
+
+  .book-btn {
+    font-size: 18px;
+    line-height: 132%;
+    width: 280px;
+    height: 50px;
+    margin-top: 40px;
+  }
+
+  .secret-page {
+    padding-top: 211px;
   }
 
   .card__speaker {

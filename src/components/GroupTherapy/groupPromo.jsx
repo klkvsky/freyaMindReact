@@ -29,7 +29,9 @@ export const GroupPromo = () => {
                         <h1 className="font-[AsgardBold] text-[40px] leading-10 text-white font-bold mb-[8px] -tracking-[.02em] dt:text-[48px] dt:leading-[48px] dt:mb-[10px] dt:max-w-[650px]">Группа поддержки для экпатов:</h1>
                         <p className="font-[AsgardNormal] text-[40px] leading-10 text-white font-normal mb-[24px] -tracking-[.02em] dt:text-[48px] dt:leading-[43px] dt:mb-[28px] dt:max-w-[815px]">Кто я в новой реальности?</p>
                         <p className="text-[20px] leading-7 text-white font-medium mb-[24px] dt:text-[24px] dt:leading-[35px] dt:mb-[32px]">3 сессии за 1€</p>
-                        <Link className="text-[18px] leading-5 text-[#343434] font-bold py-[16px] bg-white rounded-[32px] w-[100%] dt:w-[364px]" smooth={true} to="reality">Узнать больше</Link>
+                        <Link smooth={true} to="reality">
+                            <button className="text-[18px] leading-5 text-[#343434] font-bold py-[16px] bg-white rounded-[32px] w-[100%] uppercase dt:w-[364px]">Узнать больше</button>
+                        </Link>
                     </div>
                 </div>
                 </div>

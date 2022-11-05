@@ -52,13 +52,6 @@ export default function Navbar() {
             >
               Цена
             </NavLink>
-            <a
-              href="http://freyanow.com/anxiety"
-              target="_blank"
-              className="text-center flex flex-row items-end justify-center gap-[8px]"
-            >
-              Помогаем
-            </a>
             {/* <li>
               <details>
                 <summary className="text-center flex flex-row items-end justify-center gap-[8px]">
@@ -88,8 +81,8 @@ export default function Navbar() {
                 </ul>
               </details>
             </li> */}
-            <NavLink to="/think-clearly">
-              НАШИ НОВОСТИ
+            <NavLink to="/1-Euro-Group-Therapy">
+              ГРУППОВАЯ ТЕРАПИЯ
             </NavLink>
             {/* <NavLink
               className={(navData) => (navData.isActive ? "font-bold" : "")}

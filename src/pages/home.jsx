@@ -41,14 +41,14 @@ import test2_desktop from "../assets/Website Assets/Home Page/Section 6/Testimon
 
 import test3_mobile from "../assets/Website Assets/Home Page/Section 6/Testimonials/Test3_mobile.png";
 import test3_desktop from "../assets/Website Assets/Home Page/Section 6/Testimonials/Test3_Desktop.jpg"
-// 
+//
 import AnastasiaURL from "../assets/Website Assets/Home Page/Section 7/Anastasia.svg"
 import MargoURL from "../assets/Website Assets/Home Page/Section 7/Margo.svg"
 import TherapystListIcon from "../assets/Website Assets/Home Page/Section 7/Bullet.svg"
-// 
+//
 import MainFooterText from "../assets/Website Assets/Home Page/Section 8/mainText.svg"
 import FooterSunIcon from "../assets/Website Assets/Home Page/Section 8/Asset.svg"
-// 
+//
 import FooterLogo from "../assets/Website Assets/Home Page/footerLogo.svg"
 
 
@@ -172,7 +172,7 @@ export default function Home() {
                 className="w-[16px] aspect-square lg:w-[32px]"
               />
               <p className="text-white font-semibold text-[18px] lg:text-[28px]">
-                Я не достоиН любви
+                Я не достоин любви
               </p>
             </div>
             <div className="flex flex-row gap-[15px] lg:gap-[25px] items-center">

@@ -3,6 +3,7 @@ import promoBg2 from "../../assets/Website Assets/GroupTherapy/pexels-karolina-g
 import promoLogo from "../../assets/Website Assets/GroupTherapy/Vector (13).svg";
 import NavBar from "../../components/GroupTherapy/navBarGroup.jsx";
 import { Link } from "react-scroll";
+import {NavLink} from "react-router-dom";
 
 export const GroupPromo = () => {
     return (
@@ -20,7 +21,7 @@ export const GroupPromo = () => {
                 />
                 <div className=" flex flex-col justify-between h-[100%] ">
                     <div className="mt-[32px] relative self-center max-w-[364px] mx-auto dt:max-w-[1120px] dt:self-start dt:w-[100%] dt:mt-[70px]">
-                        <img loading="lazy" src={promoLogo} alt="logo" className="w-[114px]"/>
+                        <NavLink to="/"><img loading="lazy" src={promoLogo} alt="logo" className="w-[114px]"/></NavLink>
                         <NavBar/>
                     </div>
 
@@ -40,7 +41,7 @@ export const GroupPromo = () => {
                     ОСТАЛОСЬ МЕСТ: 24
                     <svg className="ml-[24px]" width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M2 2L9 9L2 16" stroke="#343434" strokeWidth="3"/>
-                    </svg>    
+                    </svg>
 
                 </button>
             </div>

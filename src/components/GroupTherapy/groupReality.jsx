@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 export const GroupReality = () => {
     return (
         <div>
-            <div className="max-w-[364px] mx-auto flex w-[100%] dt:max-w-[1120px] dt:justify-between dt:items-center">
+            <div className="max-w-[364px] mx-auto flex w-[100%] dt:max-w-[1120px] dt:justify-between dt:items-center" id="reality">
                 <p className="hidden dt:block text-[18px] leading-[25px] text-[#343434] font-bold">УСПЕЙТЕ ЗАНЯТЬ СВОЕ МЕСТО</p>
                 <button className="text-[18px] leading-5 text-[#343434] font-bold py-[12.5px] bg-[#F4B8A9] rounded-[32px] w-[100%] my-[14px] flex items-center justify-center dt:w-[291px]">
                     ОСТАЛОСЬ МЕСТ: 24
@@ -13,7 +13,7 @@ export const GroupReality = () => {
 
                 </button>
             </div>
-            <section className="bg-white mt-[40px] dt:mt-[72px] dt:mb-[72px]" id="reality">
+            <section className="bg-white mt-[40px] dt:mt-[72px] dt:mb-[72px]" >
                 <div className="max-w-[364px] mx-auto dt:max-w-[1120px] dt:relative">
                     <h1 className="font-[AsgardBold] text-[36px] leading-9 text-[#343434] font-bold mb-[12px] -tracking-[.02em] dt:text-[48px] dt:leading-[48px] dt:w-[380px]">Новая реальность:</h1>
                     <p className="font-[AsgardNormal] text-[36px] leading-9 text-[#343434] font-normal mb-[48px] dt:text-[48px] dt:leading-[48px] dt:w-[480px] dt:mb-[80px]">Где мое место?</p>

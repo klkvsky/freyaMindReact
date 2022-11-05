@@ -2,7 +2,7 @@
 
 export const GroupReality = () => {
     return (
-        <section className="bg-white mt-[40px] dt:mt-[72px]">
+        <section className="bg-white mt-[40px] dt:mt-[72px] dt:mb-[72px]">
             <div className="max-w-[364px] mx-auto dt:max-w-[1120px] dt:relative">
                 <h1 className="font-[AsgardBold] text-[36px] leading-9 text-[#343434] font-bold mb-[12px] -tracking-[.02em] dt:text-[48px] dt:leading-[48px] dt:w-[380px]">Новая реальность:</h1>
                 <p className="font-[AsgardNormal] text-[36px] leading-9 text-[#343434] font-normal mb-[48px] dt:text-[48px] dt:leading-[48px] dt:w-[480px] dt:mb-[80px]">Где мое место?</p>

@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 export default function IndexJumbo() {
   return (
-    // <div className="flex flex-col lg:max-w-[1200px] lg:mx-auto lg:mt-[70px] bg-[#CCCC9F]">
     <div className="flex flex-col lg:pt-[70px] bg-[#CCCC9F] lg:w-[1200px] lg:mx-auto lg:px-[20px]">
+      <div className="bg-[#CCCC9F] absolute top-0 left-0 w-full h-[150vh]" />
       <nav className="flex flex-row items-center justify-start h-[100px] w-full gap-[18px] cursor-pointer z-50 px-[20px] lg:px-0">
         <Link
           to="/"
@@ -17,9 +17,9 @@ export default function IndexJumbo() {
             src={LogoWhite}
             className="h-[45px] w-[92px] lg:w-[106px] lg:h-[52px]"
           />
-          <span className="text-[45px] lg:text-[60px] font-bold uppercase w-6/12 lg:w-[228px] leading-[1.35] text-white">
+          {/* <span className="text-[45px] lg:text-[60px] font-bold uppercase w-6/12 lg:w-[228px] leading-[1.35] text-white">
             О нас
-          </span>
+          </span> */}
         </Link>
 
         <ul className="hidden lg:flex flex-row items-center jusitfy-between uppercase text-[18px] font-light lg:w-[712px] leading-[28px] gap-[45px] ml-auto whitespace-nowrap text-white">

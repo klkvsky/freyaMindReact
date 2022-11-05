@@ -1,5 +1,4 @@
 import React from "react";
-
 import effectStar from "../assets/Website Assets/Dignity/Meet/Vector (11).svg"
 
 export default function DignityMeet(props) {

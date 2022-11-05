@@ -1,8 +1,8 @@
 import React from "react";
 import {Swiper, SwiperSlide} from "swiper/react";
 import OpenCardButton from "./openCardButton.jsx";
-
 import star from "../assets/Website Assets/Dignity/Cards/Star.svg";
+
 
 export default function DignityCardsMob(props) {
 
@@ -15,10 +15,8 @@ export default function DignityCardsMob(props) {
             <div className="cards">
                 <Swiper style={{width: "300px", position: "relative", marginBottom: "40px"}}
                     slidesPerView={1}
-                    loop={true}
                 >
-                    <OpenCardButton />
-                    <img loading="lazy" src={star} className="starM-left" />
+                    <img loading="lazy" src={star} alt="" className="starM-left" />
                     <SwiperSlide className="card">
                         <div className="frontM front1">
                             <div className="card__date">
@@ -33,6 +31,7 @@ export default function DignityCardsMob(props) {
                                 </svg>
                             </div>
                             <h3 className="card__announce-front">Как экспату справиться с чувством вины</h3>
+                            <OpenCardButton />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide  className="card">
@@ -49,14 +48,12 @@ export default function DignityCardsMob(props) {
                 </Swiper>
                 <Swiper style={{width: "300px", position: "relative",  marginBottom: "40px"}}
                     slidesPerView={1}
-                    loop={true}
                 >
-                    <OpenCardButton className="card__nextcard__btn" />
-                    <img loading="lazy" src={star} className="starM-right" />
+                    <img loading="lazy" src={star} alt="" className="starM-right" />
                     <SwiperSlide className="card">
                         <div className="frontM front2">
                             <h3 className="card__announce-front">Как не потерять самоуважение в новой стране</h3>
-                            <div className="card__date">
+                            <div className="card__date left">
                                 <svg width="146" height="23" viewBox="0 0 146 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M51.1826 1.44065V18.2483H45.3603V12.4136H35.2305V18.2483H29.4082V1.44065H35.2305V7.9476H45.3603V1.44065H51.1826Z" fill="black"/>
                                     <path d="M61.5858 18.6084C59.6609 18.6084 58.012 18.3603 56.6393 17.8641C55.2665 17.3519 54.2173 16.6235 53.4915 15.6791C52.7657 14.7347 52.4027 13.5982 52.4027 12.2696C52.4027 10.2526 53.2074 8.69193 54.8169 7.58743C56.4263 6.46693 58.6826 5.90667 61.5858 5.90667C63.5108 5.90667 65.1597 6.16279 66.5324 6.67502C67.9209 7.17125 68.9781 7.89958 69.7039 8.86001C70.4297 9.82045 70.7926 10.965 70.7926 12.2936C70.7926 13.6062 70.4297 14.7347 69.7039 15.6791C68.9781 16.6235 67.9209 17.3519 66.5324 17.8641C65.1597 18.3603 63.5108 18.6084 61.5858 18.6084ZM57.7043 12.2696C57.7043 13.1339 58.0436 13.8063 58.722 14.2865C59.4005 14.7667 60.3551 15.0068 61.5858 15.0068C62.8008 15.0068 63.7475 14.7667 64.426 14.2865C65.1202 13.8063 65.4674 13.1339 65.4674 12.2696C65.4674 11.3892 65.1281 10.7088 64.4496 10.2286C63.7712 9.73241 62.8166 9.48429 61.5858 9.48429C60.3551 9.48429 59.4005 9.73241 58.722 10.2286C58.0436 10.7088 57.7043 11.3892 57.7043 12.2696Z" fill="black"/>
@@ -66,6 +63,7 @@ export default function DignityCardsMob(props) {
                                     <path d="M140.108 18.2483V12.5817L134.049 18.2483H128.676L132.771 14.4065C131.492 14.1344 130.514 13.6542 129.836 12.9659C129.157 12.2776 128.818 11.4212 128.818 10.3967C128.818 9.06811 129.347 8.05165 130.404 7.34733C131.477 6.627 133.047 6.26684 135.114 6.26684H145.362V18.2483H140.108ZM134.12 10.7088C134.12 11.141 134.27 11.4772 134.569 11.7173C134.869 11.9574 135.271 12.0775 135.776 12.0775H140.108V9.41226H135.776C135.271 9.41226 134.869 9.53232 134.569 9.77242C134.27 9.99653 134.12 10.3087 134.12 10.7088Z" fill="black"/>
                                     <path d="M14.3561 7.62381C14.341 7.91316 14.3265 8.20276 14.3125 8.4926C14.2493 9.75479 13.5977 10.6875 12.5578 11.3968C11.4416 12.1581 10.157 12.4499 8.83035 12.574C6.95024 12.7448 5.09586 12.5936 3.32098 11.9249C2.07849 11.457 1.00202 10.7462 0.452487 9.52914C-0.348041 7.75395 -0.0705401 6.06902 1.15948 4.5571C2.15254 3.33779 3.54392 2.69014 5.05689 2.27643C7.23008 1.68069 9.44069 1.55658 11.6872 1.79353C13.4238 1.97706 15.0802 2.37948 16.58 3.26332C18.6222 4.46683 19.8047 6.21269 20.0876 8.52119C20.3402 10.5566 19.998 12.462 18.814 14.1898C17.7289 15.7746 16.1785 16.7886 14.3764 17.4678C11.974 18.3705 9.46018 18.6142 6.91751 18.4261C5.47781 18.3201 4.05525 17.9921 2.62412 17.7657C2.35598 17.7228 2.27881 17.5935 2.37936 17.3422C2.68128 16.584 2.97644 15.8228 3.26485 15.0586C3.35215 14.8329 3.4683 14.7577 3.73254 14.8329C5.27333 15.2943 6.89009 15.4729 8.49907 15.3594C10.433 15.2135 12.2305 14.699 13.5821 13.2382C14.3982 12.3566 14.8534 11.3126 14.8425 10.1286C14.8355 9.38396 14.7076 8.63928 14.6211 7.89686C14.6087 7.79456 14.5206 7.70054 14.4652 7.60276L14.3561 7.62381ZM9.27466 9.86612C9.82498 9.79617 10.3831 9.76307 10.9233 9.64873C12.3107 9.35462 13.3654 8.60317 14.0887 7.41696C14.2446 7.16572 14.2236 6.96113 14.0552 6.7272C13.6591 6.16714 13.1296 5.70696 12.5111 5.38527C11.472 4.8467 10.3488 4.71582 9.19516 4.78352C8.14909 4.8452 7.13576 5.04302 6.26119 5.64854C4.97582 6.53689 4.97816 8.19925 6.27054 9.07105C7.16928 9.67431 8.1982 9.82324 9.27466 9.86612Z" fill="black"/>
                                 </svg>
+                                <OpenCardButton className="card__nextcard__btn" />
                             </div>
                         </div>
                     </SwiperSlide>
@@ -83,10 +81,8 @@ export default function DignityCardsMob(props) {
                 </Swiper>
                 <Swiper style={{width: "300px", position: "relative"}}
                     slidesPerView={1}
-                    loop={true}
                 >
-                    <OpenCardButton />
-                    <img loading="lazy" src={star} className="starM-left" />
+                    <img loading="lazy" src={star} alt="" className="starM-left" />
                     <SwiperSlide className="card">
                         <div className="frontM front1">
                             <div className="card__date">
@@ -102,6 +98,7 @@ export default function DignityCardsMob(props) {
                                 </svg>
                             </div>
                             <h3 className="card__announce-front">Почему нужно избегать токсичного окружения</h3>
+                            <OpenCardButton />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide  className="card">

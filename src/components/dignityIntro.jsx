@@ -13,7 +13,7 @@ export default function DignityIntro(props) {
                 <div className="intro__logo-container">
                     <a href="" className="intro__logo">
                         <img loading="eager"
-                            src={logoHeader} alt="logo" />
+                             src={logoHeader} alt="logo" />
                     </a>
                 </div>
                 <div>

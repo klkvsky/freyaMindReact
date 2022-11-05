@@ -88,9 +88,9 @@ export default function Navbar() {
                 </ul>
               </details>
             </li> */}
-            <a href="http://freyanow.com/affirmations" target="_blank">
+            <NavLink to="/think-clearly">
               НАШИ НОВОСТИ
-            </a>
+            </NavLink>
             {/* <NavLink
               className={(navData) => (navData.isActive ? "font-bold" : "")}
               to="/livestream"

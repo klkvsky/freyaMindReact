@@ -3,8 +3,8 @@
 
 export const GroupAbout = () => {
     return (
-        <section className="my-[40px] dt:my-[unset] dt:mt-[112px] dt:max-w-[1120px]">
-            <div className="max-w-[364px] mx-auto bg-[#F3E5D8] px-[16px] py-[24px] rounded-[8px] h-[588px] dt:max-w-[864px] dt:px-[32px] dt:flex dt:self-start dt:h-[387px]">
+        <section className="my-[40px] dt:my-[unset] dt:mt-[112px] dt:max-w-[1120px] dt:mx-auto">
+            <div className="max-w-[364px] mx-auto bg-[#F3E5D8] px-[16px] py-[24px] rounded-[8px] h-[588px] dt:max-w-[864px] dt:px-[32px] dt:flex dt:self-start dt:h-[387px] dt:ml-0">
                 <div className="relative z-0">
                     <svg className="absolute top-[-80px] left-[-50px] z-1 dt:top-[-100px] dt:left-[-40px]" width="210" height="256" viewBox="0 0 210 256" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M45.5793 31.5601C41.6005 33.1167 38.6715 37.158 36.895 43.4176C35.1226 49.6628 34.5431 57.974 35.1544 67.797C36.3765 87.4343 42.3453 112.938 52.7908 139.638C63.2363 166.338 76.1587 189.122 88.5865 204.376C94.8032 212.006 100.869 217.717 106.408 221.102C111.961 224.494 116.855 225.475 120.833 223.919C124.812 222.362 127.741 218.321 129.518 212.061C131.29 205.816 131.87 197.505 131.258 187.682C130.036 168.044 124.067 142.54 113.622 115.84C103.176 89.1402 90.2541 66.3564 77.8263 51.103C71.6096 43.4729 65.5442 37.7613 60.0044 34.3767C54.452 30.9844 49.5581 30.0035 45.5793 31.5601Z" stroke="#F4B8A9" stroke-width="1.5"/>

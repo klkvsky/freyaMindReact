@@ -26,7 +26,9 @@ export const GroupReality = () => {
                         Что изменилось внутри меня
                     </li>
                 </ul>
-                <Link smooth={true} to="groupAbout" className="text-[18px] leading-5 text-[#343434] font-bold py-[16px] bg-[#F4B8A9] rounded-[32px] w-[100%] my-[32px] dt:w-[364px] dt:my-[28px]">ПОДРОБНЕЕ</Link>
+                <Link smooth={true} to="groupAbout">
+                    <button className="text-[18px] leading-5 text-[#343434] font-bold py-[16px] bg-[#F4B8A9] rounded-[32px] w-[100%] my-[32px] dt:w-[364px] dt:my-[28px]">ПОДРОБНЕЕ</button>
+                </Link>
                 <p className="font-normal text-[#0000008F] text-[14px] leading-[18px] mb-[40px] dt:mb-[unset] dt:w-[364px]">Мы предлагаем минимальную цену, чтобы дать поддержку каждому.</p>
             </div>
 

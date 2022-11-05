@@ -24,7 +24,7 @@ export default function App() {
         <Route path="/personal" element={<PersonalPrivacy />}></Route>
         <Route path="/freetherapy" element={<FreeTherapy />}></Route>
         <Route path="/think-clearly" element={<Dignity />}></Route>
-        <Route path="/group-therapy" element={<GroupTherapy/>}></Route>
+        <Route path="/1-Euro-Group-Therapy" element={<GroupTherapy/>}></Route>
         <Route path="/secretpage" element={<SecretPage/>}></Route>
       </Routes>
     </div>

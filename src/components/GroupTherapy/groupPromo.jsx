@@ -31,8 +31,9 @@ export const GroupPromo = () => {
                 </div>
                 </div>
             </section>
-            <div className="max-w-[364px] mx-auto">
-                <button className="text-[18px] leading-5 text-[#343434] font-bold py-[12.5px] bg-[#F4B8A9] rounded-[32px] w-[100%] my-[14px] flex items-center justify-center">
+            <div className="max-w-[364px] mx-auto flex w-[100%] dt:max-w-[1120px] dt:justify-between dt:items-center">
+                <p className="hidden dt:block text-[18px] leading-[25px] text-[#343434] font-bold">УСПЕЙТЕ ЗАНЯТЬ СВОЕ МЕСТО</p>
+                <button className="text-[18px] leading-5 text-[#343434] font-bold py-[12.5px] bg-[#F4B8A9] rounded-[32px] w-[100%] my-[14px] flex items-center justify-center dt:w-[291px]">
                     ОСТАЛОСЬ МЕСТ: 24
                     <svg className="ml-[24px]" width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M2 2L9 9L2 16" stroke="#343434" stroke-width="3"/>

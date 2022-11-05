@@ -9,13 +9,13 @@ export const GroupReality = () => {
                 <ul className="flex flex-col align-center dt:absolute dt:top-0 dt:right-0">
                     <li className="py-[20px] px-[24px] bg-[#343434] rounded-[8px] mb-[12px] flex flex-col items-center text-center font-normal text-white text-[20px] leading-[26px] dt:w-[453px] dt:min-h-[120px] dt:justify-center">
                         <svg className="mb-[8px]" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5102 1.39552C10.6192 0.862421 11.3809 0.862421 11.4899 1.39552L12.9711 8.63919C13.0113 8.83541 13.1646 8.98875 13.3608 9.02888L20.6044 10.5102C21.1376 10.6192 21.1375 11.3809 20.6044 11.4899L13.3608 12.9711C13.1646 13.0112 13.0113 13.1645 12.9711 13.3608L11.4899 20.6045C11.3809 21.1376 10.6192 21.1376 10.5102 20.6045L9.02886 13.3608C8.98874 13.1646 8.83539 13.0113 8.63917 12.9711L1.3956 11.4899C0.862493 11.3809 0.862492 10.6192 1.3956 10.5102L8.63917 9.029C8.83539 8.98888 8.98874 8.83553 9.02886 8.63931L10.5102 1.39552Z" fill="#F4B8A9"/>
+                            <path fillRule="evenodd" clipRule="evenodd" d="M10.5102 1.39552C10.6192 0.862421 11.3809 0.862421 11.4899 1.39552L12.9711 8.63919C13.0113 8.83541 13.1646 8.98875 13.3608 9.02888L20.6044 10.5102C21.1376 10.6192 21.1375 11.3809 20.6044 11.4899L13.3608 12.9711C13.1646 13.0112 13.0113 13.1645 12.9711 13.3608L11.4899 20.6045C11.3809 21.1376 10.6192 21.1376 10.5102 20.6045L9.02886 13.3608C8.98874 13.1646 8.83539 13.0113 8.63917 12.9711L1.3956 11.4899C0.862493 11.3809 0.862492 10.6192 1.3956 10.5102L8.63917 9.029C8.83539 8.98888 8.98874 8.83553 9.02886 8.63931L10.5102 1.39552Z" fill="#F4B8A9"/>
                         </svg>
                         Как собрать себя заново после переезда
                     </li>
                     <li className="py-[20px] px-[24px] bg-[#343434] rounded-[8px] mb-[12px] flex flex-col items-center text-center font-normal text-white text-[20px] leading-[26px]  dt:w-[453px] dt:min-h-[120px] dt:justify-center">
                         <svg className="mb-[8px]" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.11775 0C-1.37256 5.49028 -1.37261 14.3919 4.11775 19.8823C9.60807 25.3726 18.5096 25.3726 24 19.8823L4.11775 0Z" fill="#F4B8A9"/>
+                            <path fillRule="evenodd" clipRule="evenodd" d="M4.11775 0C-1.37256 5.49028 -1.37261 14.3919 4.11775 19.8823C9.60807 25.3726 18.5096 25.3726 24 19.8823L4.11775 0Z" fill="#F4B8A9"/>
                         </svg>
                         Что нового я могу открыть в себе
                     </li>

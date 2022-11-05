@@ -16,7 +16,7 @@ export const GroupPsychologists = () => {
                         <img src={star} className="absolute left-[40px] top-[20px]"/>
                     </div>
                     <div className="w-[100%]">
-                        <h3 className="bg-[#343434] font-[AsgardBold] w-[100%] mt-[32px] rounded-[8px] text-center py-[12px] text-[32px] leading-8 text-white -tracking-[.02em] dt:mt-[20px] dt:py-[16px] dt:text-[24px] dt:leading-[26px]">Екатерина
+                        <h3 className="bg-[#343434] font-[AsgardBold] w-[100%] mt-[32px] rounded-[8px] text-center py-[12px] text-[32px] leading-8 text-white -tracking-[.02em] dt:mt-[20px] dt:py-[16px] dt:text-[24px] dt:leading-[26px] dt:tracking-[unset]">Екатерина
                             Быстрова</h3>
                         <p className="mt-[16px] text-center text-[16px] leading-[25px] dt:text-[14px] dt:leading-[21px] dt:font-medium">Южный федеральный университет, Ростов-на-Дону Факультет психологии и педагогики</p>
                         <p className="mt-[32px] bg-[#E8E8E8] text-center py-[16px] px-[24px] text-[18px] leading-[28px] rounded-[8px]">«Экспаты этого года испытывают целый комплекс травм: это и вина выжившего, и травма свидетеля, и коллективная вина. На сессиях мы поможем с проработкой повышенной тревожности, разберемся с иррациональными чувствами, которые мешают адаптироваться на новом месте».</p>
@@ -28,7 +28,7 @@ export const GroupPsychologists = () => {
                         <img src={ellipse} className="absolute top-[30px] left-[8px] z-0"/>
                     </div>
                     <div className="w-[100%]">
-                        <h3 className="bg-[#343434] font-[AsgardBold] w-[100%] mt-[32px] rounded-[8px] text-center py-[12px] text-[32px] leading-8 text-white -tracking-[.02em] dt:mt-[20px] dt:py-[16px] dt:text-[24px] dt:leading-[26px]">Мария Домбровская</h3>
+                        <h3 className="bg-[#343434] font-[AsgardBold] w-[100%] mt-[32px] rounded-[8px] text-center py-[12px] text-[32px] leading-8 text-white -tracking-[.02em] dt:mt-[20px] dt:py-[16px] dt:text-[24px] dt:leading-[26px] dt:tracking-[unset]">Мария Домбровская</h3>
                         <p className="mt-[16px] text-center text-[16px] leading-[25px] dt:text-[14px] dt:leading-[21px] dt:font-medium">Южный федеральный университет, Ростов-на-Дону Факультет психологии и педагогики</p>
                         <p className="mt-[32px] bg-[#E8E8E8] text-center py-[16px] px-[24px] text-[18px] leading-[28px]  rounded-[8px]">«Я работаю с тревогой, проблемами с самооценкой, страхами. После сессий и домашних работ к вам вернется уверенность в своих силах, будет проще выстраивать личные границы, контролировать эмоции».</p>
                     </div>
@@ -39,7 +39,7 @@ export const GroupPsychologists = () => {
                         <img src={star} className="absolute left-[40px] top-[20px]"/>
                     </div>
                     <div className="w-[100%]">
-                        <h3 className="bg-[#343434] font-[AsgardBold] w-[100%] mt-[32px] rounded-[8px] text-center py-[12px] text-[32px] leading-8 text-white -tracking-[.02em] dt:mt-[20px] dt:py-[16px] dt:text-[24px] dt:leading-[26px]">Ольга Жукова</h3>
+                        <h3 className="bg-[#343434] font-[AsgardBold] w-[100%] mt-[32px] rounded-[8px] text-center py-[12px] text-[32px] leading-8 text-white -tracking-[.02em] dt:mt-[20px] dt:py-[16px] dt:text-[24px] dt:leading-[26px] dt:tracking-[unset]">Ольга Жукова</h3>
                         <p className="mt-[16px] text-center text-[16px] leading-[25px] dt:text-[14px] dt:leading-[21px] dt:font-medium">Южный федеральный университет, Ростов-на-Дону психологии и педагогики</p>
                         <p className="mt-[32px] bg-[#E8E8E8] text-center py-[16px] px-[24px] text-[18px] leading-[28px]">«Сразу хотелось бы подбодрить тех, кому сложно сформулировать запрос. Не переживайте, это нормально! Приходите с тем, что есть: мы разберемся и сформулируем запрос вместе. Главное — желание меняться, а во всем остальном я вам помогу».</p>
                     </div>
@@ -50,7 +50,7 @@ export const GroupPsychologists = () => {
                         <img src={ellipse} className="absolute top-[30px] left-[8px] z-0"/>
                     </div>
                     <div>
-                        <h3 className="bg-[#343434] font-[AsgardBold] w-[100%] mt-[32px] rounded-[8px] text-center py-[12px] text-[32px] leading-8 text-white -tracking-[.02em] dt:mt-[20px] dt:py-[16px] dt:text-[24px] dt:leading-[26px]">Елена Давлетшина</h3>
+                        <h3 className="bg-[#343434] font-[AsgardBold] w-[100%] mt-[32px] rounded-[8px] text-center py-[12px] text-[32px] leading-8 text-white -tracking-[.02em] dt:mt-[20px] dt:py-[16px] dt:text-[24px] dt:leading-[26px] dt:tracking-[unset]">Елена Давлетшина</h3>
                         <p className="mt-[16px] text-center text-[16px] leading-[25px] dt:text-[14px] dt:leading-[21px] dt:font-medium">Приамурский государственный университет им. Шолом-Алейхема, Факультет педагогики и психологии</p>
                         <p className="mt-[32px] bg-[#E8E8E8] text-center font-[Montserrat] py-[16px] px-[24px] font-[Montserrat] text-[18px] leading-[28px]">«Я помогу найти причину беспокойств, научу справляться с эмоциями, на сессии освоим техники самопомощи. Работаю с тревогами, паническими атаками, депрессиями и фобиями».</p>
                     </div>

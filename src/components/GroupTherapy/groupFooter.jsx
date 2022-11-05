@@ -1,4 +1,4 @@
-import logoFooter from "../../assets/Website Assets/GroupTherapy/Vector (21).svg"
+import logoFooter from "../../assets/Website Assets/GroupTherapy/Frame 20.png"
 
 export const GroupFooter = () => {
     return (

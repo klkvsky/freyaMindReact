@@ -3,7 +3,7 @@
 
 export const GroupAbout = () => {
     return (
-        <section className="my-[40px] dt:my-[unset] dt:mt-[112px] dt:max-w-[1120px] dt:mx-auto">
+        <section className="my-[40px] dt:my-[unset] dt:mt-[112px] dt:max-w-[1120px] dt:mx-auto" id="groupAbout">
             <div className="max-w-[364px] mx-auto bg-[#F3E5D8] px-[16px] py-[24px] rounded-[8px] h-[588px] dt:max-w-[864px] dt:px-[32px] dt:flex dt:self-start dt:h-[387px] dt:ml-0">
                 <div className="relative z-0">
                     <svg className="absolute top-[-80px] left-[-50px] z-1 dt:top-[-100px] dt:left-[-40px]" width="210" height="256" viewBox="0 0 210 256" fill="none" xmlns="http://www.w3.org/2000/svg">

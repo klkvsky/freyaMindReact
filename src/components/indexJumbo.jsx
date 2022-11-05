@@ -42,7 +42,7 @@ export default function IndexJumbo() {
           <Link to="/1-Euro-Group-Therapy"
             className="hover:scale-125 transition-all duration-500"
           >
-            ГУППОВАЯ ТЕРАПИЯ
+            ГРУППОВАЯ ТЕРАПИЯ
           </Link>
           <Link
             to="/contactus"

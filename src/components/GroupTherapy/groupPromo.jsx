@@ -21,7 +21,7 @@ export const GroupPromo = () => {
                         <img loading="lazy" src={promoLogo} alt="logo" className="w-[114px]"/>
                     </div>
                 
-                <div className="bg-gradient-to-t from-[#000000] relative dt:bg-gradient-to-t from-[#00000070]">
+                <div className="bg-gradient-to-t from-[#000000] relative dt:from-[#00000070]">
                     <div className="mb-[40px] relative max-w-[364px] mx-auto dt:max-w-[1120px] dt:self-start dt:w-[100%] dt:mb-[130px]">
                         <h1 className="font-[AsgardBold] text-[40px] leading-10 text-white font-bold mb-[8px] -tracking-[.02em] dt:text-[48px] dt:leading-[48px] dt:mb-[10px] dt:max-w-[650px]">Группа поддержки для экпатов:</h1>
                         <p className="font-[AsgardNormal] text-[40px] leading-10 text-white font-normal mb-[24px] -tracking-[.02em] dt:text-[48px] dt:leading-[43px] dt:mb-[28px] dt:max-w-[815px]">Кто я в новой реальности?</p>

@@ -4,8 +4,8 @@ export const GroupReality = () => {
     return (
         <section className="bg-white mt-[40px]">
             <div className="max-w-[364px] mx-auto">
-                <h1 className="font-[Asgard] text-[36px] leading-9 text-[#343434] font-bold mb-[12px]">Новая реальность:</h1>
-                <p className="font-[Asgard] text-[36px] leading-9 text-[#343434] font-normal mb-[48px]">Где мое место?</p>
+                <h1 className="font-[AsgardBold] text-[36px] leading-9 text-[#343434] font-bold mb-[12px] -tracking-[.02em]">Новая реальность:</h1>
+                <p className="font-[AsgardNormal] text-[36px] leading-9 text-[#343434] font-normal mb-[48px]">Где мое место?</p>
                 <ul className="flex flex-col align-center">
                     <li className="py-[20px] px-[24px] bg-[#343434] rounded-[8px] mb-[12px] flex flex-col items-center text-center font-normal text-white text-[20px] leading-[26px]">
                         <svg className="mb-[8px]" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">

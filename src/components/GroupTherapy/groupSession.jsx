@@ -4,7 +4,7 @@ export const GroupSession = () => {
     return (
         <section>
             <div className="max-w-[364px] mx-auto my-[40px]">
-                <h1 className="font-[Asgard] text-[36px] leading-9 text-[#343434] font-normal mb-[40px]">Что будет на сессиях?</h1>
+                <h1 className="font-[AsgardBold] text-[36px] leading-9 text-[#343434] font-normal mb-[40px] -tracking-[.02em]">Что будет на сессиях?</h1>
                 <div className="bg-[#343434] rounded-[8px] py-[12px] px-[16px] relative  mb-[40px]">
                     <p className="text-[18px] leading-7 text-[#ffffff] font-normal">С каждой группой до 10 человек будут работать одновременно 2 психолога.</p>
                     <svg className="absolute bottom-0 right-0" width="57" height="56" viewBox="0 0 57 56" fill="none" xmlns="http://www.w3.org/2000/svg">

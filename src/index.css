@@ -108,6 +108,16 @@ details > summary::-webkit-details-marker {
     url("font/AsgardTrial-WideXlightItalic.woff");
 }
 
+@font-face {
+  font-family: "AsgardNormal";
+    src: url("font/AsgardTrial-WideRegular.ttf");
+}
+
+@font-face {
+  font-family: "AsgardBold";
+    src: url("font/AsgardTrial-WideBold.ttf");
+}
+
 .wrapper {
   max-width: 1124px;
   margin: 0 auto;

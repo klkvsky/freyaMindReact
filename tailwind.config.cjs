@@ -10,6 +10,9 @@ module.exports = {
       fontFamily: {
         asgardbold: ["AsgardBold", "sans-serif"],
         asgardnormal: ["AsgardNormal", "sans-serif"],
+      },
+      screens: {
+        'dt': {'min': '1120px'},
       }
     },
   },

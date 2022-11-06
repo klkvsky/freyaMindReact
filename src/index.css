@@ -71,8 +71,8 @@ details > summary::-webkit-details-marker {
   transition: height 500ms;
 }
 
-/* Стили для страниц без tailwind */
-* {
+/* Стили для страниц без tailwind
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -106,7 +106,7 @@ details > summary::-webkit-details-marker {
     url("font/AsgardTrial-WideXlight.woff"),
     url("font/AsgardTrial-WideXlightBackslant.woff"),
     url("font/AsgardTrial-WideXlightItalic.woff");
-}
+} */
 
 @font-face {
   font-family: "AsgardNormal";
@@ -117,7 +117,7 @@ details > summary::-webkit-details-marker {
   font-family: "AsgardBold";
     src: url("font/AsgardTrial-WideBold.ttf");
 }
-
+/* 
 .wrapper {
   max-width: 1124px;
   margin: 0 auto;
@@ -784,7 +784,7 @@ details > summary::-webkit-details-marker {
   height: 584px;
   border: 1px solid #000000;
   /* background: radial-gradient(69.26% 137.5% at 46.58% 30.74%, #FFFFFF 9.45%, rgba(255, 255, 255, 0.4) 100%); */
-  @apply bg-white/80 backdrop-blur-md;
+  /* @apply bg-white/80 backdrop-blur-md;
   position: relative;
 }
 
@@ -925,7 +925,7 @@ details > summary::-webkit-details-marker {
   line-height: 14px;
   letter-spacing: -0.02em;
   color: #000;
-}
+} */ 
 @media (min-width: 1024px) {
   .react-tel-input .form-control {
     width: 100%;
@@ -966,7 +966,7 @@ details > summary::-webkit-details-marker {
 
 
 
-/* Медиа запросы на страницу */
+/* Медиа запросы на страницу
 
 @media (max-width: 1123px) {
   .wrapper {
@@ -1680,6 +1680,6 @@ details > summary::-webkit-details-marker {
     letter-spacing: -0.02em;
     color: #000;
   }
-}
+} */
 
 

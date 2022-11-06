@@ -69,14 +69,14 @@ export default function IndexJumbo() {
         to="/aboutus"
         className="mt-[28px] lg:mt-[62px] lg:flex lg:flex-row lg:items-start"
       >
-        <a className="text-[43px] font-light leading-[42px] lg:text-[57px] lg:leading-[57px]">
+        <p className="text-[43px] font-light leading-[42px] lg:text-[57px] lg:leading-[57px]">
           Время<strong> </strong>решать
           <br />
           проблемы — СЕЙЧАС.
           <br />И мы знаем, как
           <br />
           вам помочь!
-        </a>
+        </p>
         {/* <div className="bg-neutral-100 h-[442px] w-[309px] mt-[20px] lg:-mt-[213px]" /> */}
         <div className="relative">
           <img

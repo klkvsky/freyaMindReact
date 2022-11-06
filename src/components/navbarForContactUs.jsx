@@ -84,12 +84,12 @@ export default function Navbar() {
             <NavLink to="/1-Euro-Group-Therapy">
               ГРУППОВАЯ ТЕРАПИЯ
             </NavLink>
-            <NavLink
+            {/* <NavLink
               className={(navData) => (navData.isActive ? "font-bold" : "")}
               to="/livestream"
             >
               НАШИ НОВОСТИ
-            </NavLink>
+            </NavLink> */}
             <NavLink
               className={(navData) => (navData.isActive ? "font-bold" : "")}
               to="/contactus"

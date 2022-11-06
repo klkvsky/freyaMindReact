@@ -1,5 +1,5 @@
-import promoBg from "../../assets/Website Assets/GroupTherapy/pexels-karolina-grabowska-4467687 1.png";
-import promoBg2 from "../../assets/Website Assets/GroupTherapy/pexels-karolina-grabowska-4467687 2.png";
+import promoBg from "../../assets/Website Assets/GroupTherapy/pixel-c-1.png";
+import promoBg2 from "../../assets/Website Assets/GroupTherapy/pixels-c-2.png";
 import promoLogo from "../../assets/Website Assets/GroupTherapy/Vector.png";
 import NavBar from "../../components/GroupTherapy/navBarGroup.jsx";
 import { Link } from "react-scroll";

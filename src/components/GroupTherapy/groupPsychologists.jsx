@@ -1,7 +1,7 @@
-import photo1 from "../../assets/Website Assets/GroupTherapy/Mask group (5).png";
-import photo2 from "../../assets/Website Assets/GroupTherapy/Mask group (6).png";
-import photo3 from "../../assets/Website Assets/GroupTherapy/Mask group (7).png";
-import photo4 from "../../assets/Website Assets/GroupTherapy/Mask group (9).png";
+import photo1 from "../../assets/Website Assets/GroupTherapy/Mask 5.png";
+import photo2 from "../../assets/Website Assets/GroupTherapy/Mask 6.png";
+import photo3 from "../../assets/Website Assets/GroupTherapy/Mask 7.png";
+import photo4 from "../../assets/Website Assets/GroupTherapy/Mask 9.png";
 import star from "../../assets/Website Assets/GroupTherapy/psychoStar.svg";
 import ellipse from "../../assets/Website Assets/GroupTherapy/Ellipse 12.svg"
 

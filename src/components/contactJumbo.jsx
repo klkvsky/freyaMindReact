@@ -97,7 +97,7 @@ export default function IndexJumbo() {
       <div className="flex flex-col items-end lg:items-center justify-start gap-[18px] lg:mt-[60px] lg:max-w-[1556px] lg:mx-auto">
         <img
           loading="lazy"
-          src={JumboImage}
+          src={"https://imagedelivery.net/7DasxLUUTkkPIY243C8PNQ/11bc4e22-e872-48b7-54fe-0e651282be00/public"}
           className="w-screen h-[802px] object-cover absolute top-0 left-0 z-0 lg:right-0 lg:mx-auto lg:w-[1556px] lg:h-[835px] lg:object-[50%,10%] bg-neutral-100"
         />
 
@@ -165,7 +165,7 @@ export default function IndexJumbo() {
                 // action="https://sobakipavlova23493.activehosted.com/proc.php"
                 id="_form_11_"
                 className={`_form _form_11 _inline-form  _dark ${location.pathname}-form`}
-                
+
                 onSubmit={(e) => {
                   sumbitFunc(e);
                 }}

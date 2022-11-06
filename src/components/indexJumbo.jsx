@@ -2,7 +2,7 @@ import LogoURL from "../assets/Website Assets/logo.svg";
 import ImageForEUURL from "../assets/Website Assets/imageForEu.svg";
 import PhoneBg from "../assets/Website Assets/indexJumboBgPhone.png";
 import imageDefault from "../assets/Website Assets/Home Page/Feature Img/imageDefaultOld.png";
-import imageOnHover from "../assets/Website Assets/Home Page/Feature Img/imageOnHoverOld.png"
+import imageOnHover from "../assets/Website Assets/Home Page/Feature Img/imageOnHoverOld.png";
 import ArrowDown from "../assets/Website Assets/Home Page/Feature Img/Arrow_down.svg";
 //
 

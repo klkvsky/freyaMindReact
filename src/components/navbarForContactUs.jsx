@@ -52,7 +52,7 @@ export default function Navbar() {
             >
               Цена
             </NavLink>
-            <li>
+            {/* <li>
               <details>
                 <summary className="text-center flex flex-row items-end justify-center gap-[8px]">
                   Помогаем{" "}
@@ -80,7 +80,10 @@ export default function Navbar() {
                   <div className="w-96 h-px bg-neutral-500 opacity-50"></div>
                 </ul>
               </details>
-            </li>
+            </li> */}
+            <NavLink to="/1-Euro-Group-Therapy">
+              ГРУППОВАЯ ТЕРАПИЯ
+            </NavLink>
             <NavLink
               className={(navData) => (navData.isActive ? "font-bold" : "")}
               to="/livestream"

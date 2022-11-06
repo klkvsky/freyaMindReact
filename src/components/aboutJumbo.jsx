@@ -64,7 +64,6 @@ export default function IndexJumbo() {
       </nav>
       <div className="flex flex-row items-end lg:items-center justify-start gap-[18px] lg:mt-[60px] lg:max-w-[1400px] lg:mx-auto">
         <img
-          loading="lazy"
           src={JumboImage}
           className="w-screen h-[54.8vh] object-cover absolute top-0 left-0 lg:right-0 lg:mx-auto lg:w-[1400px] lg:h-[836px]"
         />

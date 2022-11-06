@@ -8,7 +8,7 @@ import ContactUs from "./pages/contactus";
 import Privacy from "./pages/privacy";
 import PersonalPrivacy from "./pages/personalPrivacy";
 import FreeTherapy from "./pages/freetherapy";
-import Dignity from "./pages/dignity.jsx"
+// import Dignity from "./pages/dignity.jsx"
 import SecretPage from "./pages/secretpage";
 import { GroupTherapy } from "./pages/groupTherapy";
 //
@@ -23,7 +23,7 @@ export default function App() {
         <Route path="/privacy" element={<Privacy />}></Route>
         <Route path="/personal" element={<PersonalPrivacy />}></Route>
         <Route path="/freetherapy" element={<FreeTherapy />}></Route>
-        <Route path="/think-clearly" element={<Dignity />}></Route>
+        {/*<Route path="/think-clearly" element={<Dignity />}></Route>*/}
         <Route path="/secretpage" element={<SecretPage/>}></Route>
         <Route path="/1-Euro-Group-Therapy" element={<GroupTherapy/>}></Route>
       </Routes>
